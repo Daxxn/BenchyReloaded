@@ -1,0 +1,40 @@
+**/*-backups
+**/#auto_saved_files#
+*autosave*
+*-bak
+*bck
+fp-info-cache
+*.kicad_prl
+*.000
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+#   Raw Gerber Files
+# Copper Layers
+*_Cu.g[bt]l
+*_Cu.g2
+*_Cu.g3
+*_Cu.g4
+*_Cu.g5
+*_Cu.g6
+*_Cu.g7
+*_Cu.g8
+*_Cu.g9
+*_Cu.g10
+*_Cu.g11
+*_Cu.g12
+*_Mask.g[bt]s
+*_Paste.g[bt]p
+*Edge_Cuts.gm1
+*_Silkscreen.g[bt]o
+
+*.drl
+*drl_map.gbr
+
+# Libre Office Temp file
+*~lock**#

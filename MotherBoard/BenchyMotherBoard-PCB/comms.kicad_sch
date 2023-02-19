@@ -2,7 +2,13 @@
 
   (uuid 65b3fcc2-d1f1-475e-b336-380f5d1206ca)
 
-  (paper "A4")
+  (paper "A2")
+
+  (title_block
+    (title "Benchy Version 2")
+    (rev "REV1")
+    (company "Daxxn Industries")
+  )
 
   (lib_symbols
   )

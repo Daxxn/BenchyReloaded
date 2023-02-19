@@ -339,11 +339,15 @@
     ],
     [
       "150fbbad-4b0c-44c8-8ae3-7af161b1c597",
-      "HDMI"
+      "ETHERNET"
     ],
     [
       "cde93c0a-b819-4fbe-8019-69f0c6c56432",
       "COMMUNICATIONS"
+    ],
+    [
+      "0549922d-9d8c-4250-9b61-622609854b28",
+      "DISPLAY"
     ]
   ],
   "text_variables": {}

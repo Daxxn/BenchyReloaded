@@ -805,6 +805,9 @@
     (path "/5a60e409-cd34-40bd-9930-c962240b0232/c63fcf18-5da6-4246-b072-68e292f8d09b"
       (reference "#PWR0217") (unit 1) (value "GND") (footprint "")
     )
+    (path "/b1b1abd8-b71a-4758-84a4-ebbec87508e8/f0833407-68d8-4970-a7ff-8fb29395432c"
+      (reference "#PWR0218") (unit 1) (value "GND") (footprint "")
+    )
     (path "/b1b1abd8-b71a-4758-84a4-ebbec87508e8/16e9e827-2a43-4f51-b8d2-01d1d5d41c87"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -1384,6 +1387,9 @@
     (path "/68580c3e-f594-4791-9d78-5a4c0a75f436/42cce9f3-021b-4a8e-a0bd-e7df872e51b9"
       (reference "D9") (unit 1) (value "ESDLC5V0PB8") (footprint "Package_DFN_QFN:UDFN-9_1.0x3.8mm_P0.5mm")
     )
+    (path "/b1b1abd8-b71a-4758-84a4-ebbec87508e8/266ceff9-bbd1-47d7-8ca1-1dd746c5d8f7"
+      (reference "D10") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0805_2012Metric")
+    )
     (path "/b1b1abd8-b71a-4758-84a4-ebbec87508e8/e094dc0e-5179-4734-81f4-ae282c9978f4"
       (reference "ICSP1") (unit 1) (value "ICSP") (footprint "Connector:Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical")
     )
@@ -1554,6 +1560,9 @@
     )
     (path "/b1b1abd8-b71a-4758-84a4-ebbec87508e8/24581de5-665b-48d6-a691-a98841208433"
       (reference "R25") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/b1b1abd8-b71a-4758-84a4-ebbec87508e8/2155ec59-ed56-4c47-ac03-3529a0ebf450"
+      (reference "R26") (unit 1) (value "500") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/b1b1abd8-b71a-4758-84a4-ebbec87508e8/cfedf196-99b5-4620-bd9b-55a86a498b61"
       (reference "R30") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -1806,6 +1815,12 @@
     )
     (path "/b1b1abd8-b71a-4758-84a4-ebbec87508e8/91669d82-d58e-4015-a6d7-cce0e5446b3d"
       (reference "S1") (unit 1) (value "POWER SWITCH") (footprint "Daxxn_Switches:TL3365AF180QG")
+    )
+    (path "/b1b1abd8-b71a-4758-84a4-ebbec87508e8/12501ad8-dac2-4857-8930-4deecab76715"
+      (reference "SW1") (unit 1) (value "SW_DPDT_x2") (footprint "Daxxn_Switches:PHAP4383V")
+    )
+    (path "/b1b1abd8-b71a-4758-84a4-ebbec87508e8/50c54556-bb34-4bf3-9b1a-7ea455e4e5b6"
+      (reference "SW1") (unit 2) (value "SW_DPDT_x2") (footprint "Daxxn_Switches:PHAP4383V")
     )
     (path "/b1b1abd8-b71a-4758-84a4-ebbec87508e8/1f6ba885-7232-4a15-98f1-cab7278986d5"
       (reference "U1") (unit 1) (value "STM32MP157FAB1") (footprint "Daxxn_Packages:LFBGA354-P0.8mm")

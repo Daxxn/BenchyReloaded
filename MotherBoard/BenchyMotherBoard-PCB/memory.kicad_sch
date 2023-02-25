@@ -3561,11 +3561,6 @@
   (no_connect (at 256.54 129.54) (uuid 97733aee-4050-4667-9a9e-78045ea769a2))
   (no_connect (at 256.54 132.08) (uuid e5aaf889-4c03-4cd3-8239-f7bcfbe6e282))
 
-  (bus_entry (at 255.27 157.48) (size 2.54 2.54)
-    (stroke (width 0) (type default))
-    (uuid e5af6846-66a2-4428-8a7f-926abc36982b)
-  )
-
   (wire (pts (xy 256.54 121.92) (xy 295.91 121.92))
     (stroke (width 0) (type default))
     (uuid 003e5daa-e3ec-4ab7-adab-05349f33c66f)

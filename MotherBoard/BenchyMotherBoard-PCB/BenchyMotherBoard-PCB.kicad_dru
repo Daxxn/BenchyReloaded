@@ -1,0 +1,4 @@
+(version 1)
+(rule ddr-skew
+	(constraint skew (max 1.1mm))
+	(condition "A.NetClass == 'DDR3-SL'"))

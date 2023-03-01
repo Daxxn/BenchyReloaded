@@ -10166,7 +10166,7 @@
     (effects (font (size 0.5 0.5)) (justify right bottom))
     (uuid d1139a0f-79f9-4b83-9661-e99394520243)
   )
-  (label "USB-BUS.BRIGHT" (at 184.15 185.42 0) (fields_autoplaced)
+  (label "DISP-BUS.BRIGHT" (at 184.15 185.42 0) (fields_autoplaced)
     (effects (font (size 1.016 1.016)) (justify left bottom))
     (uuid d3a80910-710a-4ece-8d62-6da4b135e5f0)
   )

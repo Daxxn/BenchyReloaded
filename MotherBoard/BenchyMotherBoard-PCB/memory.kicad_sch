@@ -224,7 +224,7 @@
           (number "H9" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at 8.89 -77.47 90) (length 2.54) hide
-          (name "NC" (effects (font (size 1.27 1.27))))
+          (name "GND" (effects (font (size 1.27 1.27))))
           (number "J1" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at 8.89 -77.47 90) (length 2.54) hide
@@ -244,7 +244,7 @@
           (number "J8" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at 10.16 2.54 270) (length 2.54) hide
-          (name "NC" (effects (font (size 1.27 1.27))))
+          (name "VDD-DDR" (effects (font (size 1.27 1.27))))
           (number "J9" (effects (font (size 1.27 1.27))))
         )
         (pin input line (at 27.94 -69.85 180) (length 2.54)

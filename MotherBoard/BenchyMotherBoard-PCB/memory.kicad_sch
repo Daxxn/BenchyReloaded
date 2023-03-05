@@ -223,7 +223,7 @@
           (name "VDDQ" (effects (font (size 1.27 1.27))))
           (number "H9" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 8.255 -45.085 90) (length 2.54) hide
+        (pin power_in line (at 8.89 -77.47 90) (length 2.54) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "J1" (effects (font (size 1.27 1.27))))
         )
@@ -243,7 +243,7 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "J8" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 8.255 -45.085 90) (length 2.54) hide
+        (pin power_in line (at 10.16 2.54 270) (length 2.54) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "J9" (effects (font (size 1.27 1.27))))
         )
@@ -431,7 +431,7 @@
       (property "Value" "STM32MP157FAB1" (at 0 3.81 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "Daxxn_Packages:LFBGA354-P0.8mm" (at 0 8.89 0)
+      (property "Footprint" "Daxxn_Packages:LFBGA354-P0.8mm-STM32MP157F" (at 0 8.89 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
       )
       (property "Datasheet" "%LOCAL_DATASHEETS%/STM32MP157.pdf" (at 0 11.43 0)
@@ -5726,7 +5726,7 @@
     (property "Value" "STM32MP157FAB1" (at 217.17 72.39 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Daxxn_Packages:LFBGA354-P0.8mm" (at 252.73 69.85 0)
+    (property "Footprint" "Daxxn_Packages:LFBGA354-P0.8mm-STM32MP157F" (at 252.73 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "%LOCAL_DATASHEETS%/STM32MP157.pdf" (at 252.73 67.31 0)

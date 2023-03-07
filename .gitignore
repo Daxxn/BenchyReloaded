@@ -5,7 +5,7 @@
 *bck
 fp-info-cache
 *.kicad_prl
-*.000
+*.000 
 
 # Netlist files (exported from Eeschema)
 *.net

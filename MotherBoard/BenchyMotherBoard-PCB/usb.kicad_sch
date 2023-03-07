@@ -9833,7 +9833,7 @@
     (effects (font (size 1.016 1.016)) (justify right bottom))
     (uuid 7aa8226d-077f-4c88-a716-e0310372bd02)
   )
-  (label "USB13-COMM" (at 149.86 99.06 0) (fields_autoplaced)
+  (label "USB14-COMM" (at 149.86 99.06 0) (fields_autoplaced)
     (effects (font (size 0.5 0.5)) (justify left bottom))
     (uuid 7ac84d2c-85d9-492d-a0e6-af9648bda412)
   )

@@ -15,7 +15,17 @@ Your electronics workbench buddy! (Warning - Benchy is not actually your buddy, 
 - Function Generator
 - Extendable Chassis
 
-# USB Hub
+# Motherboard
+
+![MB Render](./Docs/Renders/MotherBoard/BenchyMotherBoard-REV1-TOP1.png)
+
+## Processor
+
+This design integrates an STM32MP1 Series micro processor with 1Gb of external DDR3 memory. This adds a large amount of raw power internally. Taking alot of the load required to control the sub-systems and adds more flexability to the system as a whole.
+
+![MB MPU](./Docs/Renders/MotherBoard/BenchyMotherBoard-REV1-MPU.png)
+
+## USB Hub
 
 The main reason why I needed to design my own USB hub instead of stuffing an "off the shelf" hub up benchys trumpet was the absolute lack of protection circuitry in most "consumer grade" USB hubs. Theres no back-feed protection, verry little to no current monitoring, and the bare minimum ESD and EMI protection. Thats just not acceptable! imagine my supprise when I cracked open an $85 hub and, after blowing out a channel, found no power management at all. The cost of finding a hub that has these protections is going to be around the same price as designing and building my own. (Except for the time investment... but who cares about that?!?)
 

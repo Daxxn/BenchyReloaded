@@ -4,8 +4,6 @@
 #include <Wire.h>
 #include "PMBusState.h"
 
-#define RAIL_COUNT 4
-
 class PMBus
 {
 public:
@@ -40,6 +38,7 @@ public:
   // Disable all power rails.
   // Will be ignored if the enable pins are set to PM_ENABLE_CONFIG::ALL_ACTIVE
   void DisableAllRails();
+
   // Set the state of the specified power rail.
   // Will be ignored if the enable pins are set to PM_ENABLE_CONFIG::ALL_ACTIVE
   void SetRail(uint8_t rail, PM_RAIL_STATE en);
@@ -59,7 +58,11 @@ public:
   // Saves all settings to the PMBus ICs on-board EEPROM.
   void SaveCurrentSettings();
 
-  void WriteAllSettings();
+  // Handle all settings operations...
+  void WriteAllSettings(bool saveSettings = false);
+
+  // Manually sort through each rail and enable 
+  void ManualSequence(PM_RAIL_STATE en);
 private:
   PMBusState *state;
   uint8_t *receiveBuffer;
@@ -85,6 +88,10 @@ private:
   // Receive a byte of data from the PMBus
   uint8_t Receive(PM_COMMAND cmd, uint8_t rail);
 
+  uint8_t ReceiveGlobal(PM_COMMAND cmd);
+
   // Receive data from the PMBus
   void ReceiveBytes(PM_COMMAND cmd, uint8_t rail, uint8_t *buffer, size_t len);
+  // Receive data from the PMBus
+  void ReceiveBytes(PM_COMMAND cmd, uint8_t *buffer, size_t len);
 };

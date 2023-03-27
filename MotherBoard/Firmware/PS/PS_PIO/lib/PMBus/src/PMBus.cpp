@@ -28,7 +28,7 @@ void PMBus::Init(PMBusState *state)
 #pragma region Public Methods
 void PMBus::SetSequence(uint8_t rail, uint8_t start, uint8_t stop)
 {
-  uint8_t byte = (stop & 0b11) << 2 | (start & 0b11);
+  uint8_t byte = ((stop & 0b11) << 2) | (start & 0b11);
   Send(PM_COMMAND::SEQUENCE_ORDER, rail, byte);
   this->state->Rails[rail].Sequence.Set(start, stop);
 }
@@ -48,50 +48,37 @@ void PMBus::SetPhase(uint8_t rail, RailPhase phase)
 void PMBus::SetWriteProtection(PM_WRITE_PROTECT wp)
 {
   SendGlobal(PM_COMMAND::WRITE_PROTECT, (uint8_t)wp);
-  // Wire.beginTransmission(this->address);
-  // Wire.write(PM_COMMAND::WRITE_PROTECT);
-  // if (Wire.write(wp))
-  // {
-  // }
-  // Wire.endTransmission();
   this->state->WriteProtect = wp;
 }
 
 void PMBus::SaveCurrentSettings()
 {
   Command(PM_COMMAND::STORE_DEFAULT_ALL);
-  // Wire.beginTransmission(this->address);
-  // Wire.write((uint8_t)PM_COMMAND::STORE_DEFAULT_ALL);
-  // Wire.endTransmission();
 }
 
-void PMBus::WriteAllSettings()
+void PMBus::WriteAllSettings(bool saveSettings = false)
 {
   this->SetWriteProtection(PM_WRITE_PROTECT::ALL_ENABLE);
-
-  // Handle all settings operations...
 
   this->SendSequences();
   this->SendAllPhases();
   this->SendEnablePins();
   this->SendAllMaxCurrent();
   this->SendOnOffDelay();
+  if (saveSettings)
+  {
+    this->SaveCurrentSettings();
+    delay(75);
+  }
 
-  this->SaveCurrentSettings();
   this->SetWriteProtection(wp);
-  delay(70);
 }
 
 void PMBus::SetOnOffDelay(uint8_t rail, uint8_t onDelay, uint8_t offDelay)
 {
   uint8_t delay = ((onDelay & 0b111) << 3) | (offDelay & 0b111);
   Send(PM_COMMAND::TON_TOFF_DELAY, rail, delay);
-  this->state->Rails[rail].Delay.SetDelay(onDelay, offDelay);
-  // Wire.beginTransmission(this->address);
-  // Wire.write((uint8_t)PM_COMMAND::TON_TOFF_DELAY);
-  // Wire.write(rail & 0b11);
-  // Wire.write(delay);
-  // Wire.endTransmission();
+  this->state->Rails[rail].Delay.Set(onDelay, offDelay);
 }
 
 void PMBus::SetAllOnOffDelays(uint8_t onDelay, uint8_t offDelay)
@@ -100,42 +87,26 @@ void PMBus::SetAllOnOffDelays(uint8_t onDelay, uint8_t offDelay)
   Send(PM_COMMAND::TON_TOFF_DELAY, 0xFF, byte);
   for (size_t i = 0; i < RAIL_COUNT; i++)
   {
-    this->state->Rails[i].Delay.SetDelay(onDelay, offDelay);
+    this->state->Rails[i].Delay.Set(onDelay, offDelay);
   }
 }
 
 void PMBus::SetMaxCurrent(uint8_t rail, uint8_t max)
 {
   Send(PM_COMMAND::IOUT_MAX, rail, max);
-  // Wire.beginTransmission(this->address);
-  // Wire.write(PM_COMMAND::PAGE);
-  // Wire.write(rail);
-  // Wire.endTransmission();
-
-  // Wire.beginTransmission(this->address);
-  // Wire.write(PM_COMMAND::IOUT_MAX);
-  // Wire.write(max);
-  // Wire.endTransmission();
 
   this->state->Rails[rail].MaxIOut = max;
 }
 
 void PMBus::ReadStatus(uint8_t rail)
 {
-  // Wire.beginTransmission(this->address);
-  // Wire.write(PM_COMMAND::PAGE);
-  // Wire.write(rail);
-  // Wire.endTransmission();
-
-  // Wire.requestFrom(this->address, 2);
-  // Wire.readBytes(this->receiveBuffer, 2);
   ReceiveBytes(PM_COMMAND::STATUS_WORD, rail, this->receiveBuffer, 2);
 
   uint16_t word = BuildWord(this->receiveBuffer[1], this->receiveBuffer[0]);
-  this->state->PwrGood = bitRead(word, PM_STATUS_MASK::PWR_BAD) ? false : true;
+  this->state->PwrGood = bitRead(word, PM_STATUS_MASK::PWR_GOOD) ? false : true;
   this->state->CmdFault = bitRead(word, PM_STATUS_MASK::CML) ? true : false;
-  this->state->MfrFault = bitRead(word, PM_STATUS_MASK::MFR_FAULT) ? true : false;
-  this->state->OverTemp = bitRead(word, PM_STATUS_MASK::TEMP) ? true : false;
+  this->state->MfrFault = bitRead(word, PM_STATUS_MASK::MFR) ? true : false;
+  this->state->OverTemp = bitRead(word, PM_STATUS_MASK::OVERTEMP) ? true : false;
   this->state->Rails[rail].OverCurr = bitRead(word, PM_STATUS_MASK::IOUT_OC) ? true : false;
   this->state->Rails[rail].OverVolt = bitRead(word, PM_STATUS_MASK::VOUT_OV) ? true : false;
 }
@@ -143,9 +114,6 @@ void PMBus::ReadStatus(uint8_t rail)
 void PMBus::SoftReset()
 {
   Command(PM_COMMAND::SOFT_RESET);
-  // Wire.beginTransmission(this->address);
-  // Wire.write((uint8_t)PM_COMMAND::SOFT_RESET);
-  // Wire.endTransmission();
 }
 
 void PMBus::EnableAllRails()
@@ -155,12 +123,6 @@ void PMBus::EnableAllRails()
   {
     this->state->Rails[i].Enable = PM_RAIL_STATE::ENABLE;
   }
-  
-  // Wire.beginTransmission(this->address);
-  // Wire.write((uint8_t)PM_COMMAND::OPERATION);
-  // Wire.write(0xFF); // Sets Page to ALL
-  // Wire.write(0x10 << 4);
-  // Wire.endTransmission();
 }
 
 void PMBus::DisableAllRails()
@@ -170,29 +132,37 @@ void PMBus::DisableAllRails()
   {
     this->state->Rails[i].Enable = PM_RAIL_STATE::DISABLE;
   }
-  
-  // Wire.beginTransmission(this->address);
-  // Wire.write((uint8_t)PM_COMMAND::OPERATION);
-  // Wire.write(0xFF); // Sets Page to ALL
-  // Wire.write(0x10 << 4);
-  // Wire.endTransmission();
 }
 
 void PMBus::SetRail(uint8_t rail, PM_RAIL_STATE en)
 {
   Send(PM_COMMAND::OPERATION, rail, en);
   this->state->Rails[rail].Enable = en;
-  // Wire.beginTransmission(this->address);
-  // Wire.write((uint8_t)PM_COMMAND::OPERATION);
-  // Wire.write(rail & 0x03);
-  // Wire.write((uint8_t)en);
-  // Wire.endTransmission();
+}
+
+void PMBus::ManualSequence(PM_RAIL_STATE en)
+{
+  for (size_t i = 0; i < RAIL_COUNT; i++)
+  {
+    for (size_t r = 0; r < RAIL_COUNT; r++)
+    {
+      if (this->state->Rails[r].Sequence.Start == i)
+      {
+        this->SetRail(i, en);
+        delay(
+          en == PM_RAIL_STATE::ENABLE
+            ? this->state->Rails[r].Delay.ON
+            : this->state->Rails[r].Delay.OFF
+        );
+      }
+    }
+  }
 }
 #pragma endregion
 
 #pragma region Private Methods
 
-#pragma region Send Methods
+#pragma region Send Settings Methods
 void PMBus::SendSequences()
 {
   for (size_t i = 0; i < RAIL_COUNT; i++)
@@ -261,6 +231,26 @@ void PMBus::ReceiveBytes(PM_COMMAND cmd, uint8_t rail, uint8_t *buffer, size_t l
 
   Wire.requestFrom(this->address, len);
   Wire.readBytes(buffer, len);
+}
+
+void PMBus::ReceiveBytes(PM_COMMAND cmd, uint8_t *buffer, size_t len)
+{
+  Wire.beginTransmission(this->address);
+  Wire.write(cmd);
+  Wire.endTransmission();
+
+  Wire.requestFrom(this->address, len);
+  Wire.readBytes(buffer, len);
+}
+
+uint8_t PMBus::ReceiveGlobal(PM_COMMAND cmd)
+{
+  Wire.beginTransmission(this->address);
+  Wire.write(cmd);
+  Wire.endTransmission();
+
+  Wire.requestFrom(this->address, (uint8_t)1);
+  return Wire.read();
 }
 
 void PMBus::Command(PM_COMMAND cmd)

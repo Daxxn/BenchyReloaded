@@ -20,6 +20,7 @@ PMBusState state = PMBusState();
 PMBus pmBus = PMBus(PMBUS_ALERT_PIN, PMBusAddress);
 
 // Power switch state for MPU
+bool btnPrev = false;
 bool powerON = false;
 
 void InitPins()
@@ -43,20 +44,8 @@ void InitPins()
   pinMode(VDDA_EN_PIN, OUTPUT);
 }
 
-void StartupSequence()
+void WriteSettings()
 {
-  // PORTC_OUTSET = 1;
-  digitalWrite(PWR_ERR_PIN, HIGH);
-  delay(200);
-  // PORTC_OUTCLR = 1;
-  digitalWrite(PWR_ERR_PIN, LOW);
-  delay(200);
-  // PORTC_OUTSET = 1;
-  digitalWrite(PWR_ERR_PIN, HIGH);
-  delay(200);
-  // PORTC_OUTCLR = 1;
-  digitalWrite(PWR_ERR_PIN, LOW);
-  
   // pmBus.SoftReset();
   delay(1000);
   // pmBus.SetEnablePins(PM_ENABLE_CONFIG::ALL_ACTIVE);
@@ -67,27 +56,13 @@ void StartupSequence()
   // uint8_t stopSeq[4] = {3, 3, 2, 1};
   // pmBus.SetSequences(startSeq, stopSeq);
 
-  pmBus.SetWriteProtection(PM_WRITE_PROTECT::ALL_ENABLE);
-  pmBus.SetEnablePins(PM_ENABLE_CONFIG::ALL_INACTIVE);
-
-
-  // PORTC_OUTSET = 1;
-  digitalWrite(PWR_ERR_PIN, HIGH);
-  delay(200);
-  // PORTC_OUTCLR = 1;
-  digitalWrite(PWR_ERR_PIN, LOW);
-  delay(200);
-  // PORTC_OUTSET = 1;
-  digitalWrite(PWR_ERR_PIN, HIGH);
-  delay(200);
-  // PORTC_OUTCLR = 1;
-  digitalWrite(PWR_ERR_PIN, LOW);
-  delay(200);
-  // PORTC_OUTSET = 1;
-  digitalWrite(PWR_ERR_PIN, HIGH);
-  delay(200);
-  // PORTC_OUTCLR = 1;
-  digitalWrite(PWR_ERR_PIN, LOW);
+  // pmBus.SetWriteProtection(PM_WRITE_PROTECT::ALL_ENABLE);
+  // pmBus.SetEnablePins(PM_ENABLE_CONFIG::ALL_INACTIVE);
+  #ifdef WRITE_SETTINGS
+  pmBus.WriteAllSettings(true);
+  #else
+  pmBus.WriteAllSettings(false);
+  #endif
 }
 
 void PinStartupSeq()
@@ -111,6 +86,9 @@ void Blink(int count)
 
 void setup() {
   InitPins();
+  digitalWrite(PWR_ERR_PIN, HIGH);
+  state.EnableConfig = PM_ENABLE_CONFIG::ALL_INACTIVE;
+  // state.SequenceConfig = PM_SEQUENCE_CONFIG::INGORE_PGOOD;
   state.Rails[0] = RailStatus(); // VDD
   state.Rails[1] = RailStatus(); // VDD-CORE
   state.Rails[2] = RailStatus(); // VDD-DDR
@@ -119,21 +97,61 @@ void setup() {
   state.Rails[1].Sequence.Set(1, 2);
   state.Rails[2].Sequence.Set(2, 1);
   state.Rails[3].Sequence.Set(3, 0);
+  #ifdef MAN
+  state.Rails[0].Delay.Set(0, 100);
+  state.Rails[1].Delay.Set(100, 100);
+  state.Rails[2].Delay.Set(100, 100);
+  state.Rails[3].Delay.Set(100, 0);
+  #else
+  state.Rails[0].Delay.Set(0, 0b100);
+  state.Rails[1].Delay.Set(0b010, 0b010);
+  state.Rails[2].Delay.Set(0b100, 0b100);
+  state.Rails[3].Delay.Set(0b100, 0);
+  #endif
   // Serial.begin(115200);
   pmBus.Init(&state);
+  // #ifdef MAN
+  // if(powerON)
+  // {
+  //   pmBus.ManualSequence(PM_RAIL_STATE::ENABLE);
+  // }
+  // #else
+  // #endif
+  WriteSettings();
   delay(100);
-  StartupSequence();
-  // PinStartupSeq();
+  digitalWrite(PWR_ERR_PIN, LOW);
+  digitalWrite(DDR_EN_PIN, HIGH);
 }
 
 void loop() {
-  Blink(2);
+  #ifndef MAN
+  // Blink(2);
   digitalWrite(PWR_ERR_PIN, HIGH);
-  delay(2000);
+  // digitalWrite(USB_EN_PIN, HIGH);
   pmBus.EnableAllRails();
-  delay(4000);
-  Blink(4);
+  // delay(1000);
   digitalWrite(PWR_ERR_PIN, LOW);
+  delay(5000);
+  // digitalWrite(USB_EN_PIN, LOW);
   pmBus.DisableAllRails();
-  delay(2000);
+  Blink(4);
+
+  // delay(4000);
+  // pmBus.ReadStatus(0);
+  // pmBus.ReadRailPGOODs();
+  // Blink(pmBus.GetPGoods());
+
+  delay(5000);
+  #else
+  // Blink(4);
+  uint8_t btn = digitalRead(PWR_SW_PIN);
+  if (btn == LOW && btn != btnPrev)
+  {
+    powerON = !powerON;
+    btnPrev = btn;
+    pmBus.ManualSequence(powerON ? PM_RAIL_STATE::ENABLE : PM_RAIL_STATE::DISABLE);
+    delay(150);
+    Blink(4);
+  }
+  #endif
 }

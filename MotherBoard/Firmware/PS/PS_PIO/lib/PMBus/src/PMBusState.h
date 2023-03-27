@@ -2,6 +2,8 @@
 
 #include <Arduino.h>
 
+#define RAIL_COUNT 4
+
 enum PM_COMMAND
 {
   // (R/W) Sets the current Power Rail
@@ -97,17 +99,30 @@ enum PM_COMMAND
 };
 
 // Bit mask used to filter the STATUS_BYTE data
+// enum PM_STATUS_MASK
+// {
+//   VOUT_FAULT = 0x8000,
+//   MFR_FAULT  = 0x1000,
+//   PWR_BAD    = 0x0800,
+//   OFF        = 0x0040,
+//   VOUT_OV    = 0x0020,
+//   IOUT_OC    = 0x0010,
+//   TEMP       = 0x0004,
+//   CML        = 0x0002,
+//   UNKNOWN    = 0x0001
+// };
+
 enum PM_STATUS_MASK
 {
-  VOUT_FAULT = 0x8000,
-  MFR_FAULT  = 0x1000,
-  PWR_BAD    = 0x0800,
-  OFF        = 0x0040,
-  VOUT_OV    = 0x0020,
-  IOUT_OC    = 0x0010,
-  TEMP       = 0x0004,
-  CML        = 0x0002,
-  UNKNOWN    = 0x0001
+  VOUT = 0x8000,
+  MFR = 0x1000,
+  PWR_GOOD = 0x800,
+  OFF = 0x40,
+  VOUT_OV = 0x20,
+  IOUT_OC = 0x10,
+  OVERTEMP = 0x4,
+  CML = 0x2,
+  NONEOFABOVE = 0x1
 };
 
 // VOUT status
@@ -185,6 +200,11 @@ struct RailPhase
   {
     return (Delay & 0b00111111) << 2 | (Div & 0b11);
   }
+  void Set(uint8_t del, CLOCK_DIV div)
+  {
+    Delay = del;
+    Div = div;
+  }
 };
 
 struct RailSequence
@@ -209,7 +229,7 @@ struct RailDelay
   uint8_t ON;
   uint8_t OFF;
 
-  void SetDelay(uint8_t on, uint8_t off)
+  void Set(uint8_t on, uint8_t off)
   {
     ON = on;
     OFF = off;
@@ -221,7 +241,6 @@ struct RailDelay
   }
 };
 
-
 struct RailStatus
 {
   RailStatus() {};
@@ -229,6 +248,7 @@ struct RailStatus
   bool OverVolt = false;
   bool OverCurr = false;
   bool OFF = true;
+  bool PGOOD = false;
   uint8_t MaxIOut = 0x03;
   RailDelay Delay = RailDelay();
   RailPhase Phase = RailPhase();
@@ -239,6 +259,7 @@ class PMBusState
 {
 public:
   PMBusState();
+  // RailPGood PGoods = RailPGood();
 
   // Write protection state
   // Determines what commands the IC will respond to.

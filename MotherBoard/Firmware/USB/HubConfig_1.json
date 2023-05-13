@@ -1,0 +1,13 @@
+{
+"nrdeviceport6":"1",
+"product":"Benchy USB2.0 Hub",
+"serial":"1",
+"usb3product":"Benchy USB3.1 Hub",
+"usb3serial":"1",
+"downstreamBCsettingport1":"2",
+"downstreamBCsettingport2":"2",
+"downstreamBCsettingport3":"2",
+"downstreamBCsettingport4":"2",
+"downstreamBCsettingport5":"2",
+"i2senable":"0"
+}

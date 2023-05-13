@@ -502,7 +502,29 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Daxxn_Audio",
+      "Daxxn_Buttons",
+      "Daxxn_Connectors",
+      "Daxxn_Device",
+      "Daxxn_Diodes",
+      "Daxxn_Displays",
+      "Daxxn_IC",
+      "Daxxn_LEDs",
+      "Daxxn_Logic",
+      "Daxxn_Logos",
+      "Daxxn_MicroControllers",
+      "Daxxn_MicroProcessors",
+      "Daxxn_OPAMP",
+      "Daxxn_Other",
+      "Daxxn_Power",
+      "Daxxn_Protection",
+      "Daxxn_Regulators",
+      "Daxxn_Relays",
+      "Daxxn_STMicros",
+      "Daxxn_Transistors",
+      "Daxxn_Sensors"
+    ]
   },
   "meta": {
     "filename": "BenchyMotherBoard-PCB.kicad_pro",

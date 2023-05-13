@@ -118,6 +118,7 @@ void setup() {
   // #else
   // #endif
   WriteSettings();
+  digitalWrite(VDDA_EN_PIN, HIGH);
   delay(100);
   digitalWrite(PWR_ERR_PIN, LOW);
   digitalWrite(DDR_EN_PIN, HIGH);

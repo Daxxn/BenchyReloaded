@@ -523,7 +523,8 @@
       "Daxxn_Relays",
       "Daxxn_STMicros",
       "Daxxn_Transistors",
-      "Daxxn_Sensors"
+      "Daxxn_Sensors",
+      "Daxxn_TIMicros"
     ]
   },
   "meta": {
@@ -951,8 +952,16 @@
       "USB | DISPLAY"
     ],
     [
+      "8f817046-ffe0-414c-bffa-ffda8f07d1a1",
+      "Block Diagram"
+    ],
+    [
       "cde93c0a-b819-4fbe-8019-69f0c6c56432",
       "COMMUNICATIONS"
+    ],
+    [
+      "21e26d52-2ea8-4a10-919a-171c093863d3",
+      "POWER REGULATOR BD"
     ]
   ],
   "text_variables": {}

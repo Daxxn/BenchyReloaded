@@ -523,7 +523,8 @@
       "Daxxn_Relays",
       "Daxxn_STMicros",
       "Daxxn_Transistors",
-      "Daxxn_Sensors"
+      "Daxxn_Sensors",
+      "Daxxn_TIMicros"
     ]
   },
   "meta": {
@@ -953,6 +954,10 @@
     [
       "cde93c0a-b819-4fbe-8019-69f0c6c56432",
       "COMMUNICATIONS"
+    ],
+    [
+      "f6cefa82-1075-4fc2-b4fa-8436f2d86032",
+      "HDMI INTERFACE"
     ]
   ],
   "text_variables": {}

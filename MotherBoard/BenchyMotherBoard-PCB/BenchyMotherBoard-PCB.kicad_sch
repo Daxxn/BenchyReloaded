@@ -6,7 +6,7 @@
 
   (title_block
     (title "Benchy Reloaded")
-    (rev "REV2")
+    (rev "REV3")
     (company "Daxxn Industries")
   )
 
@@ -227,6 +227,23 @@
     (pin "SWITCHER-BUS{SDA SCK}" input (at 190.5 44.45 180)
       (effects (font (size 1.016 1.016)) (justify left))
       (uuid ca674223-b45b-4441-8316-84a5d7f6c48a)
+    )
+    (instances
+      (project "BenchyMotherBoard-PCB"
+        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 257.81 54.61) (size 33.02 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f6cefa82-1075-4fc2-b4fa-8436f2d86032)
+    (property "Sheetname" "HDMI INTERFACE" (at 257.81 53.8984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "HDMI.kicad_sch" (at 257.81 75.5146 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (instances
       (project "BenchyMotherBoard-PCB"

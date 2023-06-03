@@ -2,11 +2,11 @@
 
   (uuid 2ea077fe-b0e6-467f-a1c1-8336ebdb7a86)
 
-  (paper "User" 310.007 124.993)
+  (paper "A4")
 
   (title_block
     (title "Benchy Reloaded")
-    (rev "REV2")
+    (rev "REV4")
     (company "Daxxn Industries")
   )
 
@@ -78,16 +78,71 @@
     (effects (font (size 4 4) bold) (justify left bottom) (href "#3"))
     (uuid b4400a91-36dc-4193-a759-8bdfab8623fe)
   )
+  (text "REMOVE ALL THE HEIR. LABELS" (at 165.1 29.21 0)
+    (effects (font (size 1.016 1.016)) (justify left bottom))
+    (uuid be4c92a4-10c0-481a-bd6f-ddcc91db4a73)
+  )
   (text "INPUT | OUTPUT" (at 115.57 36.83 0)
     (effects (font (size 3 3) bold) (justify left bottom) (href "#4"))
     (uuid e34ff945-5672-4b2a-8ed5-db96cc9373b2)
+  )
+
+  (sheet (at 100.33 113.03) (size 39.37 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 31cd65d1-cc4b-4775-aec3-7a59b690ac0a)
+    (property "Sheetname" "AUDIO" (at 100.33 112.3184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Audio.kicad_sch" (at 100.33 147.9046 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "BenchyMotherBoard-PCB"
+        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86" (page "10"))
+      )
+    )
+  )
+
+  (sheet (at 106.68 154.94) (size 53.34 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3f394e38-756b-4eaa-ba31-47b873a984c7)
+    (property "Sheetname" "ETHERNET" (at 106.68 154.2284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Ethernet.kicad_sch" (at 106.68 189.8146 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "BenchyMotherBoard-PCB"
+        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86" (page "11"))
+      )
+    )
+  )
+
+  (sheet (at 250.19 119.38) (size 27.94 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4a61ad6c-8b4c-456b-8c22-c64a1a3b4c3a)
+    (property "Sheetname" "DISPLAY" (at 250.19 118.6684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Display.kicad_sch" (at 250.19 145.3646 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "BenchyMotherBoard-PCB"
+        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86" (page "9"))
+      )
+    )
   )
 
   (sheet (at 13.97 44.45) (size 36.83 50.8)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 5a60e409-cd34-40bd-9930-c962240b0232)
-    (property "Sheetname" "MEMORY" (at 13.97 44.45 0)
+    (property "Sheetname" "DDR MEMORY" (at 13.97 44.45 0)
       (effects (font (size 1 1) bold) (justify left bottom))
     )
     (property "Sheetfile" "memory.kicad_sch" (at 13.97 95.8346 0)
@@ -174,23 +229,6 @@
     )
   )
 
-  (sheet (at 57.15 129.54) (size 66.04 45.72) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 8f817046-ffe0-414c-bffa-ffda8f07d1a1)
-    (property "Sheetname" "Block Diagram" (at 57.15 128.8284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "BlockDiagram.kicad_sch" (at 57.15 175.8446 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (instances
-      (project "BenchyMotherBoard-PCB"
-        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86" (page "7"))
-      )
-    )
-  )
-
   (sheet (at 63.5 44.45) (size 38.1 50.8)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -248,6 +286,23 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 182.88 111.76) (size 52.07 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d03937b9-15f2-4968-8837-3388203115e5)
+    (property "Sheetname" "eMMC MEMORY" (at 182.88 111.0484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "emmc_memory.kicad_sch" (at 182.88 149.1746 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "BenchyMotherBoard-PCB"
+        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86" (page "12"))
       )
     )
   )

@@ -501,7 +501,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Daxxn_Thermal"
+    ],
     "pinned_symbol_libs": [
       "Daxxn_Audio",
       "Daxxn_Buttons",
@@ -524,7 +526,8 @@
       "Daxxn_STMicros",
       "Daxxn_Transistors",
       "Daxxn_Sensors",
-      "Daxxn_TIMicros"
+      "Daxxn_TIMicros",
+      "Daxxn_Memory"
     ]
   },
   "meta": {
@@ -640,62 +643,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/MEMORY/DDR-A0": "DDR3-SL",
-      "/MEMORY/DDR-A1": "DDR3-SL",
-      "/MEMORY/DDR-A10": "DDR3-SL",
-      "/MEMORY/DDR-A11": "DDR3-SL",
-      "/MEMORY/DDR-A12": "DDR3-SL",
-      "/MEMORY/DDR-A13": "DDR3-SL",
-      "/MEMORY/DDR-A14": "DDR3-SL",
-      "/MEMORY/DDR-A2": "DDR3-SL",
-      "/MEMORY/DDR-A3": "DDR3-SL",
-      "/MEMORY/DDR-A4": "DDR3-SL",
-      "/MEMORY/DDR-A5": "DDR3-SL",
-      "/MEMORY/DDR-A6": "DDR3-SL",
-      "/MEMORY/DDR-A7": "DDR3-SL",
-      "/MEMORY/DDR-A8": "DDR3-SL",
-      "/MEMORY/DDR-A9": "DDR3-SL",
-      "/MEMORY/DDR-BA0": "DDR3-SL",
-      "/MEMORY/DDR-BA1": "DDR3-SL",
-      "/MEMORY/DDR-BA2": "DDR3-SL",
-      "/MEMORY/DDR-CKE": "DDR3-SL",
-      "/MEMORY/DDR-CLK+": "DDR3-INNER-DP",
-      "/MEMORY/DDR-CLK-": "DDR3-INNER-DP",
-      "/MEMORY/DDR-DQ0": "DDR3-SL",
-      "/MEMORY/DDR-DQ1": "DDR3-SL",
-      "/MEMORY/DDR-DQ10": "DDR3-SL",
-      "/MEMORY/DDR-DQ11": "DDR3-SL",
-      "/MEMORY/DDR-DQ12": "DDR3-SL",
-      "/MEMORY/DDR-DQ13": "DDR3-SL",
-      "/MEMORY/DDR-DQ14": "DDR3-SL",
-      "/MEMORY/DDR-DQ15": "DDR3-SL",
-      "/MEMORY/DDR-DQ2": "DDR3-SL",
-      "/MEMORY/DDR-DQ3": "DDR3-SL",
-      "/MEMORY/DDR-DQ4": "DDR3-SL",
-      "/MEMORY/DDR-DQ5": "DDR3-SL",
-      "/MEMORY/DDR-DQ6": "DDR3-SL",
-      "/MEMORY/DDR-DQ7": "DDR3-SL",
-      "/MEMORY/DDR-DQ8": "DDR3-SL",
-      "/MEMORY/DDR-DQ9": "DDR3-SL",
-      "/MEMORY/DDR-DQML": "DDR3-SL",
-      "/MEMORY/DDR-DQMU": "DDR3-SL",
-      "/MEMORY/DDR-DQSL+": "DDR3-INNER-DP",
-      "/MEMORY/DDR-DQSL-": "DDR3-INNER-DP",
-      "/MEMORY/DDR-DQSU+": "DDR3-INNER-DP",
-      "/MEMORY/DDR-DQSU-": "DDR3-INNER-DP",
-      "/MEMORY/DDR-ODT": "DDR3-SL",
-      "/MEMORY/DDR-~{CAS}": "DDR3-SL",
-      "/MEMORY/DDR-~{CS}": "DDR3-SL",
-      "/MEMORY/DDR-~{RAS}": "DDR3-SL",
-      "/MEMORY/DDR-~{WE}": "DDR3-SL",
-      "/USB | DISPLAY/DSI-CL+": "DSI-DP",
-      "/USB | DISPLAY/DSI-CL-": "DSI-DP",
-      "/USB | DISPLAY/DSI-D0+": "DSI-DP",
-      "/USB | DISPLAY/DSI-D0-": "DSI-DP",
-      "/USB | DISPLAY/DSI-D1+": "DSI-DP",
-      "/USB | DISPLAY/DSI-D1-": "DSI-DP"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "USB-DIFF",
@@ -941,7 +889,7 @@
     ],
     [
       "5a60e409-cd34-40bd-9930-c962240b0232",
-      "MEMORY"
+      "DDR MEMORY"
     ],
     [
       "76adaf3c-f4c9-4828-81af-280c66ff42c8",
@@ -952,16 +900,24 @@
       "USB | DISPLAY"
     ],
     [
-      "8f817046-ffe0-414c-bffa-ffda8f07d1a1",
-      "Block Diagram"
-    ],
-    [
       "cde93c0a-b819-4fbe-8019-69f0c6c56432",
       "COMMUNICATIONS"
     ],
     [
-      "21e26d52-2ea8-4a10-919a-171c093863d3",
-      "POWER REGULATOR BD"
+      "4a61ad6c-8b4c-456b-8c22-c64a1a3b4c3a",
+      "DISPLAY"
+    ],
+    [
+      "31cd65d1-cc4b-4775-aec3-7a59b690ac0a",
+      "AUDIO"
+    ],
+    [
+      "3f394e38-756b-4eaa-ba31-47b873a984c7",
+      "ETHERNET"
+    ],
+    [
+      "d03937b9-15f2-4968-8837-3388203115e5",
+      "eMMC MEMORY"
     ]
   ],
   "text_variables": {}

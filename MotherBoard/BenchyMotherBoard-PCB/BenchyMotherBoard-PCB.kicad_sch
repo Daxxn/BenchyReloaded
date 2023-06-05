@@ -87,6 +87,23 @@
     (uuid e34ff945-5672-4b2a-8ed5-db96cc9373b2)
   )
 
+  (sheet (at 27.94 127) (size 48.26 50.8) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 023c8fe8-84bc-4238-9ad9-90f1ebaa5fac)
+    (property "Sheetname" "SOC CONTROL" (at 27.94 126.2884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Control.kicad_sch" (at 27.94 178.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BenchyMotherBoard-PCB"
+        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86" (page "11"))
+      )
+    )
+  )
+
   (sheet (at 100.33 113.03) (size 39.37 34.29) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

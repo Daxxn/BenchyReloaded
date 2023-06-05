@@ -165,11 +165,11 @@
         )
       )
     )
-    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.254 1.778 0)
+    (symbol "Daxxn_Device:C" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.254 1.524 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "C_Small" (at 0.254 -2.032 0)
+      (property "Value" "C" (at 0.254 -1.905 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -178,16 +178,16 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "capacitor cap" (at 0 0 0)
+      (property "ki_keywords" "capacitor cap daxxn" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
+      (property "ki_description" "Unpolarized Capacitor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "C_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "C_Small_0_1"
+      (symbol "C_0_1"
         (polyline
           (pts
             (xy -1.524 -0.508)
@@ -205,7 +205,7 @@
           (fill (type none))
         )
       )
-      (symbol "C_Small_1_1"
+      (symbol "C_1_1"
         (pin passive line (at 0 2.54 270) (length 2.032)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -863,7 +863,7 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 115.57 29.21 0) (unit 1)
+  (symbol (lib_id "Daxxn_Device:C") (at 115.57 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 197ac52f-5241-499f-8de5-2929c680f6cc)
     (property "Reference" "C179" (at 115.824 27.432 0)
@@ -889,7 +889,7 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 123.19 29.21 0) (unit 1)
+  (symbol (lib_id "Daxxn_Device:C") (at 123.19 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40571539-8ade-48bd-89d1-48c54f6fdf54)
     (property "Reference" "C180" (at 123.444 27.432 0)
@@ -915,7 +915,7 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 107.95 29.21 0) (unit 1)
+  (symbol (lib_id "Daxxn_Device:C") (at 107.95 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 459e8128-0cfa-4a7d-a18c-b883484f9b85)
     (property "Reference" "C178" (at 108.204 27.432 0)
@@ -1127,7 +1127,7 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 130.81 29.21 0) (unit 1)
+  (symbol (lib_id "Daxxn_Device:C") (at 130.81 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da567e09-950c-4a05-a18e-76f878bbd7cb)
     (property "Reference" "C181" (at 131.064 27.432 0)

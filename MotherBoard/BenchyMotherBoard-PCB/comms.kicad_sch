@@ -2257,7 +2257,7 @@
   (symbol (lib_id "power:GND") (at 95.25 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0dbaf2a7-93b9-4089-a10e-dbaf227fb8f2)
-    (property "Reference" "#PWR0199" (at 95.25 46.99 0)
+    (property "Reference" "#PWR0296" (at 95.25 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.25 44.45 0)
@@ -2273,7 +2273,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0199") (unit 1)
+          (reference "#PWR0296") (unit 1)
         )
       )
     )
@@ -2282,7 +2282,7 @@
   (symbol (lib_id "Daxxn_Protection:DT1240A-08LP3810-7") (at 55.88 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11256832-a630-4ed6-994b-76bc9b7dd39a)
-    (property "Reference" "D29" (at 69.85 44.45 0)
+    (property "Reference" "D21" (at 69.85 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DT1240A-08LP3810-7" (at 69.85 46.355 0)
@@ -2306,7 +2306,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "D29") (unit 1)
+          (reference "D21") (unit 1)
         )
       )
     )
@@ -2315,7 +2315,7 @@
   (symbol (lib_id "Daxxn_Device:C") (at 33.02 73.66 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12e24d22-0cc3-4c45-b3fd-a48de2c5f366)
-    (property "Reference" "C278" (at 32.766 72.136 0)
+    (property "Reference" "C373" (at 32.766 72.136 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 32.766 75.565 0)
@@ -2341,7 +2341,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "C278") (unit 1)
+          (reference "C373") (unit 1)
         )
       )
     )
@@ -2350,7 +2350,7 @@
   (symbol (lib_id "power:GND") (at 170.18 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1871007d-8803-4535-931b-62e6bb60762d)
-    (property "Reference" "#PWR0291" (at 170.18 100.33 0)
+    (property "Reference" "#PWR0312" (at 170.18 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.18 97.79 0)
@@ -2366,7 +2366,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0291") (unit 1)
+          (reference "#PWR0312") (unit 1)
         )
       )
     )
@@ -2375,7 +2375,7 @@
   (symbol (lib_id "Daxxn_Device:C") (at 101.6 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 197ac52f-5241-499f-8de5-2929c680f6cc)
-    (property "Reference" "C179" (at 101.346 78.232 0)
+    (property "Reference" "C375" (at 101.346 78.232 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 101.346 82.042 0)
@@ -2392,7 +2392,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "C179") (unit 1)
+          (reference "C375") (unit 1)
         )
       )
     )
@@ -2401,7 +2401,7 @@
   (symbol (lib_id "power:GND") (at 73.66 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a48551f-5494-44f0-9c2b-ae35eaa08579)
-    (property "Reference" "#PWR0284" (at 73.66 88.9 0)
+    (property "Reference" "#PWR0304" (at 73.66 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.66 86.36 0)
@@ -2417,7 +2417,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0284") (unit 1)
+          (reference "#PWR0304") (unit 1)
         )
       )
     )
@@ -2426,7 +2426,7 @@
   (symbol (lib_id "power:GND") (at 38.1 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2465bda9-e03c-4b55-8979-fd17ba93c418)
-    (property "Reference" "#PWR0280" (at 38.1 104.14 0)
+    (property "Reference" "#PWR0313" (at 38.1 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 101.6 0)
@@ -2442,7 +2442,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0280") (unit 1)
+          (reference "#PWR0313") (unit 1)
         )
       )
     )
@@ -2451,7 +2451,7 @@
   (symbol (lib_id "power:GND") (at 63.5 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25552784-5867-4dda-80a0-6843c85982d1)
-    (property "Reference" "#PWR0282" (at 63.5 96.52 0)
+    (property "Reference" "#PWR0308" (at 63.5 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.5 93.98 0)
@@ -2467,7 +2467,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0282") (unit 1)
+          (reference "#PWR0308") (unit 1)
         )
       )
     )
@@ -2476,7 +2476,7 @@
   (symbol (lib_id "power:VDD") (at 170.18 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a2dcc80-4b80-4277-b0b1-c02b8fbc5d9a)
-    (property "Reference" "#PWR0289" (at 170.18 78.74 0)
+    (property "Reference" "#PWR0302" (at 170.18 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 170.18 71.12 0)
@@ -2492,7 +2492,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0289") (unit 1)
+          (reference "#PWR0302") (unit 1)
         )
       )
     )
@@ -2501,7 +2501,7 @@
   (symbol (lib_id "Daxxn_IC:TCAN1044") (at 30.48 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f918a13-f395-4a82-9f1e-a169e0021d4d)
-    (property "Reference" "U33" (at 40.64 81.28 0)
+    (property "Reference" "U36" (at 40.64 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TCAN1044" (at 40.64 78.74 0)
@@ -2533,7 +2533,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "U33") (unit 1)
+          (reference "U36") (unit 1)
         )
       )
     )
@@ -2542,7 +2542,7 @@
   (symbol (lib_id "Daxxn_Device:C") (at 132.08 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40571539-8ade-48bd-89d1-48c54f6fdf54)
-    (property "Reference" "C180" (at 131.826 78.232 0)
+    (property "Reference" "C376" (at 131.826 78.232 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 131.826 82.042 0)
@@ -2559,7 +2559,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "C180") (unit 1)
+          (reference "C376") (unit 1)
         )
       )
     )
@@ -2568,7 +2568,7 @@
   (symbol (lib_id "power:GND") (at 105.41 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 407f5030-a4f2-4d44-a443-035bd2d1918e)
-    (property "Reference" "#PWR0293" (at 105.41 100.33 0)
+    (property "Reference" "#PWR0310" (at 105.41 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 105.41 97.79 0)
@@ -2584,7 +2584,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0293") (unit 1)
+          (reference "#PWR0310") (unit 1)
         )
       )
     )
@@ -2593,7 +2593,7 @@
   (symbol (lib_id "Daxxn_Device:C") (at 73.66 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 459e8128-0cfa-4a7d-a18c-b883484f9b85)
-    (property "Reference" "C178" (at 73.406 78.232 0)
+    (property "Reference" "C374" (at 73.406 78.232 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 73.406 82.042 0)
@@ -2610,7 +2610,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "C178") (unit 1)
+          (reference "C374") (unit 1)
         )
       )
     )
@@ -2619,7 +2619,7 @@
   (symbol (lib_id "power:VDD") (at 105.41 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4bde19b1-cf31-44aa-98fe-cff66f44771c)
-    (property "Reference" "#PWR0285" (at 105.41 78.74 0)
+    (property "Reference" "#PWR0300" (at 105.41 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 105.41 71.12 0)
@@ -2635,7 +2635,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0285") (unit 1)
+          (reference "#PWR0300") (unit 1)
         )
       )
     )
@@ -2644,7 +2644,7 @@
   (symbol (lib_id "Daxxn_Device:R") (at 80.01 31.75 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 541c5493-f605-4ee3-8c2a-d551cacec888)
-    (property "Reference" "R153" (at 80.645 30.734 0)
+    (property "Reference" "R168" (at 80.645 30.734 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22" (at 78.994 30.734 0)
@@ -2661,7 +2661,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "R153") (unit 1)
+          (reference "R168") (unit 1)
         )
       )
     )
@@ -2670,7 +2670,7 @@
   (symbol (lib_id "Daxxn_Device:R") (at 87.63 26.67 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62a76ce5-80da-4292-aaec-3d401d950d4c)
-    (property "Reference" "R151" (at 88.265 25.654 0)
+    (property "Reference" "R166" (at 88.265 25.654 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22" (at 86.614 25.654 0)
@@ -2687,7 +2687,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "R151") (unit 1)
+          (reference "R166") (unit 1)
         )
       )
     )
@@ -2696,7 +2696,7 @@
   (symbol (lib_id "power:GND") (at 101.6 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63681846-b523-448b-aef4-081dd3a1cc16)
-    (property "Reference" "#PWR0286" (at 101.6 88.9 0)
+    (property "Reference" "#PWR0305" (at 101.6 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 86.36 0)
@@ -2712,7 +2712,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0286") (unit 1)
+          (reference "#PWR0305") (unit 1)
         )
       )
     )
@@ -2721,7 +2721,7 @@
   (symbol (lib_id "power:GND") (at 135.89 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6d552a98-f721-4ab8-920b-3be15670ba24)
-    (property "Reference" "#PWR0292" (at 135.89 100.33 0)
+    (property "Reference" "#PWR0311" (at 135.89 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.89 97.79 0)
@@ -2737,7 +2737,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0292") (unit 1)
+          (reference "#PWR0311") (unit 1)
         )
       )
     )
@@ -2746,7 +2746,7 @@
   (symbol (lib_id "Daxxn_Device:C") (at 59.69 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a90b75a-cf37-4e6d-a198-dc9f673abb44)
-    (property "Reference" "C279" (at 58.166 84.582 90)
+    (property "Reference" "C378" (at 58.166 84.582 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100nF" (at 58.166 86.36 90)
@@ -2772,7 +2772,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "C279") (unit 1)
+          (reference "C378") (unit 1)
         )
       )
     )
@@ -2781,7 +2781,7 @@
   (symbol (lib_id "Daxxn_Device:R") (at 76.2 34.29 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8240ab38-1bf7-4a37-9206-fff185362f8b)
-    (property "Reference" "R154" (at 76.835 33.274 0)
+    (property "Reference" "R169" (at 76.835 33.274 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22" (at 75.184 33.274 0)
@@ -2798,7 +2798,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "R154") (unit 1)
+          (reference "R169") (unit 1)
         )
       )
     )
@@ -2807,7 +2807,7 @@
   (symbol (lib_id "power:VDD") (at 77.47 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83f02e60-cacc-42b0-965d-fd4dbdd821c7)
-    (property "Reference" "#PWR0195" (at 77.47 78.74 0)
+    (property "Reference" "#PWR0299" (at 77.47 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 77.47 71.12 0)
@@ -2823,7 +2823,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0195") (unit 1)
+          (reference "#PWR0299") (unit 1)
         )
       )
     )
@@ -2832,7 +2832,7 @@
   (symbol (lib_id "power:VDD") (at 95.25 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92d4dd79-d201-43d8-94ec-b2b524d347dc)
-    (property "Reference" "#PWR0198" (at 95.25 24.13 0)
+    (property "Reference" "#PWR0295" (at 95.25 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 95.25 16.51 0)
@@ -2848,7 +2848,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0198") (unit 1)
+          (reference "#PWR0295") (unit 1)
         )
       )
     )
@@ -2857,7 +2857,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 83.82 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ae46383-30e1-4e5f-866f-3bdd17827338)
-    (property "Reference" "J18" (at 86.36 85.09 0)
+    (property "Reference" "J15" (at 86.36 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "COMMS-PWR" (at 86.36 87.63 0)
@@ -2885,7 +2885,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "J18") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -2894,7 +2894,7 @@
   (symbol (lib_id "Daxxn_Device:R") (at 72.39 36.83 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fec8f3b-8c8d-42b6-80e0-cf7f8da5c54a)
-    (property "Reference" "R155" (at 73.025 35.814 0)
+    (property "Reference" "R170" (at 73.025 35.814 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22" (at 71.374 35.814 0)
@@ -2911,7 +2911,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "R155") (unit 1)
+          (reference "R170") (unit 1)
         )
       )
     )
@@ -2920,7 +2920,7 @@
   (symbol (lib_id "power:GND") (at 55.88 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3d3b301-824a-40dc-803f-0ebde0a045f9)
-    (property "Reference" "#PWR0196" (at 55.88 60.96 0)
+    (property "Reference" "#PWR0297" (at 55.88 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 58.42 0)
@@ -2936,7 +2936,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0196") (unit 1)
+          (reference "#PWR0297") (unit 1)
         )
       )
     )
@@ -2945,7 +2945,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 142.24 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4869913-c746-4fea-a108-d476126d8479)
-    (property "Reference" "J20" (at 144.78 85.09 0)
+    (property "Reference" "J17" (at 144.78 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "COMMS-SWITCHER" (at 144.78 87.63 0)
@@ -2973,7 +2973,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "J20") (unit 1)
+          (reference "J17") (unit 1)
         )
       )
     )
@@ -2982,7 +2982,7 @@
   (symbol (lib_id "Daxxn_Device:R") (at 55.88 85.09 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a906beda-803c-46ed-bdb6-67ac15699ed5)
-    (property "Reference" "R148" (at 54.864 84.455 0)
+    (property "Reference" "R171" (at 54.864 84.455 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "60" (at 54.864 86.106 0)
@@ -2999,7 +2999,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "R148") (unit 1)
+          (reference "R171") (unit 1)
         )
       )
     )
@@ -3008,7 +3008,7 @@
   (symbol (lib_id "Daxxn_Device:R") (at 83.82 29.21 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b9baaef6-5bae-49a2-b454-83a6a60b28c9)
-    (property "Reference" "R152" (at 84.455 28.194 0)
+    (property "Reference" "R167" (at 84.455 28.194 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22" (at 82.804 28.194 0)
@@ -3025,7 +3025,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "R152") (unit 1)
+          (reference "R167") (unit 1)
         )
       )
     )
@@ -3034,7 +3034,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 111.76 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c260cfa5-d292-4f9c-977b-7d0074f6b196)
-    (property "Reference" "J19" (at 114.3 85.09 0)
+    (property "Reference" "J16" (at 114.3 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "COMMS-ELOAD" (at 114.3 87.63 0)
@@ -3062,7 +3062,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "J19") (unit 1)
+          (reference "J16") (unit 1)
         )
       )
     )
@@ -3071,7 +3071,7 @@
   (symbol (lib_id "power:GND") (at 33.02 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c428d1df-1309-40c8-bb22-707ab36e55f4)
-    (property "Reference" "#PWR0283" (at 33.02 82.55 0)
+    (property "Reference" "#PWR0303" (at 33.02 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 33.02 80.01 0)
@@ -3087,7 +3087,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0283") (unit 1)
+          (reference "#PWR0303") (unit 1)
         )
       )
     )
@@ -3096,7 +3096,7 @@
   (symbol (lib_id "Daxxn_Device:R") (at 55.88 92.71 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c72cbe71-9a02-4c01-9830-0852a032c946)
-    (property "Reference" "R149" (at 54.864 92.075 0)
+    (property "Reference" "R172" (at 54.864 92.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "60" (at 54.864 93.726 0)
@@ -3113,7 +3113,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "R149") (unit 1)
+          (reference "R172") (unit 1)
         )
       )
     )
@@ -3122,7 +3122,7 @@
   (symbol (lib_id "Daxxn_Device:R") (at 91.44 24.13 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3093504-8020-48d5-bdd9-7a391f158704)
-    (property "Reference" "R150" (at 92.075 23.114 0)
+    (property "Reference" "R165" (at 92.075 23.114 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22" (at 90.424 23.114 0)
@@ -3139,7 +3139,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "R150") (unit 1)
+          (reference "R165") (unit 1)
         )
       )
     )
@@ -3148,7 +3148,7 @@
   (symbol (lib_id "power:GND") (at 166.37 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6124b8f-0b58-4adb-beca-e8d56f28ea0d)
-    (property "Reference" "#PWR0290" (at 166.37 88.9 0)
+    (property "Reference" "#PWR0307" (at 166.37 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.37 86.36 0)
@@ -3164,7 +3164,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0290") (unit 1)
+          (reference "#PWR0307") (unit 1)
         )
       )
     )
@@ -3173,7 +3173,7 @@
   (symbol (lib_id "power:VCC") (at 35.56 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d814aa1e-1935-42e3-b35d-15ec95da0b1b)
-    (property "Reference" "#PWR0281" (at 35.56 72.39 0)
+    (property "Reference" "#PWR0298" (at 35.56 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 35.56 64.77 0)
@@ -3189,7 +3189,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0281") (unit 1)
+          (reference "#PWR0298") (unit 1)
         )
       )
     )
@@ -3198,7 +3198,7 @@
   (symbol (lib_id "Daxxn_Device:C") (at 166.37 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da567e09-950c-4a05-a18e-76f878bbd7cb)
-    (property "Reference" "C181" (at 166.116 78.232 0)
+    (property "Reference" "C377" (at 166.116 78.232 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 166.116 82.042 0)
@@ -3215,7 +3215,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "C181") (unit 1)
+          (reference "C377") (unit 1)
         )
       )
     )
@@ -3224,7 +3224,7 @@
   (symbol (lib_id "power:GND") (at 77.47 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3ccff5e-f83b-4a09-ae4d-3156eebf5f31)
-    (property "Reference" "#PWR0200" (at 77.47 100.33 0)
+    (property "Reference" "#PWR0309" (at 77.47 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 77.47 97.79 0)
@@ -3240,7 +3240,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0200") (unit 1)
+          (reference "#PWR0309") (unit 1)
         )
       )
     )
@@ -3249,7 +3249,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 176.53 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e82d963d-9711-4d80-8e75-3943a0a338ab)
-    (property "Reference" "J22" (at 179.07 85.09 0)
+    (property "Reference" "J18" (at 179.07 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "COMMS-LOGIC" (at 179.07 87.63 0)
@@ -3277,7 +3277,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "J22") (unit 1)
+          (reference "J18") (unit 1)
         )
       )
     )
@@ -3286,7 +3286,7 @@
   (symbol (lib_id "power:GND") (at 132.08 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8ddc252-b66e-4bed-960d-f04b98ccba9d)
-    (property "Reference" "#PWR0288" (at 132.08 88.9 0)
+    (property "Reference" "#PWR0306" (at 132.08 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 86.36 0)
@@ -3302,7 +3302,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0288") (unit 1)
+          (reference "#PWR0306") (unit 1)
         )
       )
     )
@@ -3311,7 +3311,7 @@
   (symbol (lib_id "power:VDD") (at 135.89 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed0b0138-b912-443e-b8c1-10eb26a2858e)
-    (property "Reference" "#PWR0287" (at 135.89 78.74 0)
+    (property "Reference" "#PWR0301" (at 135.89 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 135.89 71.12 0)
@@ -3327,7 +3327,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "#PWR0287") (unit 1)
+          (reference "#PWR0301") (unit 1)
         )
       )
     )
@@ -3336,7 +3336,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 101.6 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee9c0dbf-0de4-4d68-9c9a-89be0450f4be)
-    (property "Reference" "J21" (at 104.14 21.59 0)
+    (property "Reference" "J14" (at 104.14 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RELAYS-CONN" (at 104.14 24.13 0)
@@ -3368,7 +3368,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/cde93c0a-b819-4fbe-8019-69f0c6c56432"
-          (reference "J21") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )

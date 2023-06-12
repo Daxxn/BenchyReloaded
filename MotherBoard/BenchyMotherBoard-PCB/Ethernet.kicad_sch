@@ -4383,7 +4383,7 @@
           (alternate "PR0-PRU1-GPI1" input line)
           (alternate "PR0-PRU1-GPO1" output line)
           (alternate "UART2-TX" output line)
-          (alternate "VOUT0-DATA16" output line)
+          (alternate "VOUT0-DATA17" output line)
         )
         (pin bidirectional line (at -5.08 -34.29 0) (length 5.08)
           (name "GPMC0-AD12" (effects (font (size 1.27 1.27))))
@@ -5307,11 +5307,17 @@
   (junction (at 326.39 143.51) (diameter 0) (color 0 0 0 0)
     (uuid 80f89689-7faf-4120-a163-f017328e9a9c)
   )
+  (junction (at 102.87 30.48) (diameter 0) (color 0 0 0 0)
+    (uuid 81301f9f-755b-4314-b5b1-b60e122dd0e5)
+  )
   (junction (at 314.96 44.45) (diameter 0) (color 0 0 0 0)
     (uuid 8579947c-8d55-4037-9f39-54c7a53190ae)
   )
   (junction (at 353.06 83.82) (diameter 0) (color 0 0 0 0)
     (uuid 86353709-ccc5-4b76-b08b-e6ff3cd7a042)
+  )
+  (junction (at 43.18 30.48) (diameter 0) (color 0 0 0 0)
+    (uuid 889c3404-7dcc-4141-9d40-b669dd78b4c9)
   )
   (junction (at 203.2 247.65) (diameter 0) (color 0 0 0 0)
     (uuid 88f339c5-600b-4ba2-bf50-c41917d653cf)
@@ -5669,6 +5675,10 @@
     (stroke (width 0) (type default))
     (uuid 2cf84e42-b303-43e2-8da6-1e4eebd9e88a)
   )
+  (wire (pts (xy 107.95 25.4) (xy 102.87 25.4))
+    (stroke (width 0) (type default))
+    (uuid 2d4e81d3-2c2e-494c-ada6-3a5964b82abe)
+  )
   (wire (pts (xy 262.89 157.48) (xy 309.88 157.48))
     (stroke (width 0) (type default))
     (uuid 2dba3fc3-8053-46b9-bdfb-58b69faf50ef)
@@ -5772,6 +5782,10 @@
   (wire (pts (xy 93.98 44.45) (xy 119.38 44.45))
     (stroke (width 0) (type default))
     (uuid 405e0470-549c-4176-ba85-89207f89f6af)
+  )
+  (wire (pts (xy 102.87 30.48) (xy 119.38 30.48))
+    (stroke (width 0) (type default))
+    (uuid 406a51bb-4f6f-480e-8a45-f278fc42d0fe)
   )
   (wire (pts (xy 176.53 132.08) (xy 205.74 132.08))
     (stroke (width 0) (type default))
@@ -6170,7 +6184,7 @@
     (stroke (width 0) (type default))
     (uuid 87322898-ed50-4666-91d2-b848187b67af)
   )
-  (wire (pts (xy 93.98 30.48) (xy 119.38 30.48))
+  (wire (pts (xy 93.98 30.48) (xy 102.87 30.48))
     (stroke (width 0) (type default))
     (uuid 8736cbd3-d81e-4513-8fd0-3f67a78784d3)
   )
@@ -6198,6 +6212,10 @@
   (wire (pts (xy 246.38 255.27) (xy 264.16 255.27))
     (stroke (width 0) (type default))
     (uuid 8e215dac-3ab4-42f0-addb-6535822d683b)
+  )
+  (wire (pts (xy 43.18 25.4) (xy 43.18 30.48))
+    (stroke (width 0) (type default))
+    (uuid 90fd4170-8ea1-4f40-91bf-474eef091865)
   )
   (polyline (pts (xy 254 95.25) (xy 254 97.79))
     (stroke (width 0) (type solid))
@@ -6411,7 +6429,7 @@
     (stroke (width 0) (type default))
     (uuid b565fd7e-0a53-4dcb-aac1-5aacfc253231)
   )
-  (wire (pts (xy 20.32 30.48) (xy 45.72 30.48))
+  (wire (pts (xy 20.32 30.48) (xy 43.18 30.48))
     (stroke (width 0) (type default))
     (uuid b59ce8b1-2dc8-4b93-a9e4-e020478be064)
   )
@@ -6571,6 +6589,10 @@
     (stroke (width 0) (type default))
     (uuid ccdd6396-1881-4520-b658-c419ed3cacb6)
   )
+  (wire (pts (xy 102.87 25.4) (xy 102.87 30.48))
+    (stroke (width 0) (type default))
+    (uuid cd9c2b9b-0e4a-49d9-9957-3348b20433ff)
+  )
   (wire (pts (xy 353.06 168.91) (xy 356.87 168.91))
     (stroke (width 0) (type default))
     (uuid ce38627a-dc1e-4123-9a6b-432dde2a24d2)
@@ -6591,6 +6613,10 @@
   (wire (pts (xy 261.62 260.35) (xy 264.16 260.35))
     (stroke (width 0) (type default))
     (uuid d0bcc6b3-a210-45ac-b209-9d4bee255378)
+  )
+  (wire (pts (xy 38.1 25.4) (xy 43.18 25.4))
+    (stroke (width 0) (type default))
+    (uuid d15a8834-928a-4cf7-bcab-39fb6cf2e013)
   )
   (wire (pts (xy 165.1 129.54) (xy 165.1 139.7))
     (stroke (width 0) (type default))
@@ -6667,6 +6693,10 @@
     (uuid dc07b31d-9219-4a40-954a-6380074bf3fb)
   )
 
+  (wire (pts (xy 27.94 25.4) (xy 33.02 25.4))
+    (stroke (width 0) (type default))
+    (uuid dc6503f6-3cef-4721-ba5e-d943bff3a559)
+  )
   (wire (pts (xy 151.13 265.43) (xy 151.13 266.7))
     (stroke (width 0) (type default))
     (uuid dcb6fb34-9bf1-46e1-bf74-b1dc40214d0b)
@@ -6740,6 +6770,10 @@
   (wire (pts (xy 326.39 44.45) (xy 327.66 44.45))
     (stroke (width 0) (type default))
     (uuid e88adc62-74cc-4a27-ba9f-80af0de44d56)
+  )
+  (wire (pts (xy 43.18 30.48) (xy 45.72 30.48))
+    (stroke (width 0) (type default))
+    (uuid e9a1a08c-083e-4200-b383-c444c1850ac0)
   )
   (wire (pts (xy 123.19 64.77) (xy 123.19 66.04))
     (stroke (width 0) (type default))
@@ -6832,6 +6866,10 @@
   (wire (pts (xy 266.7 66.04) (xy 266.7 67.31))
     (stroke (width 0) (type default))
     (uuid f81757a8-b7bc-4290-b85c-ee62b7c0d1e5)
+  )
+  (wire (pts (xy 113.03 25.4) (xy 125.73 25.4))
+    (stroke (width 0) (type default))
+    (uuid f83e3e0d-d545-4d3f-a2a8-5481ca256b3a)
   )
   (polyline (pts (xy 241.3 85.09) (xy 254 85.09))
     (stroke (width 0) (type solid))
@@ -7384,6 +7422,13 @@
     (uuid ff39e0c6-2813-4b31-bbab-40441939cafd)
   )
 
+  (global_label "RMII-REF-CLK" (shape input) (at 125.73 25.4 0) (fields_autoplaced)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 02f33e95-00b2-4edb-85b0-fc79078dec42)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 139.3756 25.4 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+  )
   (global_label "~{POR-OUT}" (shape input) (at 45.72 265.43 180) (fields_autoplaced)
     (effects (font (size 1.016 1.016)) (justify right))
     (uuid 21f559e7-a6bf-4c41-86db-a93ff243b480)
@@ -7440,6 +7485,13 @@
       (effects (font (size 1.27 1.27)) (justify right))
     )
   )
+  (global_label "RMII-REF-CLK" (shape input) (at 27.94 25.4 180) (fields_autoplaced)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid fedd91b8-beb4-4cbe-b727-23901cdcb9f6)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 14.2944 25.4 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+  )
 
   (symbol (lib_id "Daxxn_Device:R") (at 127 69.85 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
@@ -7479,7 +7531,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R252") (unit 1)
+          (reference "R256") (unit 1)
         )
       )
     )
@@ -7523,7 +7575,7 @@
           (reference "R167") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R186") (unit 1)
+          (reference "R276") (unit 1)
         )
       )
     )
@@ -7567,7 +7619,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R233") (unit 1)
+          (reference "R243") (unit 1)
         )
       )
     )
@@ -7595,7 +7647,7 @@
           (reference "#PWR0304") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0353") (unit 1)
+          (reference "#PWR0427") (unit 1)
         )
       )
     )
@@ -7604,7 +7656,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 204.47 267.97 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b0ccf77-cbbd-42ca-8891-a2765e24d79f)
-    (property "Reference" "TP17" (at 201.168 266.192 90)
+    (property "Reference" "TP16" (at 201.168 266.192 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TP-ETH1-CLK" (at 204.47 270.002 90)
@@ -7620,7 +7672,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "TP17") (unit 1)
+          (reference "TP16") (unit 1)
         )
       )
     )
@@ -7664,7 +7716,7 @@
           (reference "R167") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R184") (unit 1)
+          (reference "R275") (unit 1)
         )
       )
     )
@@ -7708,7 +7760,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R260") (unit 1)
+          (reference "R257") (unit 1)
         )
       )
     )
@@ -7736,7 +7788,7 @@
           (reference "#PWR0304") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0352") (unit 1)
+          (reference "#PWR0433") (unit 1)
         )
       )
     )
@@ -7780,7 +7832,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R251") (unit 1)
+          (reference "R253") (unit 1)
         )
       )
     )
@@ -7789,7 +7841,7 @@
   (symbol (lib_id "Daxxn_IC:KSZ9021RN") (at 209.55 241.3 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11a7a8f3-e003-46a8-999b-46a8ac13c2e9)
-    (property "Reference" "U23" (at 209.55 237.49 0)
+    (property "Reference" "U9" (at 209.55 237.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "KSZ9021RN" (at 209.55 240.03 0)
@@ -7862,7 +7914,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "U23") (unit 2)
+          (reference "U9") (unit 2)
         )
       )
     )
@@ -7906,7 +7958,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R236") (unit 1)
+          (reference "R248") (unit 1)
         )
       )
     )
@@ -7940,7 +7992,7 @@
           (reference "#PWR0306") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0391") (unit 1)
+          (reference "#PWR0429") (unit 1)
         )
       )
     )
@@ -7974,7 +8026,7 @@
           (reference "#PWR0306") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0355") (unit 1)
+          (reference "#PWR0439") (unit 1)
         )
       )
     )
@@ -8018,7 +8070,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R207") (unit 1)
+          (reference "R273") (unit 1)
         )
       )
     )
@@ -8062,7 +8114,7 @@
           (reference "C285") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "C381") (unit 1)
+          (reference "C422") (unit 1)
         )
       )
     )
@@ -8106,7 +8158,7 @@
           (reference "C285") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "C382") (unit 1)
+          (reference "C420") (unit 1)
         )
       )
     )
@@ -8150,7 +8202,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R229") (unit 1)
+          (reference "R255") (unit 1)
         )
       )
     )
@@ -8178,7 +8230,7 @@
           (reference "#PWR0304") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0320") (unit 1)
+          (reference "#PWR0443") (unit 1)
         )
       )
     )
@@ -8222,7 +8274,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R234") (unit 1)
+          (reference "R246") (unit 1)
         )
       )
     )
@@ -8266,7 +8318,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R219") (unit 1)
+          (reference "R266") (unit 1)
         )
       )
     )
@@ -8300,7 +8352,7 @@
           (reference "#PWR0306") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0322") (unit 1)
+          (reference "#PWR0447") (unit 1)
         )
       )
     )
@@ -8344,7 +8396,7 @@
           (reference "C285") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "C298") (unit 1)
+          (reference "C424") (unit 1)
         )
       )
     )
@@ -8388,7 +8440,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R212") (unit 1)
+          (reference "R254") (unit 1)
         )
       )
     )
@@ -8432,7 +8484,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R204") (unit 1)
+          (reference "R279") (unit 1)
         )
       )
     )
@@ -8460,7 +8512,7 @@
           (reference "#PWR0304") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0350") (unit 1)
+          (reference "#PWR0426") (unit 1)
         )
       )
     )
@@ -8496,7 +8548,7 @@
           (reference "U36") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "U42") (unit 1)
+          (reference "U51") (unit 1)
         )
       )
     )
@@ -8540,7 +8592,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R203") (unit 1)
+          (reference "R265") (unit 1)
         )
       )
     )
@@ -8584,7 +8636,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R213") (unit 1)
+          (reference "R259") (unit 1)
         )
       )
     )
@@ -8618,7 +8670,7 @@
           (reference "#PWR0306") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0414") (unit 1)
+          (reference "#PWR0438") (unit 1)
         )
       )
     )
@@ -8662,7 +8714,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R235") (unit 1)
+          (reference "R247") (unit 1)
         )
       )
     )
@@ -8690,7 +8742,7 @@
           (reference "#PWR0304") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0351") (unit 1)
+          (reference "#PWR0424") (unit 1)
         )
       )
     )
@@ -8734,7 +8786,7 @@
           (reference "C285") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "C287") (unit 1)
+          (reference "C428") (unit 1)
         )
       )
     )
@@ -8762,7 +8814,7 @@
           (reference "#PWR0304") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0358") (unit 1)
+          (reference "#PWR0441") (unit 1)
         )
       )
     )
@@ -8790,7 +8842,7 @@
           (reference "#PWR0304") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0359") (unit 1)
+          (reference "#PWR0442") (unit 1)
         )
       )
     )
@@ -8818,7 +8870,7 @@
           (reference "#PWR0304") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0323") (unit 1)
+          (reference "#PWR0444") (unit 1)
         )
       )
     )
@@ -8827,7 +8879,7 @@
   (symbol (lib_id "Daxxn_IC:KSZ9021RN") (at 215.9 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 572ec672-f970-49e7-b7ef-e7da6b8816a8)
-    (property "Reference" "U24" (at 215.9 106.68 0)
+    (property "Reference" "U13" (at 215.9 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "KSZ9021RN" (at 215.9 109.22 0)
@@ -8900,7 +8952,48 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "U24") (unit 1)
+          (reference "U13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Daxxn_Device:R") (at 110.49 25.4 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp yes)
+    (uuid 5784ae68-0ce9-463a-8435-76f69c90f185)
+    (property "Reference" "R23" (at 111.76 24.13 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0" (at 111.76 26.67 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 110.49 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 110.49 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Schematic" "" (at 110.49 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PartNumber" "" (at 110.49 25.4 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "SupplierPN" "" (at 110.49 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b00be8b9-85c6-4bd3-b51b-b04d291509c6))
+    (pin "2" (uuid cf7c7b77-909c-428d-a87b-e23c3f391b83))
+    (instances
+      (project "BenchyMotherBoard-PCB"
+        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/5a60e409-cd34-40bd-9930-c962240b0232"
+          (reference "R23") (unit 1)
+        )
+        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/d03937b9-15f2-4968-8837-3388203115e5"
+          (reference "R86") (unit 1)
+        )
+        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
+          (reference "R240") (unit 1)
         )
       )
     )
@@ -8938,7 +9031,7 @@
           (reference "FB10") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "FB13") (unit 1)
+          (reference "FB22") (unit 1)
         )
       )
     )
@@ -8982,7 +9075,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R218") (unit 1)
+          (reference "R264") (unit 1)
         )
       )
     )
@@ -9026,7 +9119,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R226") (unit 1)
+          (reference "R251") (unit 1)
         )
       )
     )
@@ -9070,7 +9163,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R224") (unit 1)
+          (reference "R267") (unit 1)
         )
       )
     )
@@ -9114,7 +9207,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R215") (unit 1)
+          (reference "R261") (unit 1)
         )
       )
     )
@@ -9148,7 +9241,7 @@
           (reference "#PWR0306") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0387") (unit 1)
+          (reference "#PWR0436") (unit 1)
         )
       )
     )
@@ -9192,7 +9285,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R223") (unit 1)
+          (reference "R245") (unit 1)
         )
       )
     )
@@ -9236,7 +9329,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R237") (unit 1)
+          (reference "R250") (unit 1)
         )
       )
     )
@@ -9280,7 +9373,7 @@
           (reference "C285") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "C383") (unit 1)
+          (reference "C421") (unit 1)
         )
       )
     )
@@ -9324,7 +9417,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R262") (unit 1)
+          (reference "R271") (unit 1)
         )
       )
     )
@@ -9358,7 +9451,7 @@
           (reference "#PWR0306") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0382") (unit 1)
+          (reference "#PWR0431") (unit 1)
         )
       )
     )
@@ -9402,7 +9495,7 @@
           (reference "C285") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "C300") (unit 1)
+          (reference "C426") (unit 1)
         )
       )
     )
@@ -9446,7 +9539,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R185") (unit 1)
+          (reference "R277") (unit 1)
         )
       )
     )
@@ -9474,7 +9567,7 @@
           (reference "#PWR0304") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0319") (unit 1)
+          (reference "#PWR0435") (unit 1)
         )
       )
     )
@@ -9508,7 +9601,7 @@
           (reference "#PWR0306") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0325") (unit 1)
+          (reference "#PWR0448") (unit 1)
         )
       )
     )
@@ -9552,7 +9645,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R227") (unit 1)
+          (reference "R252") (unit 1)
         )
       )
     )
@@ -9596,7 +9689,7 @@
           (reference "C285") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "C301") (unit 1)
+          (reference "C418") (unit 1)
         )
       )
     )
@@ -9630,7 +9723,7 @@
           (reference "#PWR0306") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0342") (unit 1)
+          (reference "#PWR0450") (unit 1)
         )
       )
     )
@@ -9664,7 +9757,7 @@
           (reference "#PWR0306") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0357") (unit 1)
+          (reference "#PWR0449") (unit 1)
         )
       )
     )
@@ -10008,36 +10101,36 @@
     (pin "D14" (uuid a5d9a009-1678-4e5a-8250-9f725e592981))
     (pin "E14" (uuid 94d76578-7c0d-4268-a0f8-d75c6ca69606))
     (pin "E15" (uuid f38581a3-e36e-444c-a27e-648c455c9b1e))
-    (pin "K22" (uuid 5da2d155-fe1d-4e18-85d0-08b7ac670000))
-    (pin "K24" (uuid 6ae81fdd-ee70-43f8-9c10-52f7214458b5))
+    (pin "K22" (uuid 5da2d155-fe1d-4e18-85d0-08b7ac670000) (alternate "GPIO0-43"))
+    (pin "K24" (uuid 6ae81fdd-ee70-43f8-9c10-52f7214458b5) (alternate "GPIO0-44"))
     (pin "K25" (uuid 9ce3f228-c0d9-424e-b08d-d66abeddc2ad))
-    (pin "L21" (uuid 5ebc1395-f0da-48c4-85bd-28001ff315a9))
+    (pin "L21" (uuid 5ebc1395-f0da-48c4-85bd-28001ff315a9) (alternate "GPIO0-42"))
     (pin "L23" (uuid f807886d-eada-4de5-8365-710505fb0d58))
     (pin "L24" (uuid 962482bf-fb8f-413d-85c4-97b80ac08876))
     (pin "L25" (uuid 89d51508-fcca-4c5e-bb7a-769c8a45026e))
-    (pin "M21" (uuid 69c60ef5-cf39-4b14-90cd-36790a6222a9))
+    (pin "M21" (uuid 69c60ef5-cf39-4b14-90cd-36790a6222a9) (alternate "GPIO0-41"))
     (pin "M22" (uuid 5bc4f0b0-cbea-4358-9db3-2e935f75c16d))
-    (pin "M24" (uuid caa8ce6e-8f5a-4c4e-aedf-38f615236cec))
-    (pin "M25" (uuid a74f5fc4-5bb2-4a07-b74a-d92a32be5538) (alternate "TRC-CLK"))
+    (pin "M24" (uuid caa8ce6e-8f5a-4c4e-aedf-38f615236cec) (alternate "GPIO0-35"))
+    (pin "M25" (uuid a74f5fc4-5bb2-4a07-b74a-d92a32be5538) (alternate "GPIO0-15"))
     (pin "N20" (uuid cabac10e-9fad-43c0-9dc5-811365e83024))
-    (pin "N23" (uuid 9107cf58-7dad-4d50-8ea3-45ef73bd6b9f) (alternate "TRC-CTL"))
-    (pin "N24" (uuid d8de8c7f-eb2c-4cf4-80dc-1d897cc1b63d) (alternate "TRC-DATA0"))
-    (pin "N25" (uuid 2aa3bbca-f822-4669-887f-3bdd88db86cd) (alternate "TRC-DATA1"))
-    (pin "P21" (uuid 01a9f80e-e932-45b3-9808-65b17001caae) (alternate "TRC-DATA4"))
-    (pin "P22" (uuid 8a508a1d-6780-4c9e-8533-902b47ba28c4) (alternate "TRC-DATA3"))
-    (pin "P24" (uuid a8203dbd-debb-4cca-a2e8-5f291362dce8) (alternate "TRC-DATA2"))
+    (pin "N23" (uuid 9107cf58-7dad-4d50-8ea3-45ef73bd6b9f) (alternate "GPIO0-16"))
+    (pin "N24" (uuid d8de8c7f-eb2c-4cf4-80dc-1d897cc1b63d) (alternate "GPIO0-17"))
+    (pin "N25" (uuid 2aa3bbca-f822-4669-887f-3bdd88db86cd) (alternate "GPIO0-18"))
+    (pin "P21" (uuid 01a9f80e-e932-45b3-9808-65b17001caae) (alternate "GPIO0-21"))
+    (pin "P22" (uuid 8a508a1d-6780-4c9e-8533-902b47ba28c4) (alternate "GPIO0-20"))
+    (pin "P24" (uuid a8203dbd-debb-4cca-a2e8-5f291362dce8) (alternate "GPIO0-19"))
     (pin "P25" (uuid cca2dd69-9734-480b-a2fb-85ea9437c303))
-    (pin "R21" (uuid 5eb3f380-5ca1-415e-aad0-5be1252889e5))
-    (pin "R23" (uuid 310f91fe-715c-4302-9549-5338bfbb7796) (alternate "TRC-DATA5"))
-    (pin "R24" (uuid b534cf16-afca-4017-8cbf-f3155cb0e519))
-    (pin "R25" (uuid db693879-3bb0-47e8-9d8c-ff3df74b009a))
-    (pin "T22" (uuid 6cb76512-2c78-467b-b0ae-3286132bcb55))
-    (pin "T24" (uuid 273aa43c-b139-4299-9c14-62241d87b530))
-    (pin "T25" (uuid 5d03f1cd-7c38-413b-ac06-dfd6fd2f1a30))
-    (pin "U23" (uuid 977dcbb2-807c-45d6-82f4-2d679d15b3ac))
-    (pin "U24" (uuid f9142c31-8091-4c65-80e3-5f89f732f134))
-    (pin "U25" (uuid 319983d7-0cfe-4b46-ae44-73ffaee6ecac))
-    (pin "V25" (uuid 406bc78a-81b9-4643-872a-0ded743d0a8c))
+    (pin "R21" (uuid 5eb3f380-5ca1-415e-aad0-5be1252889e5) (alternate "VOUT0-DATA19"))
+    (pin "R23" (uuid 310f91fe-715c-4302-9549-5338bfbb7796) (alternate "GPIO0-22"))
+    (pin "R24" (uuid b534cf16-afca-4017-8cbf-f3155cb0e519) (alternate "VOUT0-DATA16"))
+    (pin "R25" (uuid db693879-3bb0-47e8-9d8c-ff3df74b009a) (alternate "VOUT0-DATA17"))
+    (pin "T22" (uuid 6cb76512-2c78-467b-b0ae-3286132bcb55) (alternate "VOUT0-DATA20"))
+    (pin "T24" (uuid 273aa43c-b139-4299-9c14-62241d87b530) (alternate "VOUT0-DATA21"))
+    (pin "T25" (uuid 5d03f1cd-7c38-413b-ac06-dfd6fd2f1a30) (alternate "VOUT0-DATA18"))
+    (pin "U23" (uuid 977dcbb2-807c-45d6-82f4-2d679d15b3ac) (alternate "GPIO0-37"))
+    (pin "U24" (uuid f9142c31-8091-4c65-80e3-5f89f732f134) (alternate "VOUT0-DATA23"))
+    (pin "U25" (uuid 319983d7-0cfe-4b46-ae44-73ffaee6ecac) (alternate "VOUT0-DATA22"))
+    (pin "V25" (uuid 406bc78a-81b9-4643-872a-0ded743d0a8c) (alternate "GPIO0-38"))
     (pin "A21" (uuid 247b0630-bad0-4d16-b49c-550137ff4776))
     (pin "A22" (uuid 80bae361-d1bb-4ca9-8200-168079caaf82))
     (pin "A23" (uuid 34c9dfea-eb98-467d-ab6f-42ef49eb8db4))
@@ -10125,7 +10218,7 @@
           (reference "U4") (unit 6)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "U4") (unit 6)
+          (reference "U1") (unit 6)
         )
       )
     )
@@ -10169,7 +10262,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R210") (unit 1)
+          (reference "R269") (unit 1)
         )
       )
     )
@@ -10213,7 +10306,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R211") (unit 1)
+          (reference "R249") (unit 1)
         )
       )
     )
@@ -10222,7 +10315,7 @@
   (symbol (lib_id "Daxxn_IC:KSZ9021RN") (at 266.7 241.3 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4bee2c0-2112-460c-8cb4-281cfbb909d0)
-    (property "Reference" "U24" (at 266.7 237.49 0)
+    (property "Reference" "U13" (at 266.7 237.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "KSZ9021RN" (at 266.7 240.03 0)
@@ -10295,7 +10388,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "U24") (unit 2)
+          (reference "U13") (unit 2)
         )
       )
     )
@@ -10339,7 +10432,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R205") (unit 1)
+          (reference "R280") (unit 1)
         )
       )
     )
@@ -10377,7 +10470,7 @@
           (reference "FB10") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "FB14") (unit 1)
+          (reference "FB21") (unit 1)
         )
       )
     )
@@ -10421,7 +10514,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R225") (unit 1)
+          (reference "R268") (unit 1)
         )
       )
     )
@@ -10430,7 +10523,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 261.62 267.97 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aaa4d71d-a794-4320-9533-028eddf7f9d5)
-    (property "Reference" "TP16" (at 258.318 266.192 90)
+    (property "Reference" "TP17" (at 258.318 266.192 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TP-ETH2-CLK" (at 261.62 270.002 90)
@@ -10446,7 +10539,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "TP16") (unit 1)
+          (reference "TP17") (unit 1)
         )
       )
     )
@@ -10455,7 +10548,7 @@
   (symbol (lib_id "Daxxn_IC:KSZ9021RN") (at 215.9 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aaf71fa4-479a-409f-8f93-b3f4fdf666d3)
-    (property "Reference" "U23" (at 215.9 21.59 0)
+    (property "Reference" "U9" (at 215.9 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "KSZ9021RN" (at 215.9 24.13 0)
@@ -10528,7 +10621,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "U23") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -10572,7 +10665,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R216") (unit 1)
+          (reference "R262") (unit 1)
         )
       )
     )
@@ -10600,7 +10693,7 @@
           (reference "#PWR0304") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0390") (unit 1)
+          (reference "#PWR0425") (unit 1)
         )
       )
     )
@@ -10644,7 +10737,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R217") (unit 1)
+          (reference "R263") (unit 1)
         )
       )
     )
@@ -10688,7 +10781,7 @@
           (reference "C285") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "C299") (unit 1)
+          (reference "C425") (unit 1)
         )
       )
     )
@@ -10722,7 +10815,7 @@
           (reference "#PWR0306") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0185") (unit 1)
+          (reference "#PWR0430") (unit 1)
         )
       )
     )
@@ -10756,7 +10849,7 @@
           (reference "#PWR0317") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0324") (unit 1)
+          (reference "#PWR0446") (unit 1)
         )
       )
     )
@@ -10800,7 +10893,7 @@
           (reference "C285") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "C380") (unit 1)
+          (reference "C427") (unit 1)
         )
       )
     )
@@ -10844,7 +10937,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R263") (unit 1)
+          (reference "R272") (unit 1)
         )
       )
     )
@@ -10888,7 +10981,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R206") (unit 1)
+          (reference "R274") (unit 1)
         )
       )
     )
@@ -10929,7 +11022,7 @@
           (reference "R86") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R183") (unit 1)
+          (reference "R242") (unit 1)
         )
       )
     )
@@ -10973,7 +11066,7 @@
           (reference "C285") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "C288") (unit 1)
+          (reference "C429") (unit 1)
         )
       )
     )
@@ -11017,7 +11110,7 @@
           (reference "C285") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "C302") (unit 1)
+          (reference "C419") (unit 1)
         )
       )
     )
@@ -11051,7 +11144,7 @@
           (reference "#PWR0306") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0354") (unit 1)
+          (reference "#PWR0437") (unit 1)
         )
       )
     )
@@ -11087,7 +11180,7 @@
           (reference "U36") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "U41") (unit 1)
+          (reference "U50") (unit 1)
         )
       )
     )
@@ -11121,7 +11214,7 @@
           (reference "#PWR0317") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0321") (unit 1)
+          (reference "#PWR0445") (unit 1)
         )
       )
     )
@@ -11149,7 +11242,7 @@
           (reference "#PWR0304") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0388") (unit 1)
+          (reference "#PWR0434") (unit 1)
         )
       )
     )
@@ -11190,7 +11283,7 @@
           (reference "R86") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R202") (unit 1)
+          (reference "R241") (unit 1)
         )
       )
     )
@@ -11199,7 +11292,7 @@
   (symbol (lib_id "Daxxn_Power:SHIELD") (at 365.76 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e240d805-4acc-40c6-bc04-97c2697006be)
-    (property "Reference" "#PWR0383" (at 365.76 91.44 0)
+    (property "Reference" "#PWR0432" (at 365.76 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "SHIELD" (at 365.76 88.9 0)
@@ -11215,7 +11308,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0383") (unit 1)
+          (reference "#PWR0432") (unit 1)
         )
       )
     )
@@ -11259,7 +11352,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R261") (unit 1)
+          (reference "R258") (unit 1)
         )
       )
     )
@@ -11303,7 +11396,7 @@
           (reference "C285") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "C297") (unit 1)
+          (reference "C423") (unit 1)
         )
       )
     )
@@ -11312,7 +11405,7 @@
   (symbol (lib_id "Daxxn_Connectors:RJ45-DUAL-TRANS-VD") (at 330.2 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3473746-39c0-4c19-8704-671abc3dcb64)
-    (property "Reference" "U45" (at 330.2 20.32 0)
+    (property "Reference" "U49" (at 330.2 20.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RJ45" (at 330.2 22.86 0)
@@ -11369,7 +11462,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "U45") (unit 1)
+          (reference "U49") (unit 1)
         )
       )
     )
@@ -11403,7 +11496,7 @@
           (reference "#PWR0306") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR0389") (unit 1)
+          (reference "#PWR0428") (unit 1)
         )
       )
     )
@@ -11447,7 +11540,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R187") (unit 1)
+          (reference "R278") (unit 1)
         )
       )
     )
@@ -11488,7 +11581,48 @@
           (reference "R86") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R228") (unit 1)
+          (reference "R244") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Daxxn_Device:R") (at 35.56 25.4 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp yes)
+    (uuid f1b44246-2a05-4a5a-b415-04027583780e)
+    (property "Reference" "R23" (at 34.29 24.13 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0" (at 34.29 26.67 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 35.56 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 35.56 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Schematic" "" (at 35.56 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PartNumber" "" (at 35.56 25.4 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "SupplierPN" "" (at 35.56 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b5de6e8f-c540-4c36-a9f8-39ee8d1e8fa8))
+    (pin "2" (uuid 319ce575-557c-4b90-b8e1-791d74eef3b1))
+    (instances
+      (project "BenchyMotherBoard-PCB"
+        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/5a60e409-cd34-40bd-9930-c962240b0232"
+          (reference "R23") (unit 1)
+        )
+        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/d03937b9-15f2-4968-8837-3388203115e5"
+          (reference "R86") (unit 1)
+        )
+        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
+          (reference "R239") (unit 1)
         )
       )
     )
@@ -11529,7 +11663,7 @@
           (reference "R86") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R214") (unit 1)
+          (reference "R260") (unit 1)
         )
       )
     )
@@ -11573,7 +11707,7 @@
           (reference "R168") (unit 1)
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "R220") (unit 1)
+          (reference "R270") (unit 1)
         )
       )
     )
@@ -11582,7 +11716,7 @@
   (symbol (lib_id "Daxxn_Connectors:RJ45-DUAL-TRANS-VD") (at 330.2 109.22 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff1e5d20-34ba-4bf3-b91b-f3d95fca06c4)
-    (property "Reference" "U45" (at 330.2 105.41 0)
+    (property "Reference" "U49" (at 330.2 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RJ45" (at 330.2 107.95 0)
@@ -11639,7 +11773,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "U45") (unit 2)
+          (reference "U49") (unit 2)
         )
       )
     )
@@ -11648,7 +11782,7 @@
   (symbol (lib_id "Daxxn_Power:SHIELD") (at 365.76 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffc2d0db-07f6-450a-a68e-71937db4b9ec)
-    (property "Reference" "#PWR075" (at 365.76 176.53 0)
+    (property "Reference" "#PWR0440" (at 365.76 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "SHIELD" (at 365.76 173.99 0)
@@ -11664,7 +11798,7 @@
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/3f394e38-756b-4eaa-ba31-47b873a984c7"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR0440") (unit 1)
         )
       )
     )

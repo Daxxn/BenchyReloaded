@@ -3979,7 +3979,7 @@
           (number "H20" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08)
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "H8" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -20.32 0) (length 5.08)
@@ -3987,7 +3987,7 @@
           (number "H9" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "J11" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -52.07 0) (length 5.08)
@@ -3999,7 +3999,7 @@
           (number "J13" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "J14" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -33.02 0) (length 5.08)
@@ -4031,7 +4031,7 @@
           (number "K16" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "K17" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -105.41 0) (length 5.08)
@@ -4055,7 +4055,7 @@
           (number "L11" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "L12" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -64.77 0) (length 5.08)
@@ -4063,7 +4063,7 @@
           (number "L14" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "L15" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -27.94 0) (length 5.08) hide
@@ -4091,7 +4091,7 @@
           (number "M13" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "M16" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -130.81 0) (length 5.08) hide
@@ -4119,7 +4119,7 @@
           (number "M9" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "N11" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -52.07 0) (length 5.08) hide
@@ -4127,7 +4127,7 @@
           (number "N12" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "N13" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -52.07 0) (length 5.08) hide
@@ -4143,7 +4143,7 @@
           (number "N18" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "N8" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -130.81 0) (length 5.08) hide
@@ -4159,7 +4159,7 @@
           (number "P16" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "P17" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -17.78 0) (length 5.08) hide
@@ -4179,7 +4179,7 @@
           (number "P9" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "R11" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -52.07 0) (length 5.08) hide
@@ -4191,7 +4191,7 @@
           (number "R13" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "R14" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -130.81 0) (length 5.08) hide
@@ -4259,7 +4259,7 @@
           (number "U11" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "U12" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -52.07 0) (length 5.08) hide
@@ -4303,7 +4303,7 @@
           (number "V13" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "V15" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -130.81 0) (length 5.08) hide
@@ -4311,7 +4311,7 @@
           (number "V16" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "V17" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -130.81 0) (length 5.08) hide
@@ -4319,7 +4319,7 @@
           (number "V18" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "V8" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -130.81 0) (length 5.08) hide
@@ -11548,10 +11548,19 @@
     (property "Value" "1uF" (at 324.866 213.868 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 325.12 212.09 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 325.12 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 325.12 212.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Schematic" "" (at 325.12 212.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PartNumber" "" (at 325.12 212.09 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "SupplierPN" "" (at 325.12 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 00f3033c-f48e-47cc-9a13-8c2c6c9cf3d0))
@@ -13512,10 +13521,19 @@
     (property "Value" "1uF" (at 333.756 152.908 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 334.01 151.13 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 334.01 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 334.01 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Schematic" "" (at 334.01 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PartNumber" "" (at 334.01 151.13 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "SupplierPN" "" (at 334.01 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1318fd48-a48b-4a3c-a881-f5eb2d9f2bd9))

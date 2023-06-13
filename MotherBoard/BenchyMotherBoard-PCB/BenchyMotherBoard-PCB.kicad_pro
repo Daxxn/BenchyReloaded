@@ -275,6 +275,14 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.25,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.15
+        },
+        {
           "diameter": 0.46,
           "drill": 0.2
         }
@@ -642,7 +650,20 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "GND": "rgb(107, 107, 107)",
+      "SOC-VDD": "rgb(255, 143, 2)",
+      "SOC-VDD-CORE": "rgb(234, 206, 4)",
+      "SOC-VDD-DDR": "rgb(120, 212, 0)",
+      "SOC-VDD-MMC": "rgb(217, 69, 0)",
+      "SOC-VDDA": "rgb(78, 182, 236)",
+      "VDD": "rgb(221, 124, 2)",
+      "VDD-CORE": "rgb(187, 164, 3)",
+      "VDD-DDR": "rgb(100, 177, 0)",
+      "VDD-ETH": "rgb(255, 30, 0)",
+      "VDD-MMC": "rgb(100, 255, 188)",
+      "VDDA": "rgb(71, 166, 215)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {

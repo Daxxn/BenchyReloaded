@@ -1010,7 +1010,7 @@
           (number "H20" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08)
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "H8" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -20.32 0) (length 5.08)
@@ -1018,7 +1018,7 @@
           (number "H9" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "J11" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -52.07 0) (length 5.08)
@@ -1030,7 +1030,7 @@
           (number "J13" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "J14" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -33.02 0) (length 5.08)
@@ -1062,7 +1062,7 @@
           (number "K16" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "K17" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -105.41 0) (length 5.08)
@@ -1086,7 +1086,7 @@
           (number "L11" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "L12" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -64.77 0) (length 5.08)
@@ -1094,7 +1094,7 @@
           (number "L14" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "L15" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -27.94 0) (length 5.08) hide
@@ -1122,7 +1122,7 @@
           (number "M13" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "M16" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -130.81 0) (length 5.08) hide
@@ -1150,7 +1150,7 @@
           (number "M9" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "N11" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -52.07 0) (length 5.08) hide
@@ -1158,7 +1158,7 @@
           (number "N12" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "N13" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -52.07 0) (length 5.08) hide
@@ -1174,7 +1174,7 @@
           (number "N18" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "N8" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -130.81 0) (length 5.08) hide
@@ -1190,7 +1190,7 @@
           (number "P16" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "P17" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -17.78 0) (length 5.08) hide
@@ -1210,7 +1210,7 @@
           (number "P9" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "R11" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -52.07 0) (length 5.08) hide
@@ -1222,7 +1222,7 @@
           (number "R13" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "R14" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -130.81 0) (length 5.08) hide
@@ -1290,7 +1290,7 @@
           (number "U11" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "U12" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -52.07 0) (length 5.08) hide
@@ -1334,7 +1334,7 @@
           (number "V13" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "V15" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -130.81 0) (length 5.08) hide
@@ -1342,7 +1342,7 @@
           (number "V16" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "V17" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -130.81 0) (length 5.08) hide
@@ -1350,7 +1350,7 @@
           (number "V18" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "V8" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -130.81 0) (length 5.08) hide
@@ -3940,11 +3940,17 @@
     )
   )
 
+  (junction (at 105.41 173.99) (diameter 0) (color 0 0 0 0)
+    (uuid 00829c4b-51ce-48f2-857f-93a9915bca79)
+  )
   (junction (at 240.03 151.13) (diameter 0) (color 0 0 0 0)
     (uuid 0099fcd6-cc01-4a4c-9f08-92a0129b7277)
   )
   (junction (at 85.09 179.07) (diameter 0) (color 0 0 0 0)
     (uuid 0684a451-4ed5-4c38-af56-7c63afe54abb)
+  )
+  (junction (at 119.38 173.99) (diameter 0) (color 0 0 0 0)
+    (uuid 0784bba7-1bd6-4801-8ac7-d7200746d1dc)
   )
   (junction (at 259.08 158.75) (diameter 0) (color 0 0 0 0)
     (uuid 07c233f8-f98e-478f-9082-3dfce123d5db)
@@ -4212,7 +4218,7 @@
     (stroke (width 0) (type default))
     (uuid 14c37517-1f9c-4f54-a386-e20afa848203)
   )
-  (wire (pts (xy 171.45 182.88) (xy 171.45 177.8))
+  (wire (pts (xy 171.45 173.99) (xy 171.45 182.88))
     (stroke (width 0) (type default))
     (uuid 15c93860-d4fd-42ed-ab60-1d3cfb4a9f53)
   )
@@ -4344,6 +4350,10 @@
     (stroke (width 0) (type default))
     (uuid 3b30701e-6bf8-4b38-89a3-3ec1c73d0975)
   )
+  (wire (pts (xy 119.38 173.99) (xy 119.38 176.53))
+    (stroke (width 0) (type default))
+    (uuid 3c8248ff-3842-4dab-831c-de59c68f3b8e)
+  )
   (wire (pts (xy 214.63 158.75) (xy 208.28 158.75))
     (stroke (width 0) (type default))
     (uuid 3e228e7e-dea6-456e-9100-4256a1e3fcd0)
@@ -4407,6 +4417,10 @@
   (wire (pts (xy 41.91 175.26) (xy 35.56 175.26))
     (stroke (width 0) (type default))
     (uuid 4ed9a34e-8d8a-492d-8399-1ba0bf8e48a9)
+  )
+  (wire (pts (xy 135.89 176.53) (xy 135.89 173.99))
+    (stroke (width 0) (type default))
+    (uuid 4fef922d-08fc-4d4c-b7ac-91eb6c507571)
   )
   (wire (pts (xy 227.33 151.13) (xy 233.68 151.13))
     (stroke (width 0) (type default))
@@ -4484,7 +4498,7 @@
     (stroke (width 0) (type default))
     (uuid 619d0ee1-ab6a-4812-97fd-4f2247f55bd9)
   )
-  (wire (pts (xy 31.75 173.99) (xy 31.75 175.26))
+  (wire (pts (xy 31.75 172.72) (xy 31.75 175.26))
     (stroke (width 0) (type default))
     (uuid 61e8ab5a-25d5-4cfc-aad2-c90ee6bc30d2)
   )
@@ -4680,7 +4694,7 @@
     (stroke (width 0) (type default))
     (uuid 930a1403-a2ba-4143-b672-545a590e6e33)
   )
-  (wire (pts (xy 200.66 34.29) (xy 200.66 36.83))
+  (wire (pts (xy 200.66 25.4) (xy 200.66 36.83))
     (stroke (width 0) (type default))
     (uuid 934cf409-bd99-4114-bc27-4e45c09c0d92)
   )
@@ -4692,7 +4706,7 @@
     (stroke (width 0) (type default))
     (uuid 94307087-4594-4c8d-a9e1-93a7aeb19f4a)
   )
-  (wire (pts (xy 278.13 151.13) (xy 278.13 149.86))
+  (wire (pts (xy 278.13 148.59) (xy 278.13 151.13))
     (stroke (width 0) (type default))
     (uuid 94786744-04bb-4f8d-8f72-ebb9853ac934)
   )
@@ -4739,6 +4753,10 @@
   (wire (pts (xy 106.68 69.85) (xy 124.46 69.85))
     (stroke (width 0) (type default))
     (uuid a06ee2c9-81d3-4181-8e9b-2e2750c134db)
+  )
+  (wire (pts (xy 119.38 173.99) (xy 135.89 173.99))
+    (stroke (width 0) (type default))
+    (uuid a1c4cc11-f297-4db4-935c-5a2a7db48cb6)
   )
   (wire (pts (xy 31.75 182.88) (xy 19.05 182.88))
     (stroke (width 0) (type default))
@@ -4875,6 +4893,10 @@
   (wire (pts (xy 265.43 151.13) (xy 271.78 151.13))
     (stroke (width 0) (type default))
     (uuid c1b778bf-e025-424a-9fce-09653b68b675)
+  )
+  (wire (pts (xy 105.41 171.45) (xy 105.41 173.99))
+    (stroke (width 0) (type default))
+    (uuid c224d021-40fa-41a6-86b2-cf8988cfbedb)
   )
   (wire (pts (xy 161.29 111.76) (xy 179.07 111.76))
     (stroke (width 0) (type default))
@@ -5044,6 +5066,10 @@
     (stroke (width 0) (type default))
     (uuid e7bbcb17-09d5-4544-91a4-9d38c323b24c)
   )
+  (wire (pts (xy 105.41 173.99) (xy 119.38 173.99))
+    (stroke (width 0) (type default))
+    (uuid e9abfad4-7ee5-4bcd-9dfc-433330799f42)
+  )
   (wire (pts (xy 222.25 106.68) (xy 240.03 106.68))
     (stroke (width 0) (type default))
     (uuid ead29e71-7de3-4f9d-ac3f-a77d3f7ffe59)
@@ -5091,6 +5117,10 @@
   (wire (pts (xy 214.63 151.13) (xy 220.98 151.13))
     (stroke (width 0) (type default))
     (uuid f8d3e4d5-e855-4bb3-9d7e-1d19ebd5b087)
+  )
+  (wire (pts (xy 105.41 176.53) (xy 105.41 173.99))
+    (stroke (width 0) (type default))
+    (uuid f960bd77-002b-4c2b-b4f7-8bc7d4396524)
   )
   (wire (pts (xy 233.68 151.13) (xy 240.03 151.13))
     (stroke (width 0) (type default))
@@ -5645,6 +5675,31 @@
     )
   )
 
+  (symbol (lib_id "Daxxn_Power:VDD-DDR") (at 171.45 173.99 0) (unit 1)
+    (in_bom no) (on_board no) (dnp no)
+    (uuid 16b2caff-1bcd-4f8d-91a1-9bddacb75889)
+    (property "Reference" "#PWR0483" (at 175.26 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD-DDR" (at 171.45 170.18 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 171.45 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 171.45 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 563189b8-b9cc-44d5-b089-42a5191edb1d))
+    (instances
+      (project "BenchyMotherBoard-PCB"
+        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/5a60e409-cd34-40bd-9930-c962240b0232"
+          (reference "#PWR0483") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 278.13 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19228a56-0f0d-478b-8355-908d286f49c5)
@@ -6158,51 +6213,26 @@
     )
   )
 
-  (symbol (lib_id "Daxxn_Power:VDD-DDR") (at 105.41 176.53 0) (unit 1)
+  (symbol (lib_id "Daxxn_Power:VDD-DDR") (at 200.66 25.4 0) (unit 1)
     (in_bom no) (on_board no) (dnp no)
-    (uuid 540fa3a6-d26d-48c6-9c7f-57d7a93120de)
-    (property "Reference" "#PWR0179" (at 109.22 176.53 0)
+    (uuid 5584c8fb-f3be-4cfe-843d-5c16da220076)
+    (property "Reference" "#PWR0180" (at 204.47 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VDD-DDR" (at 105.41 172.974 0)
+    (property "Value" "VDD-DDR" (at 200.66 21.59 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 105.41 176.53 0)
+    (property "Footprint" "" (at 200.66 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 105.41 176.53 0)
+    (property "Datasheet" "" (at 200.66 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1a9d75c2-eb3c-4321-a5d0-a925aeb2ec92))
+    (pin "1" (uuid 973c1d3e-e4e8-4789-9431-a584828a7058))
     (instances
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/5a60e409-cd34-40bd-9930-c962240b0232"
-          (reference "#PWR0179") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Daxxn_Power:VDD-DDR") (at 200.66 34.29 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
-    (uuid 552c985c-2b77-45e2-8098-78bfffbdb21a)
-    (property "Reference" "#PWR0171" (at 204.47 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDD-DDR" (at 200.66 30.734 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 200.66 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 200.66 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6e3b24a1-b4b1-40f4-857c-56a1d1632ab0))
-    (instances
-      (project "BenchyMotherBoard-PCB"
-        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/5a60e409-cd34-40bd-9930-c962240b0232"
-          (reference "#PWR0171") (unit 1)
+          (reference "#PWR0180") (unit 1)
         )
       )
     )
@@ -6446,31 +6476,6 @@
     )
   )
 
-  (symbol (lib_id "Daxxn_Power:VDD-DDR") (at 119.38 176.53 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
-    (uuid 748349c9-037a-45cb-9341-5c5792746cdf)
-    (property "Reference" "#PWR0180" (at 123.19 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDD-DDR" (at 119.38 172.974 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 119.38 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 119.38 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 056d3c08-4596-4632-9037-e4706bdb3f1f))
-    (instances
-      (project "BenchyMotherBoard-PCB"
-        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/5a60e409-cd34-40bd-9930-c962240b0232"
-          (reference "#PWR0180") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Daxxn_Device:R") (at 31.75 179.07 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76db53f5-8330-4c84-b2d1-de884f15c702)
@@ -6536,6 +6541,31 @@
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/5a60e409-cd34-40bd-9930-c962240b0232"
           (reference "C306") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Daxxn_Power:VDD-DDR") (at 105.41 171.45 0) (unit 1)
+    (in_bom no) (on_board no) (dnp no)
+    (uuid 7ca085d1-7bad-410c-94c9-d056e26a4ff4)
+    (property "Reference" "#PWR0183" (at 109.22 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD-DDR" (at 105.41 167.64 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 105.41 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 105.41 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7d7c0e4c-b94d-480c-b8e9-98f4f8e69fd5))
+    (instances
+      (project "BenchyMotherBoard-PCB"
+        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/5a60e409-cd34-40bd-9930-c962240b0232"
+          (reference "#PWR0183") (unit 1)
         )
       )
     )
@@ -6716,31 +6746,6 @@
     )
   )
 
-  (symbol (lib_id "Daxxn_Power:VDD-DDR") (at 171.45 177.8 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
-    (uuid 8f8f4158-e7ea-414c-9904-abe40d8d91e3)
-    (property "Reference" "#PWR0183" (at 175.26 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDD-DDR" (at 171.45 174.244 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 171.45 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 171.45 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f2a71b23-3316-4caa-86d1-deed16adf73c))
-    (instances
-      (project "BenchyMotherBoard-PCB"
-        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/5a60e409-cd34-40bd-9930-c962240b0232"
-          (reference "#PWR0183") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Daxxn_Device:C") (at 35.56 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9333f833-61ce-4f60-ac8d-b4ef961d71de)
@@ -6808,6 +6813,31 @@
         )
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/5a60e409-cd34-40bd-9930-c962240b0232"
           (reference "TP13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Daxxn_Power:VDD-DDR") (at 31.75 172.72 0) (unit 1)
+    (in_bom no) (on_board no) (dnp no)
+    (uuid 9ef2485e-6953-4e74-b9f3-c3b8cec22f21)
+    (property "Reference" "#PWR0484" (at 35.56 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD-DDR" (at 31.75 168.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 31.75 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 31.75 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e162b78a-2436-4ab0-abf8-3693b4ced6b3))
+    (instances
+      (project "BenchyMotherBoard-PCB"
+        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/5a60e409-cd34-40bd-9930-c962240b0232"
+          (reference "#PWR0484") (unit 1)
         )
       )
     )
@@ -7021,6 +7051,31 @@
     )
   )
 
+  (symbol (lib_id "Daxxn_Power:VDD-DDR") (at 278.13 148.59 0) (unit 1)
+    (in_bom no) (on_board no) (dnp no)
+    (uuid bcd64c4d-eed8-4946-a624-eb2a250f3ef7)
+    (property "Reference" "#PWR0181" (at 281.94 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD-DDR" (at 278.13 144.78 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 278.13 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 278.13 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c880a099-2fbd-45cb-b85d-abea526b7b84))
+    (instances
+      (project "BenchyMotherBoard-PCB"
+        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/5a60e409-cd34-40bd-9930-c962240b0232"
+          (reference "#PWR0181") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Daxxn_Device:C") (at 233.68 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf4d389f-cd94-49dc-9716-f329978fab60)
@@ -7051,31 +7106,6 @@
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/5a60e409-cd34-40bd-9930-c962240b0232"
           (reference "C297") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Daxxn_Power:VDD-DDR") (at 31.75 173.99 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
-    (uuid c233bdd6-f8fe-4f6f-8738-4be74bff01d5)
-    (property "Reference" "#PWR0178" (at 35.56 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDD-DDR" (at 31.75 170.434 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 31.75 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 31.75 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7844b4a6-3ad2-4ad8-ac30-86533a940c7a))
-    (instances
-      (project "BenchyMotherBoard-PCB"
-        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/5a60e409-cd34-40bd-9930-c962240b0232"
-          (reference "#PWR0178") (unit 1)
         )
       )
     )
@@ -7146,31 +7176,6 @@
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/5a60e409-cd34-40bd-9930-c962240b0232"
           (reference "C299") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Daxxn_Power:VDD-DDR") (at 135.89 176.53 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
-    (uuid cafbb332-c31d-4452-8d3e-15ecabad13b3)
-    (property "Reference" "#PWR0181" (at 139.7 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDD-DDR" (at 135.89 172.974 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 135.89 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 135.89 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ddbe2de0-fa23-4712-bb27-404b623f3ed5))
-    (instances
-      (project "BenchyMotherBoard-PCB"
-        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/5a60e409-cd34-40bd-9930-c962240b0232"
-          (reference "#PWR0181") (unit 1)
         )
       )
     )
@@ -7930,31 +7935,6 @@
       (project "BenchyMotherBoard-PCB"
         (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/5a60e409-cd34-40bd-9930-c962240b0232"
           (reference "R72") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Daxxn_Power:VDD-DDR") (at 278.13 149.86 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
-    (uuid eb78f513-082e-46ad-96e5-110ed2187827)
-    (property "Reference" "#PWR0176" (at 281.94 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDD-DDR" (at 278.13 146.304 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 278.13 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 278.13 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0833aff2-7b5e-4d97-aaf5-833ac8f006c0))
-    (instances
-      (project "BenchyMotherBoard-PCB"
-        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86/5a60e409-cd34-40bd-9930-c962240b0232"
-          (reference "#PWR0176") (unit 1)
         )
       )
     )

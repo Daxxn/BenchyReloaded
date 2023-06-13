@@ -2299,7 +2299,7 @@
           (number "H20" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08)
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "H8" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -20.32 0) (length 5.08)
@@ -2307,7 +2307,7 @@
           (number "H9" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "J11" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -52.07 0) (length 5.08)
@@ -2319,7 +2319,7 @@
           (number "J13" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "J14" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -33.02 0) (length 5.08)
@@ -2351,7 +2351,7 @@
           (number "K16" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "K17" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -105.41 0) (length 5.08)
@@ -2375,7 +2375,7 @@
           (number "L11" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "L12" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -64.77 0) (length 5.08)
@@ -2383,7 +2383,7 @@
           (number "L14" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "L15" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -27.94 0) (length 5.08) hide
@@ -2411,7 +2411,7 @@
           (number "M13" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "M16" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -130.81 0) (length 5.08) hide
@@ -2439,7 +2439,7 @@
           (number "M9" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "N11" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -52.07 0) (length 5.08) hide
@@ -2447,7 +2447,7 @@
           (number "N12" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "N13" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -52.07 0) (length 5.08) hide
@@ -2463,7 +2463,7 @@
           (number "N18" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "N8" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -130.81 0) (length 5.08) hide
@@ -2479,7 +2479,7 @@
           (number "P16" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "P17" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -17.78 0) (length 5.08) hide
@@ -2499,7 +2499,7 @@
           (number "P9" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "R11" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -52.07 0) (length 5.08) hide
@@ -2511,7 +2511,7 @@
           (number "R13" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "R14" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -130.81 0) (length 5.08) hide
@@ -2579,7 +2579,7 @@
           (number "U11" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "U12" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -52.07 0) (length 5.08) hide
@@ -2623,7 +2623,7 @@
           (number "V13" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "V15" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -130.81 0) (length 5.08) hide
@@ -2631,7 +2631,7 @@
           (number "V16" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "V17" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -130.81 0) (length 5.08) hide
@@ -2639,7 +2639,7 @@
           (number "V18" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -41.91 0) (length 5.08) hide
-          (name "VDD-CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE" (effects (font (size 1.27 1.27))))
           (number "V8" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -5.08 -130.81 0) (length 5.08) hide

@@ -66,7 +66,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.22
         }
       },
       "diff_pair_dimensions": [
@@ -273,6 +273,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.25,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.15
         },
         {
           "diameter": 0.46,
@@ -501,8 +509,34 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Daxxn_Thermal"
+    ],
+    "pinned_symbol_libs": [
+      "Daxxn_Audio",
+      "Daxxn_Buttons",
+      "Daxxn_Connectors",
+      "Daxxn_Device",
+      "Daxxn_Diodes",
+      "Daxxn_Displays",
+      "Daxxn_IC",
+      "Daxxn_LEDs",
+      "Daxxn_Logic",
+      "Daxxn_Logos",
+      "Daxxn_MicroControllers",
+      "Daxxn_MicroProcessors",
+      "Daxxn_OPAMP",
+      "Daxxn_Other",
+      "Daxxn_Power",
+      "Daxxn_Protection",
+      "Daxxn_Regulators",
+      "Daxxn_Relays",
+      "Daxxn_STMicros",
+      "Daxxn_Transistors",
+      "Daxxn_Sensors",
+      "Daxxn_TIMicros",
+      "Daxxn_Memory"
+    ]
   },
   "meta": {
     "filename": "BenchyMotherBoard-PCB.kicad_pro",
@@ -536,8 +570,8 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "DDR3-DP",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "DDR3-ADDR",
+        "pcb_color": "rgb(19, 181, 163)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.46,
@@ -553,8 +587,25 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "DDR3-INNER-DP",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "DDR3-CLK",
+        "pcb_color": "rgb(75, 186, 219)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.12,
+        "via_diameter": 0.46,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0889,
+        "diff_pair_gap": 0.13,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.12,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DDR3-CTRL",
+        "pcb_color": "rgb(69, 166, 129)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.46,
@@ -566,12 +617,12 @@
         "clearance": 0.0889,
         "diff_pair_gap": 0.11176,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.12192,
+        "diff_pair_width": 0.12,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "DDR3-SL",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "DDR3-DATA",
+        "pcb_color": "rgb(25, 239, 215)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.46,
@@ -616,62 +667,72 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "GND": "rgb(107, 107, 107)",
+      "SOC-VDD": "rgb(255, 143, 2)",
+      "SOC-VDD-CORE": "rgb(234, 206, 4)",
+      "SOC-VDD-DDR": "rgb(106, 187, 0)",
+      "SOC-VDD-MMC": "rgb(217, 69, 0)",
+      "SOC-VDDA": "rgb(78, 182, 236)",
+      "VDD": "rgb(221, 124, 2)",
+      "VDD-CORE": "rgb(187, 164, 3)",
+      "VDD-DDR": "rgb(87, 154, 0)",
+      "VDD-ETH": "rgb(255, 30, 0)",
+      "VDD-MMC": "rgb(100, 255, 188)",
+      "VDDA": "rgb(71, 166, 215)"
+    },
     "netclass_assignments": {
-      "/MEMORY/DDR-A0": "DDR3-SL",
-      "/MEMORY/DDR-A1": "DDR3-SL",
-      "/MEMORY/DDR-A10": "DDR3-SL",
-      "/MEMORY/DDR-A11": "DDR3-SL",
-      "/MEMORY/DDR-A12": "DDR3-SL",
-      "/MEMORY/DDR-A13": "DDR3-SL",
-      "/MEMORY/DDR-A14": "DDR3-SL",
-      "/MEMORY/DDR-A2": "DDR3-SL",
-      "/MEMORY/DDR-A3": "DDR3-SL",
-      "/MEMORY/DDR-A4": "DDR3-SL",
-      "/MEMORY/DDR-A5": "DDR3-SL",
-      "/MEMORY/DDR-A6": "DDR3-SL",
-      "/MEMORY/DDR-A7": "DDR3-SL",
-      "/MEMORY/DDR-A8": "DDR3-SL",
-      "/MEMORY/DDR-A9": "DDR3-SL",
-      "/MEMORY/DDR-BA0": "DDR3-SL",
-      "/MEMORY/DDR-BA1": "DDR3-SL",
-      "/MEMORY/DDR-BA2": "DDR3-SL",
-      "/MEMORY/DDR-CKE": "DDR3-SL",
-      "/MEMORY/DDR-CLK+": "DDR3-INNER-DP",
-      "/MEMORY/DDR-CLK-": "DDR3-INNER-DP",
-      "/MEMORY/DDR-DQ0": "DDR3-SL",
-      "/MEMORY/DDR-DQ1": "DDR3-SL",
-      "/MEMORY/DDR-DQ10": "DDR3-SL",
-      "/MEMORY/DDR-DQ11": "DDR3-SL",
-      "/MEMORY/DDR-DQ12": "DDR3-SL",
-      "/MEMORY/DDR-DQ13": "DDR3-SL",
-      "/MEMORY/DDR-DQ14": "DDR3-SL",
-      "/MEMORY/DDR-DQ15": "DDR3-SL",
-      "/MEMORY/DDR-DQ2": "DDR3-SL",
-      "/MEMORY/DDR-DQ3": "DDR3-SL",
-      "/MEMORY/DDR-DQ4": "DDR3-SL",
-      "/MEMORY/DDR-DQ5": "DDR3-SL",
-      "/MEMORY/DDR-DQ6": "DDR3-SL",
-      "/MEMORY/DDR-DQ7": "DDR3-SL",
-      "/MEMORY/DDR-DQ8": "DDR3-SL",
-      "/MEMORY/DDR-DQ9": "DDR3-SL",
-      "/MEMORY/DDR-DQML": "DDR3-SL",
-      "/MEMORY/DDR-DQMU": "DDR3-SL",
-      "/MEMORY/DDR-DQSL+": "DDR3-INNER-DP",
-      "/MEMORY/DDR-DQSL-": "DDR3-INNER-DP",
-      "/MEMORY/DDR-DQSU+": "DDR3-INNER-DP",
-      "/MEMORY/DDR-DQSU-": "DDR3-INNER-DP",
-      "/MEMORY/DDR-ODT": "DDR3-SL",
-      "/MEMORY/DDR-~{CAS}": "DDR3-SL",
-      "/MEMORY/DDR-~{CS}": "DDR3-SL",
-      "/MEMORY/DDR-~{RAS}": "DDR3-SL",
-      "/MEMORY/DDR-~{WE}": "DDR3-SL",
-      "/USB | DISPLAY/DSI-CL+": "DSI-DP",
-      "/USB | DISPLAY/DSI-CL-": "DSI-DP",
-      "/USB | DISPLAY/DSI-D0+": "DSI-DP",
-      "/USB | DISPLAY/DSI-D0-": "DSI-DP",
-      "/USB | DISPLAY/DSI-D1+": "DSI-DP",
-      "/USB | DISPLAY/DSI-D1-": "DSI-DP"
+      "/DDR MEMORY/DDR-A0": "DDR3-ADDR",
+      "/DDR MEMORY/DDR-A1": "DDR3-ADDR",
+      "/DDR MEMORY/DDR-A10": "DDR3-ADDR",
+      "/DDR MEMORY/DDR-A11": "DDR3-ADDR",
+      "/DDR MEMORY/DDR-A12": "DDR3-ADDR",
+      "/DDR MEMORY/DDR-A13": "DDR3-ADDR",
+      "/DDR MEMORY/DDR-A2": "DDR3-ADDR",
+      "/DDR MEMORY/DDR-A3": "DDR3-ADDR",
+      "/DDR MEMORY/DDR-A4": "DDR3-ADDR",
+      "/DDR MEMORY/DDR-A5": "DDR3-ADDR",
+      "/DDR MEMORY/DDR-A6": "DDR3-ADDR",
+      "/DDR MEMORY/DDR-A7": "DDR3-ADDR",
+      "/DDR MEMORY/DDR-A8": "DDR3-ADDR",
+      "/DDR MEMORY/DDR-A9": "DDR3-ADDR",
+      "/DDR MEMORY/DDR-BA0": "DDR3-CTRL",
+      "/DDR MEMORY/DDR-BA1": "DDR3-CTRL",
+      "/DDR MEMORY/DDR-BG0": "DDR3-CTRL",
+      "/DDR MEMORY/DDR-CK+": "DDR3-CLK",
+      "/DDR MEMORY/DDR-CK-": "DDR3-CLK",
+      "/DDR MEMORY/DDR-CKE": "DDR3-CTRL",
+      "/DDR MEMORY/DDR-DQ0": "DDR3-DATA",
+      "/DDR MEMORY/DDR-DQ1": "DDR3-DATA",
+      "/DDR MEMORY/DDR-DQ10": "DDR3-DATA",
+      "/DDR MEMORY/DDR-DQ11": "DDR3-DATA",
+      "/DDR MEMORY/DDR-DQ12": "DDR3-DATA",
+      "/DDR MEMORY/DDR-DQ13": "DDR3-DATA",
+      "/DDR MEMORY/DDR-DQ14": "DDR3-DATA",
+      "/DDR MEMORY/DDR-DQ15": "DDR3-DATA",
+      "/DDR MEMORY/DDR-DQ2": "DDR3-DATA",
+      "/DDR MEMORY/DDR-DQ3": "DDR3-DATA",
+      "/DDR MEMORY/DDR-DQ4": "DDR3-DATA",
+      "/DDR MEMORY/DDR-DQ5": "DDR3-DATA",
+      "/DDR MEMORY/DDR-DQ6": "DDR3-DATA",
+      "/DDR MEMORY/DDR-DQ7": "DDR3-DATA",
+      "/DDR MEMORY/DDR-DQ8": "DDR3-DATA",
+      "/DDR MEMORY/DDR-DQ9": "DDR3-DATA",
+      "/DDR MEMORY/DDR-LDQS+": "DDR3-CLK",
+      "/DDR MEMORY/DDR-LDQS-": "DDR3-CLK",
+      "/DDR MEMORY/DDR-ODT": "DDR3-CTRL",
+      "/DDR MEMORY/DDR-PAR": "DDR3-CTRL",
+      "/DDR MEMORY/DDR-UDQS+": "DDR3-CLK",
+      "/DDR MEMORY/DDR-UDQS-": "DDR3-CLK",
+      "/DDR MEMORY/DDR-~{ACT}": "DDR3-CTRL",
+      "/DDR MEMORY/DDR-~{ALERT}": "DDR3-CTRL",
+      "/DDR MEMORY/DDR-~{CAS}": "DDR3-CTRL",
+      "/DDR MEMORY/DDR-~{CS}": "DDR3-CTRL",
+      "/DDR MEMORY/DDR-~{LDM}": "DDR3-CTRL",
+      "/DDR MEMORY/DDR-~{RAS}": "DDR3-CTRL",
+      "/DDR MEMORY/DDR-~{RESET}": "DDR3-CTRL",
+      "/DDR MEMORY/DDR-~{UDM}": "DDR3-CTRL",
+      "/DDR MEMORY/DDR-~{WE}": "DDR3-CTRL"
     },
     "netclass_patterns": [
       {
@@ -918,7 +979,7 @@
     ],
     [
       "5a60e409-cd34-40bd-9930-c962240b0232",
-      "MEMORY"
+      "DDR MEMORY"
     ],
     [
       "76adaf3c-f4c9-4828-81af-280c66ff42c8",
@@ -926,11 +987,31 @@
     ],
     [
       "68580c3e-f594-4791-9d78-5a4c0a75f436",
-      "USB | DISPLAY"
+      "USB"
     ],
     [
       "cde93c0a-b819-4fbe-8019-69f0c6c56432",
       "COMMUNICATIONS"
+    ],
+    [
+      "4a61ad6c-8b4c-456b-8c22-c64a1a3b4c3a",
+      "DISPLAY"
+    ],
+    [
+      "31cd65d1-cc4b-4775-aec3-7a59b690ac0a",
+      "AUDIO"
+    ],
+    [
+      "023c8fe8-84bc-4238-9ad9-90f1ebaa5fac",
+      "SOC CONTROL"
+    ],
+    [
+      "3f394e38-756b-4eaa-ba31-47b873a984c7",
+      "ETHERNET"
+    ],
+    [
+      "d03937b9-15f2-4968-8837-3388203115e5",
+      "eMMC MEMORY"
     ]
   ],
   "text_variables": {}

@@ -1,0 +1,15 @@
+%FSLAX23Y23*%
+%MOIN*%
+%SFA1B1*%
+
+%IPPOS*%
+%ADD321C,0.001000*%
+%LNbenchy-mb-pcb-changes-1*%
+%LPD*%
+G54D321*
+X787Y787D02*
+Y4320D01*
+X6574*
+Y787*
+X787*
+M02*

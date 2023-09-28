@@ -8806,6 +8806,9 @@
   (gr_text "RESET" (at 59.3 14.3) (layer "F.SilkS") (tstamp 181f70d8-4ee1-48e0-9f5f-bf10cbffdd23)
     (effects (font (size 1 1) (thickness 0.15)) (justify top))
   )
+  (gr_text "REV1" (at 62 74) (layer "F.SilkS") (tstamp 52ad5c47-37ac-4072-b17d-d67e101da0e1)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text "Benchy Reloaded\n8-Ch Volt Meter" (at 67.1 61 90) (layer "F.SilkS") (tstamp 81c3e4b9-c6f1-4327-8337-0ac0f4d60acc)
     (effects (font (face "Rubik") (size 1.5 1.5) (thickness 0.1875)))
     (render_cache "Benchy Reloaded\n8-Ch Volt Meter" 90

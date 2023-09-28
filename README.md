@@ -18,19 +18,19 @@ Your electronics workbench buddy! (Warning - Benchy is not actually your buddy, 
 - (in development) Simple LCR Meter
 - (in development) Function Generator
 
-# Motherboard
+# Complete Assembly
 
-![MB Render](./Docs/Renders/MotherBoard/BenchyMotherBoard-REV1-TOP1.png)
+![Assembly Render](./Docs/Renders/Version2/Benchy-Side1.JPG)
 
-## Processor
+## Motherboard Processor
 
-This design integrates an STM32MP1 Series micro processor with 8Gb DDR3 memory. This adds a large amount of raw power internally. Taking alot of the load required to control the sub-systems from the users PC and adds more flexability to the system as a whole.
+This design integrates an STM32MP1 Series micro processor (U2) with 8Gb DDR3 memory (U20). This adds a large amount of raw power internally. Taking alot of the load required to control the sub-systems from the users PC and adds more flexability to the system as a whole.
 
-![MB MPU](./Docs/Renders/MotherBoard/BenchyMotherBoard-REV1-MPU.png)
+![MB Render](./Docs/Renders/Version2/BenchyMotherboard-Top1.JPG)
 
 ## USB Hub
 
-The main reason why I needed to design my own USB hub instead of stuffing an "off the shelf" hub up benchys trumpet was the absolute lack of protection circuitry in most "consumer grade" USB hubs. Theres no back-feed protection, verry little to no current monitoring, and the bare minimum ESD and EMI protection. Thats just not acceptable! imagine my supprise when I cracked open an $85 hub and, after blowing out a channel, found no power management at all. The cost of finding a hub that has these protections is going to be around the same price as designing and building my own. (Except for the time investment... but who cares about that?!?)
+The main reason why I needed to design my own USB hub instead of stuffing an "off the shelf" hub up benchys trumpet was the absolute lack of protection circuitry in most "consumer grade" USB hubs. There is no back-feed protection, verry little to no current monitoring, and the bare minimum ESD and EMI protection. Thats just not acceptable! imagine my supprise when I cracked open an $85 hub from Amazon and, after blowing out a channel, found no power management at all. The cost of finding a hub that has these protections is going to be around the same price as designing and building my own. (Except for the time investment... but who cares about that?!?)
 
 These features arent exaclty flashy, they dont look very good on a brochure. So they usually arent there. If they are, its just a bullet point. Often they just _claim_ to conform to the USB spec. The lack protection doesn't actually conform to the spec at all. I will admit, some of the protection features are optional and not necessary for every day use. The problem is an electronics workbench is very mean. It will bully these simple hubs until they don't want to play along anymore.
 

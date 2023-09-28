@@ -40,4 +40,4 @@ fp-info-cache
 *~lock**#
 
 # Ignore Step Files
-*.step
+**.step

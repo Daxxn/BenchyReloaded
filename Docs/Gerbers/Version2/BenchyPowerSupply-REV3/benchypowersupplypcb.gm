@@ -1,0 +1,15 @@
+%FSLAX23Y23*%
+%MOIN*%
+%SFA1B1*%
+
+%IPPOS*%
+%ADD133C,0.001000*%
+%LNbenchypowersupplypcb-1*%
+%LPD*%
+G54D133*
+X196Y314D02*
+X3149D01*
+Y5216*
+X196*
+Y314*
+M02*

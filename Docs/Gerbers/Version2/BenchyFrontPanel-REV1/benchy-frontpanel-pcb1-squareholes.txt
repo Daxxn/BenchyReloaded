@@ -1,0 +1,11 @@
+%FSLAX23Y23*%
+%MOIN*%
+%SFA1B1*%
+
+%IPPOS*%
+%ADD9511C,0.157500*%
+%LNbenchy-frontpanel-pcb1-squareholes-1*%
+%LPD*%
+G54D9511*
+X633Y895D03*
+M02*

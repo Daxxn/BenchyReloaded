@@ -2,18 +2,21 @@
 
 Your electronics workbench buddy! (Warning - Benchy is not actually your buddy, will probably try to kill you, is hideously expensive, and is way too time consuming to build.)
 
+> Note: Ive moved to Altium Designer. Meaning it isn't as easy to share project files. Until I can work out how to streamline this process, schematics and Gerber files will only be available.
+
 ## Features
 
+- Single Board Computer running embedded linux
 - 6 Port USB hub (3.1)
 - All data ports are properly protected and able to report per-port current draw
-- 5 power-only USB ports
+- 2 USB ports for computer peripherals
+- 100Mb Ethernet port
 - 8 Software controlled relays for general things like lighting
-- Lab Power Supply W/ Current or Voltage Limiting (15V @ 2A)
-- Voltage controlled 30V power supply with over-current protection
+- (In Development) Lab Power Supply W/ Current or Voltage Limiting (15V @ 2A)
 - Electronic Load (5A Max)
-- Simple LCR Meter
-- Function Generator
-- Extendable Chassis
+- 8 channel volt meter for quick and easy voltage testing
+- (in development) Simple LCR Meter
+- (in development) Function Generator
 
 # Motherboard
 
@@ -21,7 +24,7 @@ Your electronics workbench buddy! (Warning - Benchy is not actually your buddy, 
 
 ## Processor
 
-This design integrates an STM32MP1 Series micro processor with 1Gb of external DDR3 memory. This adds a large amount of raw power internally. Taking alot of the load required to control the sub-systems and adds more flexability to the system as a whole.
+This design integrates an STM32MP1 Series micro processor with 8Gb DDR3 memory. This adds a large amount of raw power internally. Taking alot of the load required to control the sub-systems from the users PC and adds more flexability to the system as a whole.
 
 ![MB MPU](./Docs/Renders/MotherBoard/BenchyMotherBoard-REV1-MPU.png)
 
@@ -43,7 +46,7 @@ The one thing that made the two different power supplies possible was the Switch
 
 ## Adjustable supply
 
-- 30v @ 2A
+- 15v @ 2A
 - Controlled over USB or front panel
 
 The adjustable supply is built with help from [Dave, (Thanks Dave!)](https://www.youtube.com/watch?v=CIGjActDeoM&list=PLBF35875F73B5C9B5&index=1&ab_channel=EEVblog) using the [LM317](https://rocelec.widen.net/view/pdf/mlzstqhekh/slvs044x.pdf?t.download=true&u=5oefqw) adjustable regulator.
@@ -56,10 +59,14 @@ The [SIC451](https://www.vishay.com/docs/77863/sic450_sic451_sic453.pdf) can sup
 
 Fairly standard design using a MOSFET in its linear region, dissipating alot of energy. With the help of a big heatsink and a fan, it can be used to load power supplies or other circuits. The current shunt will allow for precise measurement of power usage. Control is linked to the main microcontroller on the the main board. Allowing for USB control.
 
+# 8 Channel Volt Meter
+
+Low voltage volt meters with moderate accuracy and speed. Designed to measure multiple voltage levels simultaneously. This is helpful for testing power supplies designed for advanced ICs that require lots of voltages to run. Such as Processors, FPGAs, and PC Motherboards.
+
 # Function generator
 
 Creates sine, square, and triangle waves. from low (100Hz) to medium frequencies (100KHz).
 
 # General Purpose Relays
 
-8 channel relay block used to control general things around benchy like lighting and other devices. The relays are rated for mains voltage but not for high current. 
+8 channel relay block used to control general things around benchy like lighting and other small devices. Rated for mains voltage but not for high current.

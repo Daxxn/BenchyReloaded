@@ -2,7 +2,7 @@
 
 Your electronics workbench buddy! (Warning - Benchy is not actually your buddy, will probably try to kill you, is hideously expensive, and is way too time consuming to build.)
 
-> Note: Ive moved to Altium Designer. Meaning it isn't as easy to share project files. Until I can work out how to streamline this process, schematics and Gerber files will only be available.
+> Note: Ive moved to Altium Designer. Meaning it isn't as easy to share project files. Until I can work out how to streamline this process, schematics and Gerber files will only be available. The KiCAD projects in this repo are old and are superceeded by the Version 2 [schematics](./Docs/Schematics/Version2/) and [Gerbers.](./Docs/Gerbers/Version2/)
 
 ## Features
 

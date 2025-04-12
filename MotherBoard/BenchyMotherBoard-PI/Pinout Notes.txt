@@ -1,0 +1,24 @@
+8 relay pins
+
+	COMMS:
+6 USART signals
+1 I2C
+2 SPI
+FMC interface? Need to set up the RasPI and STM32 to run some tests with the code I found.
+
+	INPUTS:
+PWR SWITCH
+EXT-INT
+SLEEP
+EXTRA BUTTON
+PWR PGOOD
+
+	OUTPUTS:
+8 RELAYS
+
+  INDICATORS:
+STATUS
+USB
+DEBUG
+ETH
+MAIN-PG

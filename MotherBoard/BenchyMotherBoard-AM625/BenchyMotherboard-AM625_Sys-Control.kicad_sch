@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "257ac191-0a15-4974-b8ab-664ebc92e087")
+	(paper "A4")
+	(title_block
+		(title "Benchy Motherboard AM625 - SOC Control")
+		(rev "REV1")
+		(company "Daxxn Industries")
+	)
+	(lib_symbols)
+)

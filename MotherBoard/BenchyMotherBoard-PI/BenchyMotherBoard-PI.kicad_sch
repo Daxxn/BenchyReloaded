@@ -1,0 +1,273 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e0bf23df-80c2-45c8-b049-1b8a3c683fbd")
+	(paper "A4")
+	(title_block
+		(title "Benchy Motherboard Using RasPI CM4 Module")
+		(rev "1")
+		(company "Daxxn Industries")
+	)
+	(lib_symbols)
+	(text "POWER RAILS"
+		(exclude_from_sim no)
+		(at 202.946 101.092 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1d46660b-272d-4c74-a1d8-1764f737562e")
+	)
+	(text "VDD-SYS"
+		(exclude_from_sim no)
+		(at 184.404 114.808 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2782a6cc-0044-490f-95d6-304076e4a81a")
+	)
+	(text "VCC"
+		(exclude_from_sim no)
+		(at 183.896 109.982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a768468-7b27-475d-9a83-4ac0a9207bdc")
+	)
+	(text "VDD"
+		(exclude_from_sim no)
+		(at 201.422 105.918 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d55cc4c-a6f9-442b-8135-e033564dc2a9")
+	)
+	(text "+12V"
+		(exclude_from_sim no)
+		(at 182.88 105.664 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5456d56-a5a0-465a-b8dd-4fc4b6dbed77")
+	)
+	(text "VDDA"
+		(exclude_from_sim no)
+		(at 201.168 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5f395ab-b4e4-47ca-b660-4630eafc1484")
+	)
+	(sheet
+		(at 177.8 25.4)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "10c77d6d-1123-4267-8b4a-77bb6d581450")
+		(property "Sheetname" "PCIe USB HUB"
+			(at 177.8 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BenchyMB-RPI_PCIe-Hub.kicad_sch"
+			(at 177.8 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BenchyMotherBoard-PI"
+				(path "/e0bf23df-80c2-45c8-b049-1b8a3c683fbd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 25.4)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "147d3608-1ab6-47fa-9cbd-63a7ab1bb8f0")
+		(property "Sheetname" "ETHERNET"
+			(at 101.6 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BenchyMB-RPI_Ethernet.kicad_sch"
+			(at 101.6 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BenchyMotherBoard-PI"
+				(path "/e0bf23df-80c2-45c8-b049-1b8a3c683fbd"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f04615d-4dea-4473-8e0e-81049ee9ae56")
+		(property "Sheetname" "GPIO"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BenchyMB-RPI_GPIO.kicad_sch"
+			(at 25.4 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BenchyMotherBoard-PI"
+				(path "/e0bf23df-80c2-45c8-b049-1b8a3c683fbd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 25.4)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b15cfecf-7bf8-4112-b52c-2487109301e4")
+		(property "Sheetname" "HDMI & DSI"
+			(at 139.7 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BenchyMB-RPI_HDMI.kicad_sch"
+			(at 139.7 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BenchyMotherBoard-PI"
+				(path "/e0bf23df-80c2-45c8-b049-1b8a3c683fbd"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 25.4)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c9aae8c2-5dae-4388-ae4f-1a5611de03d7")
+		(property "Sheetname" "POWER & CONTROL"
+			(at 63.5 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BenchyMB-RPI_Power-Control.kicad_sch"
+			(at 63.5 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BenchyMotherBoard-PI"
+				(path "/e0bf23df-80c2-45c8-b049-1b8a3c683fbd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

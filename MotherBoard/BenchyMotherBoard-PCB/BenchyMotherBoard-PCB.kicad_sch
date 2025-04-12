@@ -1,233 +1,534 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 2ea077fe-b0e6-467f-a1c1-8336ebdb7a86)
-
-  (paper "A4")
-
-  (title_block
-    (title "Benchy Reloaded")
-    (rev "REV4")
-    (company "Daxxn Industries")
-  )
-
-  (lib_symbols
-  )
-
-
-  (text_box ""
-    (at 63.5 44.45 0) (size 38.1 50.8)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.016 1.016) bold) (justify left top) (href "#2"))
-    (uuid af66df7c-27cd-4699-96a5-9be4c631bfac)
-  )
-  (text_box ""
-    (at 13.97 44.45 0) (size 36.83 50.8)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.016 1.016) bold) (justify left top) (href "#3"))
-    (uuid b2414738-025d-44fa-90d6-bd0f01915a22)
-  )
-
-  (text "USB" (at 240.03 68.58 0)
-    (effects (font (size 3 3) bold) (justify right bottom) (href "#5"))
-    (uuid 26696101-f67c-4416-b52c-b0125ff5d61e)
-  )
-  (text "COMMS" (at 240.03 36.83 0)
-    (effects (font (size 3 3) bold) (justify right bottom) (href "#7"))
-    (uuid 600363b5-83c9-43a0-94dd-9806dbbd88a9)
-  )
-  (text "POWER" (at 63.5 50.8 0)
-    (effects (font (size 4 4) bold) (justify left bottom) (href "#2"))
-    (uuid ad206024-b159-408b-b5e6-1f26fd0826c8)
-  )
-  (text "MEMORY" (at 15.24 50.8 0)
-    (effects (font (size 4 4) bold) (justify left bottom) (href "#3"))
-    (uuid b4400a91-36dc-4193-a759-8bdfab8623fe)
-  )
-  (text "REMOVE ALL THE HEIR. LABELS" (at 165.1 29.21 0)
-    (effects (font (size 1.016 1.016)) (justify left bottom))
-    (uuid be4c92a4-10c0-481a-bd6f-ddcc91db4a73)
-  )
-  (text "INPUT | OUTPUT" (at 115.57 36.83 0)
-    (effects (font (size 3 3) bold) (justify left bottom) (href "#4"))
-    (uuid e34ff945-5672-4b2a-8ed5-db96cc9373b2)
-  )
-
-  (sheet (at 27.94 127) (size 48.26 50.8) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 023c8fe8-84bc-4238-9ad9-90f1ebaa5fac)
-    (property "Sheetname" "SOC CONTROL" (at 27.94 126.2884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Control.kicad_sch" (at 27.94 178.3846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "BenchyMotherBoard-PCB"
-        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86" (page "11"))
-      )
-    )
-  )
-
-  (sheet (at 100.33 113.03) (size 39.37 34.29) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 31cd65d1-cc4b-4775-aec3-7a59b690ac0a)
-    (property "Sheetname" "AUDIO" (at 100.33 112.3184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Audio.kicad_sch" (at 100.33 147.9046 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (instances
-      (project "BenchyMotherBoard-PCB"
-        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 106.68 154.94) (size 53.34 34.29) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 3f394e38-756b-4eaa-ba31-47b873a984c7)
-    (property "Sheetname" "ETHERNET" (at 106.68 154.2284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Ethernet.kicad_sch" (at 106.68 189.8146 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (instances
-      (project "BenchyMotherBoard-PCB"
-        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86" (page "11"))
-      )
-    )
-  )
-
-  (sheet (at 250.19 119.38) (size 27.94 25.4) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4a61ad6c-8b4c-456b-8c22-c64a1a3b4c3a)
-    (property "Sheetname" "DISPLAY" (at 250.19 118.6684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Display.kicad_sch" (at 250.19 145.3646 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (instances
-      (project "BenchyMotherBoard-PCB"
-        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86" (page "9"))
-      )
-    )
-  )
-
-  (sheet (at 13.97 44.45) (size 36.83 50.8)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 5a60e409-cd34-40bd-9930-c962240b0232)
-    (property "Sheetname" "DDR MEMORY" (at 13.97 44.45 0)
-      (effects (font (size 1 1) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "memory.kicad_sch" (at 13.97 95.8346 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (instances
-      (project "BenchyMotherBoard-PCB"
-        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 190.5 63.5) (size 50.8 12.7)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 68580c3e-f594-4791-9d78-5a4c0a75f436)
-    (property "Sheetname" "USB" (at 190.5 63.5 0)
-      (effects (font (size 1 1) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "usb.kicad_sch" (at 190.5 114.8846 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (instances
-      (project "BenchyMotherBoard-PCB"
-        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 114.3 31.75) (size 63.5 69.85)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 76adaf3c-f4c9-4828-81af-280c66ff42c8)
-    (property "Sheetname" "INPUT | OUTPUT" (at 114.3 31.75 0)
-      (effects (font (size 1 1) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "gpio.kicad_sch" (at 114.3 108.5346 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (instances
-      (project "BenchyMotherBoard-PCB"
-        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 63.5 44.45) (size 38.1 50.8)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid b1b1abd8-b71a-4758-84a4-ebbec87508e8)
-    (property "Sheetname" "POWER" (at 63.5 44.45 0)
-      (effects (font (size 1 1) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "power.kicad_sch" (at 63.5 95.8346 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "link" "#2" (at 63.5 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "BenchyMotherBoard-PCB"
-        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 190.5 31.75) (size 50.8 15.24)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid cde93c0a-b819-4fbe-8019-69f0c6c56432)
-    (property "Sheetname" "COMMUNICATIONS" (at 190.5 31.75 0)
-      (effects (font (size 1 1) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "comms.kicad_sch" (at 190.5 83.1346 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (instances
-      (project "BenchyMotherBoard-PCB"
-        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 182.88 111.76) (size 52.07 36.83) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid d03937b9-15f2-4968-8837-3388203115e5)
-    (property "Sheetname" "eMMC MEMORY" (at 182.88 111.0484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "emmc_memory.kicad_sch" (at 182.88 149.1746 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (instances
-      (project "BenchyMotherBoard-PCB"
-        (path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86" (page "12"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2ea077fe-b0e6-467f-a1c1-8336ebdb7a86")
+	(paper "A4")
+	(title_block
+		(title "Benchy Reloaded")
+		(rev "REV4")
+		(company "Daxxn Industries")
+	)
+	(lib_symbols)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 63.5 44.45 0)
+		(size 38.1 50.8)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(bold yes)
+			)
+			(justify left top)
+			(href "#2")
+		)
+		(uuid "af66df7c-27cd-4699-96a5-9be4c631bfac")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 13.97 44.45 0)
+		(size 36.83 50.8)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(bold yes)
+			)
+			(justify left top)
+			(href "#3")
+		)
+		(uuid "b2414738-025d-44fa-90d6-bd0f01915a22")
+	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 240.03 68.58 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "26696101-f67c-4416-b52c-b0125ff5d61e")
+	)
+	(text "COMMS"
+		(exclude_from_sim no)
+		(at 240.03 36.83 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+			)
+			(justify right bottom)
+			(href "#7")
+		)
+		(uuid "600363b5-83c9-43a0-94dd-9806dbbd88a9")
+	)
+	(text "POWER"
+		(exclude_from_sim no)
+		(at 63.5 50.8 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+			)
+			(justify left bottom)
+			(href "#2")
+		)
+		(uuid "ad206024-b159-408b-b5e6-1f26fd0826c8")
+	)
+	(text "MEMORY"
+		(exclude_from_sim no)
+		(at 15.24 50.8 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+			)
+			(justify left bottom)
+			(href "#3")
+		)
+		(uuid "b4400a91-36dc-4193-a759-8bdfab8623fe")
+	)
+	(text "REMOVE ALL THE HEIR. LABELS"
+		(exclude_from_sim no)
+		(at 165.1 29.21 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "be4c92a4-10c0-481a-bd6f-ddcc91db4a73")
+	)
+	(text "INPUT | OUTPUT"
+		(exclude_from_sim no)
+		(at 115.57 36.83 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+			)
+			(justify left bottom)
+			(href "#4")
+		)
+		(uuid "e34ff945-5672-4b2a-8ed5-db96cc9373b2")
+	)
+	(sheet
+		(at 27.94 127)
+		(size 48.26 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "023c8fe8-84bc-4238-9ad9-90f1ebaa5fac")
+		(property "Sheetname" "SOC CONTROL"
+			(at 27.94 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Control.kicad_sch"
+			(at 27.94 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BenchyMotherBoard-PCB"
+				(path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 113.03)
+		(size 39.37 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "31cd65d1-cc4b-4775-aec3-7a59b690ac0a")
+		(property "Sheetname" "AUDIO"
+			(at 100.33 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Audio.kicad_sch"
+			(at 100.33 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BenchyMotherBoard-PCB"
+				(path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 154.94)
+		(size 53.34 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f394e38-756b-4eaa-ba31-47b873a984c7")
+		(property "Sheetname" "ETHERNET"
+			(at 106.68 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 106.68 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BenchyMotherBoard-PCB"
+				(path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 250.19 119.38)
+		(size 27.94 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4a61ad6c-8b4c-456b-8c22-c64a1a3b4c3a")
+		(property "Sheetname" "DISPLAY"
+			(at 250.19 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 250.19 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BenchyMotherBoard-PCB"
+				(path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 44.45)
+		(size 36.83 50.8)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a60e409-cd34-40bd-9930-c962240b0232")
+		(property "Sheetname" "DDR MEMORY"
+			(at 13.97 44.45 0)
+			(effects
+				(font
+					(size 1 1)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "memory.kicad_sch"
+			(at 13.97 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BenchyMotherBoard-PCB"
+				(path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 63.5)
+		(size 50.8 12.7)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "68580c3e-f594-4791-9d78-5a4c0a75f436")
+		(property "Sheetname" "USB"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1 1)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 190.5 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BenchyMotherBoard-PCB"
+				(path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 31.75)
+		(size 63.5 69.85)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "76adaf3c-f4c9-4828-81af-280c66ff42c8")
+		(property "Sheetname" "INPUT | OUTPUT"
+			(at 114.3 31.75 0)
+			(effects
+				(font
+					(size 1 1)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpio.kicad_sch"
+			(at 114.3 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BenchyMotherBoard-PCB"
+				(path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 44.45)
+		(size 38.1 50.8)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b1b1abd8-b71a-4758-84a4-ebbec87508e8")
+		(property "Sheetname" "POWER"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1 1)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 63.5 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "link" "#2"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BenchyMotherBoard-PCB"
+				(path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 31.75)
+		(size 50.8 15.24)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cde93c0a-b819-4fbe-8019-69f0c6c56432")
+		(property "Sheetname" "COMMUNICATIONS"
+			(at 190.5 31.75 0)
+			(effects
+				(font
+					(size 1 1)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "comms.kicad_sch"
+			(at 190.5 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BenchyMotherBoard-PCB"
+				(path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 111.76)
+		(size 52.07 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d03937b9-15f2-4968-8837-3388203115e5")
+		(property "Sheetname" "eMMC MEMORY"
+			(at 182.88 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "emmc_memory.kicad_sch"
+			(at 182.88 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BenchyMotherBoard-PCB"
+				(path "/2ea077fe-b0e6-467f-a1c1-8336ebdb7a86"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

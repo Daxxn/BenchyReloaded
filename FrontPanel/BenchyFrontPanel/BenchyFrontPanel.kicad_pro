@@ -101,6 +101,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "error",
+        "text_on_edge_cuts": "error",
         "text_thickness": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -446,7 +447,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "DX_Connector_CardEdge"
+    ]
   },
   "meta": {
     "filename": "BenchyFrontPanel.kicad_pro",
@@ -488,7 +491,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../Docs/Models/BenchyV2/BenchyFrontPanel_TEST1.step",
       "svg": "",
       "vrml": ""
     },

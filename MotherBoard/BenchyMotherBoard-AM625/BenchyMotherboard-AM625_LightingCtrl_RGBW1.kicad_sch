@@ -1525,779 +1525,6 @@
 		(uuid "b2176d2c-2f77-4650-8eed-6e2bd18b9fb4")
 	)
 	(symbol
-		(lib_id "DX_Resistor:RC0402JR-07100RL")
-		(at 127 41.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "07bc6c2a-2555-4118-85e4-f1041124d762")
-		(property "Reference" "R312"
-			(at 127 43.942 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 127 45.466 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 121.666 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
-			(at 120.65 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 100 OHM 5% 1/16W 0402"
-			(at 123.19 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "0204-0000-00011"
-			(at 119.126 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8eeabfab-dfea-4811-9a53-d961a79dd297")
-		)
-		(pin "1"
-			(uuid "976d133a-495a-4066-b1ce-f8c5fa715223")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "R312")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Resistor:RC0402JR-07100RL")
-		(at 31.75 41.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c5f039c-c9e7-434f-ad4b-71af9d6a2b44")
-		(property "Reference" "R316"
-			(at 31.75 43.942 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 31.75 45.466 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 26.416 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
-			(at 25.4 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 100 OHM 5% 1/16W 0402"
-			(at 27.94 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "0204-0000-00011"
-			(at 23.876 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aa3e38e7-6e8e-45c2-9f3c-607297003a30")
-		)
-		(pin "1"
-			(uuid "8b5dd3f5-6a42-414d-bc04-19e5a2d792d7")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "R316")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Transistor_MOSFET:PMXB43UNEZ")
-		(at 105.41 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a11caaa-2988-40d4-a6f8-fd45f0053bfc")
-		(property "Reference" "Q10"
-			(at 107.188 44.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMXB43UNEZ"
-			(at 107.188 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Packages:DFN1010D-3"
-			(at 106.68 33.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%/PMXB43UNE.pdf"
-			(at 106.68 36.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 20 V 3.2A (Ta) 400mW (Ta), 8.33W (Tc) Surface Mount DFN1010D-3"
-			(at 105.41 34.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "1806-0000-00006"
-			(at 107.188 46.99 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(pin "3"
-			(uuid "74f4369b-41d8-4136-a0dc-5faaa5458f97")
-		)
-		(pin "1"
-			(uuid "43f83090-7dd5-4daa-968f-b96893132c1e")
-		)
-		(pin "2"
-			(uuid "a686885e-b068-40b2-8324-46d122903d20")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35558f2c-cefe-4642-a7a5-74a2763dd3a5")
-		(property "Reference" "#PWR0488"
-			(at 74.93 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.93 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad354f48-a521-42b1-848b-61ef190d663a")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "#PWR0488")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Resistor:RC0402JR-07100RL")
-		(at 63.5 41.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4494ce7c-b9a9-4e4a-a9ae-ea066944f3cf")
-		(property "Reference" "R318"
-			(at 63.5 43.942 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 63.5 45.466 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 58.166 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
-			(at 57.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 100 OHM 5% 1/16W 0402"
-			(at 59.69 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "0204-0000-00011"
-			(at 55.626 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5cda6ba-95ed-400c-8176-f18ee554f00b")
-		)
-		(pin "1"
-			(uuid "00621179-9635-4238-8b53-979a8b4212f7")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "R318")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Transistor_MOSFET:PMXB43UNEZ")
-		(at 41.91 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4826b9d9-1c76-4c10-b1e1-900db454c0e4")
-		(property "Reference" "Q11"
-			(at 43.688 44.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMXB43UNEZ"
-			(at 43.688 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Packages:DFN1010D-3"
-			(at 43.18 33.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%/PMXB43UNE.pdf"
-			(at 43.18 36.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 20 V 3.2A (Ta) 400mW (Ta), 8.33W (Tc) Surface Mount DFN1010D-3"
-			(at 41.91 34.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "1806-0000-00006"
-			(at 43.688 46.99 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(pin "3"
-			(uuid "09c90b8c-80ca-4bc2-9069-7de8bbe91275")
-		)
-		(pin "1"
-			(uuid "d319ae61-d2f2-440e-8247-43035b46f7e8")
-		)
-		(pin "2"
-			(uuid "ed623276-9f99-4989-b57d-80f8d24f46ed")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Resistor:RC0402JR-0710KL")
-		(at 132.08 36.83 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51d3a005-0119-40c7-8189-5887edb667db")
-		(property "Reference" "R313"
-			(at 131.064 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 131.064 37.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 132.08 31.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
-			(at 132.08 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 5% 1/16W 0402"
-			(at 132.08 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "0204-0000-00016"
-			(at 132.08 28.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "667a3437-4cbb-44d6-ba67-b043cf76a021")
-		)
-		(pin "1"
-			(uuid "196934ed-cf3c-4b25-8caf-f9012997c13c")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "R313")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Resistor:RC0402JR-0710KL")
-		(at 36.83 36.83 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72461080-c268-4373-82e7-c05cd71e514a")
-		(property "Reference" "R317"
-			(at 35.814 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 35.814 37.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 36.83 31.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
-			(at 36.83 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 5% 1/16W 0402"
-			(at 36.83 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "0204-0000-00016"
-			(at 36.83 28.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "016526cb-23f3-4b57-8526-c9c87433f4fd")
-		)
-		(pin "1"
-			(uuid "945ff498-5172-4894-a0af-630f9be87236")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "R317")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Resistor:RC0402JR-0710KL")
-		(at 68.58 36.83 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72eba975-26e2-457d-975b-aa6eb0e656fd")
-		(property "Reference" "R319"
-			(at 67.564 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 67.564 37.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 68.58 31.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
-			(at 68.58 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 5% 1/16W 0402"
-			(at 68.58 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "0204-0000-00016"
-			(at 68.58 28.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0715076e-6c3d-49a1-8421-59854bef955e")
-		)
-		(pin "1"
-			(uuid "f0b861e9-6c7f-4eec-9be0-95e5980e9ce7")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "R319")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Transistor_MOSFET:PMXB43UNEZ")
-		(at 73.66 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8589c578-df43-43d8-8d28-47df304cb291")
-		(property "Reference" "Q12"
-			(at 75.438 44.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMXB43UNEZ"
-			(at 75.438 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Packages:DFN1010D-3"
-			(at 74.93 33.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%/PMXB43UNE.pdf"
-			(at 74.93 36.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 20 V 3.2A (Ta) 400mW (Ta), 8.33W (Tc) Surface Mount DFN1010D-3"
-			(at 73.66 34.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "1806-0000-00006"
-			(at 75.438 46.99 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(pin "3"
-			(uuid "ab67645a-28ae-41ff-b3ea-0e4298c5d282")
-		)
-		(pin "1"
-			(uuid "676653f0-89de-465b-b6da-87e85330d664")
-		)
-		(pin "2"
-			(uuid "421dde5b-aa80-4316-ac94-9019b7bcd557")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "Q12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DX_Connector_JST:B5B-XH-A")
 		(at 147.32 25.4 0)
 		(unit 1)
@@ -2305,8 +1532,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "98233e8e-855b-41a7-95c4-28344498935a")
-		(property "Reference" "J21"
+		(uuid "05e20434-1f91-47f2-b7ea-3840f169521c")
+		(property "Reference" "J29"
 			(at 149.098 19.812 0)
 			(effects
 				(font
@@ -2382,7 +1609,7 @@
 					(unit 1)
 				)
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "J21")
+					(reference "J29")
 					(unit 1)
 				)
 			)
@@ -2396,8 +1623,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a123bec4-ed76-4c1f-bad5-2311b0588f76")
-		(property "Reference" "#PWR0482"
+		(uuid "2ab2e5c7-dc98-498e-a438-defabd308a31")
+		(property "Reference" "#PWR0520"
 			(at 139.7 21.59 0)
 			(effects
 				(font
@@ -2451,137 +1678,7 @@
 					(unit 1)
 				)
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "#PWR0482")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 100.33 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a56533b6-f6c7-4a93-89b8-38d3690439be")
-		(property "Reference" "#PWR0532"
-			(at 100.33 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 100.33 30.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 100.33 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4c89403-4ccb-44a5-b5db-30645b14057b")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "#PWR0532")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 132.08 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3eda404-94f0-4e04-9f62-50c819d9ad43")
-		(property "Reference" "#PWR0531"
-			(at 132.08 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 132.08 30.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 132.08 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8a12e0e-7f63-4035-9cca-40ca032c9ab3")
-		)
-		(instances
-			(project ""
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "#PWR0531")
+					(reference "#PWR0520")
 					(unit 1)
 				)
 			)
@@ -2595,8 +1692,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bb6ac4dd-bc6b-4f73-8205-71d48bc1b6f2")
-		(property "Reference" "#PWR0487"
+		(uuid "4e6b3359-d387-4a94-94d9-0063414ae057")
+		(property "Reference" "#PWR0525"
 			(at 43.18 54.61 0)
 			(effects
 				(font
@@ -2646,7 +1743,148 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "#PWR0487")
+					(reference "#PWR0525")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58908107-ebea-429a-a5f0-74bb12d6c465")
+		(property "Reference" "#PWR0527"
+			(at 106.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72084cfa-fc06-489a-9d5f-efbd54c5eb08")
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
+					(reference "#PWR0527")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RC0402JR-07100RL")
+		(at 127 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76431340-a363-40db-b441-e6ee4ffbd64a")
+		(property "Reference" "R331"
+			(at 127 43.942 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 127 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 121.666 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 120.65 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100 OHM 5% 1/16W 0402"
+			(at 123.19 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00011"
+			(at 119.126 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8eeabfab-dfea-4811-9a53-d961a79dd297")
+		)
+		(pin "1"
+			(uuid "976d133a-495a-4066-b1ce-f8c5fa715223")
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
+					(reference "R331")
 					(unit 1)
 				)
 			)
@@ -2661,8 +1899,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c0ab4dc0-2e24-4368-a2ce-902d1301e00f")
-		(property "Reference" "R315"
+		(uuid "7e99343c-5c55-481e-bd18-83666a957b10")
+		(property "Reference" "R326"
 			(at 99.314 36.195 0)
 			(effects
 				(font
@@ -2725,343 +1963,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "R315")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 36.83 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d0c8bef3-943b-4a7c-9551-8ff886a776f1")
-		(property "Reference" "#PWR0534"
-			(at 36.83 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 36.83 30.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da653cad-3ed5-44b3-96ce-b1e20ac9c622")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "#PWR0534")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 68.58 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6e981b9-442f-419c-8ffa-7d9fb419744d")
-		(property "Reference" "#PWR0533"
-			(at 68.58 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 68.58 30.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 68.58 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61fcc0c6-37c5-4b46-ad20-85ce404d649b")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "#PWR0533")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 106.68 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6eedba8-23f4-4aa7-9abd-9bc6bb4e5583")
-		(property "Reference" "#PWR0486"
-			(at 106.68 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 106.68 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72084cfa-fc06-489a-9d5f-efbd54c5eb08")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "#PWR0486")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Resistor:RC0402JR-07100RL")
-		(at 95.25 41.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e48b06d7-6d2c-4c61-947b-c151ec0ecc21")
-		(property "Reference" "R314"
-			(at 95.25 43.942 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 95.25 45.466 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 89.916 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
-			(at 88.9 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 100 OHM 5% 1/16W 0402"
-			(at 91.44 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "0204-0000-00011"
-			(at 87.376 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f837abf2-ac76-4908-be8b-1cb4cf9d7c47")
-		)
-		(pin "1"
-			(uuid "c31b469c-e15b-43d2-845d-82c35bb8516e")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "R314")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 138.43 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e8787d41-b0f6-40d9-a1fd-1dccccd286bd")
-		(property "Reference" "#PWR0485"
-			(at 138.43 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57d0f9dd-335b-4d7a-9e54-a1e2ea15fdfa")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "#PWR0485")
+					(reference "R326")
 					(unit 1)
 				)
 			)
@@ -3075,8 +1977,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f42d0d27-80be-48b3-92a9-32f5cec92448")
-		(property "Reference" "Q9"
+		(uuid "7f1824df-9a1a-40a6-8117-60fde161510d")
+		(property "Reference" "Q4"
 			(at 138.938 44.196 0)
 			(effects
 				(font
@@ -3142,7 +2044,1105 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
-					(reference "Q9")
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Transistor_MOSFET:PMXB43UNEZ")
+		(at 41.91 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fb1c832-7784-479e-8912-45c9b08c8277")
+		(property "Reference" "Q1"
+			(at 43.688 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMXB43UNEZ"
+			(at 43.688 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:DFN1010D-3"
+			(at 43.18 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "%LOCAL_DATASHEETS%/PMXB43UNE.pdf"
+			(at 43.18 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 20 V 3.2A (Ta) 400mW (Ta), 8.33W (Tc) Surface Mount DFN1010D-3"
+			(at 41.91 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1806-0000-00006"
+			(at 43.688 46.99 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "09c90b8c-80ca-4bc2-9069-7de8bbe91275")
+		)
+		(pin "1"
+			(uuid "d319ae61-d2f2-440e-8247-43035b46f7e8")
+		)
+		(pin "2"
+			(uuid "ed623276-9f99-4989-b57d-80f8d24f46ed")
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RC0402JR-07100RL")
+		(at 31.75 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99ef149f-089e-4bc2-bd39-77b8d3bcde95")
+		(property "Reference" "R328"
+			(at 31.75 43.942 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 31.75 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 26.416 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 25.4 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100 OHM 5% 1/16W 0402"
+			(at 27.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00011"
+			(at 23.876 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa3e38e7-6e8e-45c2-9f3c-607297003a30")
+		)
+		(pin "1"
+			(uuid "8b5dd3f5-6a42-414d-bc04-19e5a2d792d7")
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
+					(reference "R328")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ee3cb91-ae9a-4717-b117-eabf6e247514")
+		(property "Reference" "#PWR0526"
+			(at 74.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad354f48-a521-42b1-848b-61ef190d663a")
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
+					(reference "#PWR0526")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 100.33 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a56533b6-f6c7-4a93-89b8-38d3690439be")
+		(property "Reference" "#PWR0523"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 100.33 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 100.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4c89403-4ccb-44a5-b5db-30645b14057b")
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
+					(reference "#PWR0523")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Transistor_MOSFET:PMXB43UNEZ")
+		(at 105.41 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5e657c1-dc5a-4082-ac34-c4931d5feb31")
+		(property "Reference" "Q3"
+			(at 107.188 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMXB43UNEZ"
+			(at 107.188 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:DFN1010D-3"
+			(at 106.68 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "%LOCAL_DATASHEETS%/PMXB43UNE.pdf"
+			(at 106.68 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 20 V 3.2A (Ta) 400mW (Ta), 8.33W (Tc) Surface Mount DFN1010D-3"
+			(at 105.41 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1806-0000-00006"
+			(at 107.188 46.99 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "74f4369b-41d8-4136-a0dc-5faaa5458f97")
+		)
+		(pin "1"
+			(uuid "43f83090-7dd5-4daa-968f-b96893132c1e")
+		)
+		(pin "2"
+			(uuid "a686885e-b068-40b2-8324-46d122903d20")
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RC0402JR-07100RL")
+		(at 95.25 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa7ca15e-4ba9-4035-83f4-f7c1021de0ea")
+		(property "Reference" "R330"
+			(at 95.25 43.942 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 95.25 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 89.916 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 88.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100 OHM 5% 1/16W 0402"
+			(at 91.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00011"
+			(at 87.376 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f837abf2-ac76-4908-be8b-1cb4cf9d7c47")
+		)
+		(pin "1"
+			(uuid "c31b469c-e15b-43d2-845d-82c35bb8516e")
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
+					(reference "R330")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 132.08 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3eda404-94f0-4e04-9f62-50c819d9ad43")
+		(property "Reference" "#PWR0524"
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 132.08 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 132.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8a12e0e-7f63-4035-9cca-40ca032c9ab3")
+		)
+		(instances
+			(project ""
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
+					(reference "#PWR0524")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 68.58 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b404b8c5-24e7-414c-b6e4-a7a30f96f9eb")
+		(property "Reference" "R325"
+			(at 67.564 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 67.564 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 68.58 31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 68.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00016"
+			(at 68.58 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0715076e-6c3d-49a1-8421-59854bef955e")
+		)
+		(pin "1"
+			(uuid "f0b861e9-6c7f-4eec-9be0-95e5980e9ce7")
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
+					(reference "R325")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 36.83 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9f39778-9302-4bec-bb9c-56f19bf35d7f")
+		(property "Reference" "R324"
+			(at 35.814 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 35.814 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 36.83 31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 36.83 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00016"
+			(at 36.83 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "016526cb-23f3-4b57-8526-c9c87433f4fd")
+		)
+		(pin "1"
+			(uuid "945ff498-5172-4894-a0af-630f9be87236")
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
+					(reference "R324")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Transistor_MOSFET:PMXB43UNEZ")
+		(at 73.66 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd59359a-adf5-426c-a8ba-dbfd96b73ebc")
+		(property "Reference" "Q2"
+			(at 75.438 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMXB43UNEZ"
+			(at 75.438 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:DFN1010D-3"
+			(at 74.93 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "%LOCAL_DATASHEETS%/PMXB43UNE.pdf"
+			(at 74.93 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 20 V 3.2A (Ta) 400mW (Ta), 8.33W (Tc) Surface Mount DFN1010D-3"
+			(at 73.66 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1806-0000-00006"
+			(at 75.438 46.99 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "ab67645a-28ae-41ff-b3ea-0e4298c5d282")
+		)
+		(pin "1"
+			(uuid "676653f0-89de-465b-b6da-87e85330d664")
+		)
+		(pin "2"
+			(uuid "421dde5b-aa80-4316-ac94-9019b7bcd557")
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 36.83 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0c8bef3-943b-4a7c-9551-8ff886a776f1")
+		(property "Reference" "#PWR0521"
+			(at 36.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 36.83 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da653cad-3ed5-44b3-96ce-b1e20ac9c622")
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
+					(reference "#PWR0521")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d21db5eb-f192-47a0-abfa-cc3278cef5c8")
+		(property "Reference" "#PWR0528"
+			(at 138.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57d0f9dd-335b-4d7a-9e54-a1e2ea15fdfa")
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
+					(reference "#PWR0528")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 68.58 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6e981b9-442f-419c-8ffa-7d9fb419744d")
+		(property "Reference" "#PWR0522"
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 68.58 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61fcc0c6-37c5-4b46-ad20-85ce404d649b")
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
+					(reference "#PWR0522")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RC0402JR-07100RL")
+		(at 63.5 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e73965d7-ade2-4ee9-822d-5be5681845cd")
+		(property "Reference" "R329"
+			(at 63.5 43.942 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 63.5 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 58.166 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 57.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100 OHM 5% 1/16W 0402"
+			(at 59.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00011"
+			(at 55.626 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5cda6ba-95ed-400c-8176-f18ee554f00b")
+		)
+		(pin "1"
+			(uuid "00621179-9635-4238-8b53-979a8b4212f7")
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
+					(reference "R329")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 132.08 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eabc87b8-759b-4711-aaf3-b41090b1dac5")
+		(property "Reference" "R327"
+			(at 131.064 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 131.064 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 132.08 31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 132.08 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 132.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00016"
+			(at 132.08 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "667a3437-4cbb-44d6-ba67-b043cf76a021")
+		)
+		(pin "1"
+			(uuid "196934ed-cf3c-4b25-8caf-f9012997c13c")
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/cfe5824b-ca2a-44ec-b40d-02d009d78388"
+					(reference "R327")
 					(unit 1)
 				)
 			)

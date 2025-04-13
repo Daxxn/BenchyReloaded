@@ -11,7 +11,195 @@
 		(comment 4 "Small net labels (≤0.65) are for clarity and do not connect to other nets.")
 	)
 	(lib_symbols
-		(symbol "Mechanical:MountingHole_Pad_MP"
+		(symbol "DX_Thermal_HeatSink:960-19-12-S-AB-0"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HS"
+				(at 0 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "960-19-12-S-AB-0"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Daxxn_Thermal_Heatsink:960-19-12-S-AB-0"
+				(at 0 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${DATASHEETS}/960_Series.pdf"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "HEATSINK 19X12MM SIDE PUSH PIN"
+				(at 0 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "1601-0000-00009"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(symbol "960-19-12-S-AB-0_0_1"
+				(rectangle
+					(start -5.08 0)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "960-19-12-S-AB-0_1_1"
+				(text "HEATSINK"
+					(at 0 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
 			)
@@ -30,7 +218,7 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole_Pad_MP"
+			(property "Value" "MountingHole_Pad"
 				(at 0 4.445 0)
 				(effects
 					(font
@@ -56,7 +244,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole with connection as pad named MP"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,7 +271,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_Pad_MP_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
 					(center 0 1.27)
 					(radius 1.27)
@@ -96,18 +284,18 @@
 					)
 				)
 			)
-			(symbol "MountingHole_Pad_MP_1_1"
+			(symbol "MountingHole_Pad_1_1"
 				(pin input line
 					(at 0 -2.54 90)
 					(length 2.54)
-					(name "MP"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "MP"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -651,7 +839,7 @@
 		(uuid "fbea9248-5bf8-4cb5-8677-8718dfe60b30")
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 222.25 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -693,7 +881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole with connection"
 			(at 222.25 153.67 0)
 			(effects
 				(font
@@ -710,7 +898,7 @@
 				)
 			)
 		)
-		(pin "MP"
+		(pin "1"
 			(uuid "940a3d99-132d-4b5e-8e89-a9597cf5b400")
 		)
 		(instances
@@ -723,7 +911,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 217.17 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -765,7 +953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole with connection"
 			(at 217.17 153.67 0)
 			(effects
 				(font
@@ -782,7 +970,7 @@
 				)
 			)
 		)
-		(pin "MP"
+		(pin "1"
 			(uuid "68ffbd35-6db5-465b-b70a-20d8d8849258")
 		)
 		(instances
@@ -795,7 +983,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 237.49 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -837,7 +1025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole with connection"
 			(at 237.49 153.67 0)
 			(effects
 				(font
@@ -854,7 +1042,7 @@
 				)
 			)
 		)
-		(pin "MP"
+		(pin "1"
 			(uuid "a7294d6c-ced1-4a84-9683-5432989f4a39")
 		)
 		(instances
@@ -867,7 +1055,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 177.8 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -909,7 +1097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole with connection"
 			(at 177.8 153.67 0)
 			(effects
 				(font
@@ -926,7 +1114,7 @@
 				)
 			)
 		)
-		(pin "MP"
+		(pin "1"
 			(uuid "5b3e1b18-7539-44bc-bee3-b0c8e845ba25")
 		)
 		(instances
@@ -939,7 +1127,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 227.33 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -981,7 +1169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole with connection"
 			(at 227.33 153.67 0)
 			(effects
 				(font
@@ -998,7 +1186,7 @@
 				)
 			)
 		)
-		(pin "MP"
+		(pin "1"
 			(uuid "1f1f0c70-40c4-48ea-a00e-f5683ad14506")
 		)
 		(instances
@@ -1011,7 +1199,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 187.96 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1053,7 +1241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole with connection"
 			(at 187.96 153.67 0)
 			(effects
 				(font
@@ -1070,7 +1258,7 @@
 				)
 			)
 		)
-		(pin "MP"
+		(pin "1"
 			(uuid "46b011f3-8f07-45a7-bcca-005c8f32f338")
 		)
 		(instances
@@ -1083,7 +1271,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 182.88 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1125,7 +1313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole with connection"
 			(at 182.88 153.67 0)
 			(effects
 				(font
@@ -1142,7 +1330,7 @@
 				)
 			)
 		)
-		(pin "MP"
+		(pin "1"
 			(uuid "611edbf8-0c4a-458a-8dbe-3a99dd06a54b")
 		)
 		(instances
@@ -1155,7 +1343,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 232.41 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1197,7 +1385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole with connection"
 			(at 232.41 153.67 0)
 			(effects
 				(font
@@ -1214,7 +1402,7 @@
 				)
 			)
 		)
-		(pin "MP"
+		(pin "1"
 			(uuid "4b63d46b-948e-4151-963e-4e72b7bdf6bc")
 		)
 		(instances
@@ -1227,7 +1415,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 212.09 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1269,7 +1457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole with connection"
 			(at 212.09 153.67 0)
 			(effects
 				(font
@@ -1286,7 +1474,7 @@
 				)
 			)
 		)
-		(pin "MP"
+		(pin "1"
 			(uuid "87dfbf79-b3b2-40b5-ba5b-b7cc7ec4e4e2")
 		)
 		(instances
@@ -1299,7 +1487,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 207.01 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1341,7 +1529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole with connection"
 			(at 207.01 153.67 0)
 			(effects
 				(font
@@ -1358,7 +1546,7 @@
 				)
 			)
 		)
-		(pin "MP"
+		(pin "1"
 			(uuid "1837a90f-30af-4aad-9d83-d090a4794d7f")
 		)
 		(instances
@@ -1371,7 +1559,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 193.04 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1413,7 +1601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole with connection"
 			(at 193.04 153.67 0)
 			(effects
 				(font
@@ -1430,7 +1618,7 @@
 				)
 			)
 		)
-		(pin "MP"
+		(pin "1"
 			(uuid "4f942e11-d54e-41a6-b0e9-5019fa47fc67")
 		)
 		(instances
@@ -1451,7 +1639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80cd067b-8a26-4d26-a5da-5f61b8bb1945")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR01"
 			(at 177.8 167.64 0)
 			(effects
 				(font
@@ -1501,14 +1689,83 @@
 		(instances
 			(project ""
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956"
-					(reference "#PWR0168")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "DX_Thermal_HeatSink:960-19-12-S-AB-0")
+		(at 273.05 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85fda5d8-2149-41e9-98e0-ce4695b44af6")
+		(property "Reference" "HS1"
+			(at 273.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "960-19-12-S-AB-0"
+			(at 273.05 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Thermal_Heatsink:960-19-12-S-AB-0"
+			(at 273.05 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/960_Series.pdf"
+			(at 273.05 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HEATSINK 19X12MM SIDE PUSH PIN"
+			(at 273.05 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1601-0000-00009"
+			(at 273.05 159.512 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956"
+					(reference "HS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 257.81 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1550,7 +1807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole with connection"
 			(at 257.81 153.67 0)
 			(effects
 				(font
@@ -1567,7 +1824,7 @@
 				)
 			)
 		)
-		(pin "MP"
+		(pin "1"
 			(uuid "e748fb79-cf21-4b70-8f27-42ea028ba631")
 		)
 		(instances
@@ -1580,7 +1837,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 242.57 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1622,7 +1879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole with connection"
 			(at 242.57 153.67 0)
 			(effects
 				(font
@@ -1639,7 +1896,7 @@
 				)
 			)
 		)
-		(pin "MP"
+		(pin "1"
 			(uuid "dbb9d7cc-0a1b-49d0-ad9c-77c594971f58")
 		)
 		(instances
@@ -1652,7 +1909,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 252.73 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1694,7 +1951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole with connection"
 			(at 252.73 153.67 0)
 			(effects
 				(font
@@ -1711,7 +1968,7 @@
 				)
 			)
 		)
-		(pin "MP"
+		(pin "1"
 			(uuid "db72a00a-ba53-4cac-b839-4b6dde174e84")
 		)
 		(instances
@@ -1724,7 +1981,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 247.65 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1766,7 +2023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole with connection"
 			(at 247.65 153.67 0)
 			(effects
 				(font
@@ -1783,7 +2040,7 @@
 				)
 			)
 		)
-		(pin "MP"
+		(pin "1"
 			(uuid "b4f8507b-a14b-4115-aab2-8807432b386c")
 		)
 		(instances
@@ -1796,7 +2053,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 201.93 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1838,7 +2095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole with connection"
 			(at 201.93 153.67 0)
 			(effects
 				(font
@@ -1855,7 +2112,7 @@
 				)
 			)
 		)
-		(pin "MP"
+		(pin "1"
 			(uuid "b958e93f-ed82-4c89-b3e6-22187ecbc930")
 		)
 		(instances
@@ -1863,49 +2120,6 @@
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956"
 					(reference "H5")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 114.3 25.4)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "194fa449-07be-4993-866f-60819f794b86")
-		(property "Sheetname" "DDR MEMORY"
-			(at 114.3 24.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "BenchyMotherboard-AM625_DDR-Memory.kicad_sch"
-			(at 114.3 38.6846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956"
-					(page "6")
 				)
 			)
 		)
@@ -1925,8 +2139,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "47f76d11-9090-4bfc-aaf3-305f563a98bd")
-		(property "Sheetname" "DISPLAY"
+		(uuid "194fa449-07be-4993-866f-60819f794b86")
+		(property "Sheetname" "DDR MEMORY"
 			(at 139.7 24.6884 0)
 			(effects
 				(font
@@ -1935,8 +2149,51 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "BenchyMotherboard-AM625_Display.kicad_sch"
+		(property "Sheetfile" "BenchyMotherboard-AM625_DDR-Memory.kicad_sch"
 			(at 139.7 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 25.4)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "47f76d11-9090-4bfc-aaf3-305f563a98bd")
+		(property "Sheetname" "DISPLAY"
+			(at 165.1 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BenchyMotherboard-AM625_Display.kicad_sch"
+			(at 165.1 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1997,7 +2254,7 @@
 		)
 	)
 	(sheet
-		(at 266.7 139.7)
+		(at 266.7 115.57)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2013,7 +2270,7 @@
 		)
 		(uuid "7a96fb26-9078-4225-b61e-0daf3192c05c")
 		(property "Sheetname" "UNUSED BLOCKS"
-			(at 266.7 138.9884 0)
+			(at 266.7 114.8584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,7 +2279,7 @@
 			)
 		)
 		(property "Sheetfile" "BenchyMotherboard-AM625_UnusedBlocks.kicad_sch"
-			(at 266.7 152.9846 0)
+			(at 266.7 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,7 +2340,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 50.8)
+		(at 88.9 50.8)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2099,7 +2356,7 @@
 		)
 		(uuid "8494b7c1-cb3d-49c1-ba37-1630d97ce06f")
 		(property "Sheetname" "LIGHTING CONTROL"
-			(at 114.3 50.0884 0)
+			(at 88.9 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2365,7 @@
 			)
 		)
 		(property "Sheetfile" "BenchyMotherboard-AM625_LightingCtrl.kicad_sch"
-			(at 114.3 64.0846 0)
+			(at 88.9 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,7 +2383,7 @@
 		)
 	)
 	(sheet
-		(at 88.9 25.4)
+		(at 114.3 25.4)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2142,7 +2399,7 @@
 		)
 		(uuid "9af52388-8e0c-40ca-a957-829918230000")
 		(property "Sheetname" "EMMC"
-			(at 88.9 24.6884 0)
+			(at 114.3 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,7 +2408,7 @@
 			)
 		)
 		(property "Sheetfile" "BenchyMotherboard-AM625_SD-Cards.kicad_sch"
-			(at 88.9 38.6846 0)
+			(at 114.3 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +2512,7 @@
 		)
 	)
 	(sheet
-		(at 88.9 50.8)
+		(at 63.5 50.8)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2271,7 +2528,7 @@
 		)
 		(uuid "adda61d4-28df-46e5-868e-f180dbc24258")
 		(property "Sheetname" "VOLT METERS"
-			(at 88.9 50.0884 0)
+			(at 63.5 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +2537,7 @@
 			)
 		)
 		(property "Sheetfile" "BenchyMotherboard-AM625_VoltMeters.kicad_sch"
-			(at 88.9 64.0846 0)
+			(at 63.5 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2293,6 +2550,92 @@
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956"
 					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 25.4)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c1790e90-79e5-460c-a846-182f9efe356f")
+		(property "Sheetname" "USB"
+			(at 215.9 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BenchyMotherboard-AM625_USB.kicad_sch"
+			(at 215.9 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 25.4)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c5b8e58b-a92e-4920-a432-fb6a207f8823")
+		(property "Sheetname" "SOC GPIO"
+			(at 88.9 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BenchyMotherboard-AM625_GPIO.kicad_sch"
+			(at 88.9 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956"
+					(page "4")
 				)
 			)
 		)
@@ -2312,8 +2655,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "c1790e90-79e5-460c-a846-182f9efe356f")
-		(property "Sheetname" "USB"
+		(uuid "fd24ba53-f5d2-4824-bdb8-c8623555dd8b")
+		(property "Sheetname" "ETHERNET"
 			(at 190.5 24.6884 0)
 			(effects
 				(font
@@ -2322,94 +2665,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "BenchyMotherboard-AM625_USB.kicad_sch"
-			(at 190.5 38.6846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 63.5 50.8)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "c5b8e58b-a92e-4920-a432-fb6a207f8823")
-		(property "Sheetname" "SOC GPIO"
-			(at 63.5 50.0884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "BenchyMotherboard-AM625_GPIO.kicad_sch"
-			(at 63.5 64.0846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 165.1 25.4)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "fd24ba53-f5d2-4824-bdb8-c8623555dd8b")
-		(property "Sheetname" "ETHERNET"
-			(at 165.1 24.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
 		(property "Sheetfile" "BenchyMotherboard-AM625_Ethernet.kicad_sch"
-			(at 165.1 38.6846 0)
+			(at 190.5 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

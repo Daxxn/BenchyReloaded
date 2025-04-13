@@ -8,7 +8,7 @@ fp-info-cache
 *.000
 
 # KiCad lock file
-**.~*.lck
+**.lck
 
 # Netlist files (exported from Eeschema)
 *.net

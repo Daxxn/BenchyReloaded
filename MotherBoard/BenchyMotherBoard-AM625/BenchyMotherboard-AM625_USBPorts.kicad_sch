@@ -675,144 +675,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DX_Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.016 0.635 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R"
-				(at 1.016 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-				(at 0 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "r resistor daxxn"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_1_1"
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DX_Device_Power:VCC-USB"
 			(power)
 			(pin_names
@@ -3631,6 +3493,153 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DX_Resistor:RMCF0402FT100K"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.016 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100K"
+				(at 1.016 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${DATASHEETS}/SEI-RMCF_RMCP.pdf"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 100K OHM 1% 1/16W 0402"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "0204-0000-00013"
+				(at 0 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor daxxn"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RMCF0402FT100K_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -3858,6 +3867,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "THE ADDRESSES ARE BOTH THE SAME. NEED TO SPLIT THE BUS."
+		(exclude_from_sim no)
+		(at 94.996 157.226 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "f15d41c5-4e4d-4f36-83dc-6558934cffe2")
+	)
 	(junction
 		(at 207.01 104.14)
 		(diameter 0)
@@ -3881,12 +3901,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f562a25-74df-4907-9a87-947bff8dc14e")
-	)
-	(junction
-		(at 116.84 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11b8553a-a957-427f-9ac1-f9e2212ff928")
 	)
 	(junction
 		(at 238.76 132.08)
@@ -3935,12 +3949,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23399ee5-ac28-4f6a-b00a-d99abb2808d4")
-	)
-	(junction
-		(at 31.75 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24e29b3c-22f6-4dc9-bd7a-58673b66dfca")
 	)
 	(junction
 		(at 121.92 54.61)
@@ -4588,7 +4596,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 142.24) (xy 116.84 137.16)
+			(xy 116.84 139.7) (xy 116.84 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4958,7 +4966,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 142.24) (xy 31.75 137.16)
+			(xy 31.75 139.7) (xy 31.75 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5268,16 +5276,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 137.16) (xy 31.75 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "571be717-1bcc-4465-a9d6-dc9b7804c5f2")
-	)
-	(wire
-		(pts
 			(xy 125.73 25.4) (xy 132.08 25.4)
 		)
 		(stroke
@@ -5325,16 +5323,6 @@
 			(type default)
 		)
 		(uuid "5c1c94ba-5a46-4dde-ba93-171c93fb897c")
-	)
-	(wire
-		(pts
-			(xy 113.03 137.16) (xy 116.84 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d0e47f4-7bea-4b52-be8b-5ebd2c9ddc2f")
 	)
 	(wire
 		(pts
@@ -7481,52 +7469,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 00b6ea0a-3d57-4059-993b-b45759f6f99a)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 248.92 45.72) (xy 262.89 45.72) (xy 262.89 67.31) (xy 248.92 67.31)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 05df02ff-6b77-403f-a06c-790ba470c3f4)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 203.2 115.57) (xy 217.17 115.57) (xy 217.17 137.16) (xy 203.2 137.16)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 7ab3da4d-e175-49f8-8c76-1a6f523df7a1)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 96.52 45.72) (xy 110.49 45.72) (xy 110.49 67.31) (xy 96.52 67.31)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 80fe42fe-0c3e-459d-97bd-5f08cd53bb7e)
+			(uuid 09165e9d-8db4-423b-a5a1-637acea08cdc)
 		)
 	)
 	(rule_area
@@ -7541,7 +7484,52 @@
 			(fill
 				(type none)
 			)
-			(uuid 9a7478b5-9d18-4b4f-b94d-ee450cc07a0a)
+			(uuid 71b88059-7012-4e7d-80fc-66e691142f60)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 203.2 115.57) (xy 217.17 115.57) (xy 217.17 137.16) (xy 203.2 137.16)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 9d183032-31a1-4f32-aff2-9e062363619c)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 248.92 45.72) (xy 262.89 45.72) (xy 262.89 67.31) (xy 248.92 67.31)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid ac3aaa8e-1017-44f0-a074-dd4b42e62614)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 96.52 45.72) (xy 110.49 45.72) (xy 110.49 67.31) (xy 96.52 67.31)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid db46453a-7498-4350-9feb-e2d2c8112425)
 		)
 	)
 	(netclass_flag ""
@@ -7865,7 +7853,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "04a37aca-ff61-4ec8-b3ee-1c7be0680945")
-		(property "Reference" "R195"
+		(property "Reference" "R190"
 			(at 155.956 123.825 0)
 			(effects
 				(font
@@ -7928,7 +7916,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "R195")
+					(reference "R190")
 					(unit 1)
 				)
 			)
@@ -7943,7 +7931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ba6bbb9-a36f-4e1f-8b7b-9f39688ef6cc")
-		(property "Reference" "#PWR0270"
+		(property "Reference" "#PWR0285"
 			(at 307.34 81.28 0)
 			(effects
 				(font
@@ -7993,7 +7981,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0270")
+					(reference "#PWR0285")
 					(unit 1)
 				)
 			)
@@ -8008,7 +7996,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "141aea29-0c90-4f3f-9259-ed11b5ba017c")
-		(property "Reference" "#PWR0264"
+		(property "Reference" "#PWR0292"
 			(at 135.89 101.6 0)
 			(effects
 				(font
@@ -8058,7 +8046,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0264")
+					(reference "#PWR0292")
 					(unit 1)
 				)
 			)
@@ -8073,7 +8061,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "177e4770-cccf-4c58-971b-996c0e0aff0b")
-		(property "Reference" "R193"
+		(property "Reference" "R187"
 			(at 70.866 123.825 0)
 			(effects
 				(font
@@ -8136,7 +8124,7 @@
 		(instances
 			(project ""
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "R193")
+					(reference "R187")
 					(unit 1)
 				)
 			)
@@ -8151,7 +8139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1976ad02-026a-4a66-ab09-88a72c1e6cf9")
-		(property "Reference" "#PWR0287"
+		(property "Reference" "#PWR0277"
 			(at 278.13 39.37 0)
 			(effects
 				(font
@@ -8201,7 +8189,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0287")
+					(reference "#PWR0277")
 					(unit 1)
 				)
 			)
@@ -8216,7 +8204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d25b049-1aa1-413a-b3c8-189d9189d860")
-		(property "Reference" "D9"
+		(property "Reference" "D8"
 			(at 36.83 71.882 0)
 			(effects
 				(font
@@ -8300,7 +8288,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "D9")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -8316,7 +8304,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1faabc17-5b35-4e7b-a572-f11779fee798")
-		(property "Reference" "J5"
+		(property "Reference" "J11"
 			(at 215.9 34.544 0)
 			(effects
 				(font
@@ -8403,7 +8391,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "J5")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -8418,7 +8406,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "252c249a-2b45-494b-9694-2e830d895292")
-		(property "Reference" "R196"
+		(property "Reference" "R191"
 			(at 162.306 123.825 0)
 			(effects
 				(font
@@ -8481,7 +8469,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "R196")
+					(reference "R191")
 					(unit 1)
 				)
 			)
@@ -8497,7 +8485,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "258a627e-5e72-4a29-8ccb-70ac4ff5c002")
-		(property "Reference" "C338"
+		(property "Reference" "C337"
 			(at 184.912 100.076 0)
 			(effects
 				(font
@@ -8560,7 +8548,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "C338")
+					(reference "C337")
 					(unit 1)
 				)
 			)
@@ -8568,15 +8556,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 147.32 0)
+		(at 116.84 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "269bbb58-1066-48a6-a426-885ec23c3881")
-		(property "Reference" "#PWR0261"
-			(at 116.84 153.67 0)
+		(property "Reference" "#PWR0301"
+			(at 116.84 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8585,7 +8573,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 151.13 0)
+			(at 116.84 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8593,7 +8581,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 147.32 0)
+			(at 116.84 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8602,7 +8590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 147.32 0)
+			(at 116.84 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8611,7 +8599,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 147.32 0)
+			(at 116.84 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8625,7 +8613,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0261")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -8633,15 +8621,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 147.32 0)
+		(at 31.75 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "26c0f033-db7c-4f43-b3ad-f64c0ab0beb8")
-		(property "Reference" "#PWR0262"
-			(at 31.75 153.67 0)
+		(property "Reference" "#PWR0299"
+			(at 31.75 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,7 +8638,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 151.13 0)
+			(at 31.75 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8658,7 +8646,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 147.32 0)
+			(at 31.75 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8667,7 +8655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 147.32 0)
+			(at 31.75 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8676,7 +8664,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 147.32 0)
+			(at 31.75 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8690,7 +8678,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0262")
+					(reference "#PWR0299")
 					(unit 1)
 				)
 			)
@@ -8705,7 +8693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "280d2558-0f3e-4831-ae53-57cf43aade96")
-		(property "Reference" "#PWR0269"
+		(property "Reference" "#PWR0284"
 			(at 231.14 81.28 0)
 			(effects
 				(font
@@ -8755,7 +8743,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0269")
+					(reference "#PWR0284")
 					(unit 1)
 				)
 			)
@@ -8928,7 +8916,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c555169-7dcf-4f26-8457-97d3e4d15bac")
-		(property "Reference" "#PWR0286"
+		(property "Reference" "#PWR0281"
 			(at 255.27 44.45 0)
 			(effects
 				(font
@@ -8978,7 +8966,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0286")
+					(reference "#PWR0281")
 					(unit 1)
 				)
 			)
@@ -8994,7 +8982,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3220625a-8cec-41a9-af9a-6b68e609999b")
-		(property "Reference" "C327"
+		(property "Reference" "C325"
 			(at 19.812 28.956 0)
 			(effects
 				(font
@@ -9057,7 +9045,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "C327")
+					(reference "C325")
 					(unit 1)
 				)
 			)
@@ -9072,7 +9060,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e8c3b0d-e00e-4398-af73-cc6376044aca")
-		(property "Reference" "#PWR0273"
+		(property "Reference" "#PWR0295"
 			(at 60.96 119.38 0)
 			(effects
 				(font
@@ -9122,7 +9110,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0273")
+					(reference "#PWR0295")
 					(unit 1)
 				)
 			)
@@ -9137,7 +9125,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fccb156-31ca-4764-a0f2-1e80f5b112ca")
-		(property "Reference" "#PWR0280"
+		(property "Reference" "#PWR0278"
 			(at 26.67 44.45 0)
 			(effects
 				(font
@@ -9187,7 +9175,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0280")
+					(reference "#PWR0278")
 					(unit 1)
 				)
 			)
@@ -9202,7 +9190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fe8456e-4e92-4469-a2e2-3afe6375ff63")
-		(property "Reference" "#PWR0281"
+		(property "Reference" "#PWR0274"
 			(at 49.53 39.37 0)
 			(effects
 				(font
@@ -9252,7 +9240,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0281")
+					(reference "#PWR0274")
 					(unit 1)
 				)
 			)
@@ -9267,7 +9255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "422a8fe9-d092-40e4-b0db-14d9a4fabc51")
-		(property "Reference" "U16"
+		(property "Reference" "U43"
 			(at 51.308 123.19 0)
 			(effects
 				(font
@@ -9385,7 +9373,7 @@
 		(instances
 			(project ""
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "U16")
+					(reference "U43")
 					(unit 3)
 				)
 			)
@@ -9400,7 +9388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43a53320-bd1d-4333-85c3-20d3663554c0")
-		(property "Reference" "#PWR0267"
+		(property "Reference" "#PWR0294"
 			(at 229.87 115.57 0)
 			(effects
 				(font
@@ -9450,7 +9438,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0267")
+					(reference "#PWR0294")
 					(unit 1)
 				)
 			)
@@ -9465,7 +9453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44dff4cf-0f41-496b-bf99-1f5d7511dd7b")
-		(property "Reference" "D12"
+		(property "Reference" "D7"
 			(at 265.43 70.612 0)
 			(effects
 				(font
@@ -9549,76 +9537,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:R")
-		(at 116.84 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "46c6c776-16e7-4918-8f07-c583497239f6")
-		(property "Reference" "R354"
-			(at 117.856 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18K"
-			(at 117.856 145.796 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 116.84 139.446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 116.84 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06c759f1-9261-4ab3-9912-04b1729870e2")
-		)
-		(pin "2"
-			(uuid "aeb1eed0-ca23-434f-b71c-3dc7c9a92d18")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "R354")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -9633,7 +9552,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48e0faf9-c1b8-4f84-8739-4c1cee6868d3")
-		(property "Reference" "C326"
+		(property "Reference" "C327"
 			(at 50.038 28.956 0)
 			(effects
 				(font
@@ -9696,7 +9615,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "C326")
+					(reference "C327")
 					(unit 1)
 				)
 			)
@@ -9790,7 +9709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fc3c04d-9a0b-4385-a635-713b3405ae2a")
-		(property "Reference" "#PWR0285"
+		(property "Reference" "#PWR0276"
 			(at 201.93 39.37 0)
 			(effects
 				(font
@@ -9840,7 +9759,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0285")
+					(reference "#PWR0276")
 					(unit 1)
 				)
 			)
@@ -9855,7 +9774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52676173-9cb5-419e-9cea-a3cf0aa0c7f8")
-		(property "Reference" "#PWR0308"
+		(property "Reference" "#PWR0289"
 			(at 48.26 90.17 0)
 			(effects
 				(font
@@ -9905,7 +9824,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0308")
+					(reference "#PWR0289")
 					(unit 1)
 				)
 			)
@@ -9920,7 +9839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56102954-50a1-442c-bc02-0e56c8d7ea88")
-		(property "Reference" "#PWR0278"
+		(property "Reference" "#PWR0273"
 			(at 248.92 26.67 0)
 			(effects
 				(font
@@ -9970,7 +9889,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0278")
+					(reference "#PWR0273")
 					(unit 1)
 				)
 			)
@@ -9985,7 +9904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5850b744-3507-460a-87a2-7ccc50eb4727")
-		(property "Reference" "U17"
+		(property "Reference" "U44"
 			(at 184.15 19.304 0)
 			(effects
 				(font
@@ -10102,7 +10021,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "U17")
+					(reference "U44")
 					(unit 1)
 				)
 			)
@@ -10118,7 +10037,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cfbf3b5-523f-4311-80c4-86df8d221fd5")
-		(property "Reference" "C325"
+		(property "Reference" "C326"
 			(at 26.162 28.956 0)
 			(effects
 				(font
@@ -10181,7 +10100,7 @@
 		(instances
 			(project ""
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "C325")
+					(reference "C326")
 					(unit 1)
 				)
 			)
@@ -10197,7 +10116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "623bdf45-4143-4e2d-a8db-39072434790e")
-		(property "Reference" "R192"
+		(property "Reference" "R186"
 			(at 34.544 123.825 0)
 			(effects
 				(font
@@ -10260,7 +10179,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "R192")
+					(reference "R186")
 					(unit 1)
 				)
 			)
@@ -10275,7 +10194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64e54bb2-a07a-4776-9cab-be11cea7c393")
-		(property "Reference" "#PWR0272"
+		(property "Reference" "#PWR0282"
 			(at 78.74 81.28 0)
 			(effects
 				(font
@@ -10325,74 +10244,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0272")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:R")
-		(at 110.49 137.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "6a1bed9d-3c00-4f1d-ac5a-1a8e00460fd0")
-		(property "Reference" "R356"
-			(at 110.49 139.192 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "18K"
-			(at 110.49 140.716 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 115.824 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 114.3 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bedb603-2118-487e-b6bd-ea607d880a97")
-		)
-		(pin "2"
-			(uuid "d39bdc60-1c42-40f8-9f16-52ee21c56d81")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "R356")
+					(reference "#PWR0282")
 					(unit 1)
 				)
 			)
@@ -10407,7 +10259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7073e28e-5fd0-47ef-9af7-547a04778577")
-		(property "Reference" "#PWR0274"
+		(property "Reference" "#PWR0296"
 			(at 146.05 119.38 0)
 			(effects
 				(font
@@ -10457,7 +10309,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0274")
+					(reference "#PWR0296")
 					(unit 1)
 				)
 			)
@@ -10472,7 +10324,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70853d76-d24b-411f-a523-318d2a445dff")
-		(property "Reference" "#PWR0263"
+		(property "Reference" "#PWR0291"
 			(at 50.8 100.33 0)
 			(effects
 				(font
@@ -10522,7 +10374,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0263")
+					(reference "#PWR0291")
 					(unit 1)
 				)
 			)
@@ -10537,7 +10389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "739e0594-1078-46c5-a9f9-c60a6ad742ce")
-		(property "Reference" "#PWR0284"
+		(property "Reference" "#PWR0280"
 			(at 179.07 44.45 0)
 			(effects
 				(font
@@ -10587,72 +10439,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0284")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 107.95 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77061c79-8db5-4c2b-8656-c9b9457b02f1")
-		(property "Reference" "#PWR0574"
-			(at 111.76 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 103.378 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 107.95 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef069146-dddf-4851-a831-8ca8c59b865a")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0574")
+					(reference "#PWR0280")
 					(unit 1)
 				)
 			)
@@ -10667,7 +10454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7903bd52-10b8-4463-bed8-c1d9e5e5ff19")
-		(property "Reference" "#PWR0288"
+		(property "Reference" "#PWR0290"
 			(at 185.42 97.79 0)
 			(effects
 				(font
@@ -10717,7 +10504,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0288")
+					(reference "#PWR0290")
 					(unit 1)
 				)
 			)
@@ -10732,7 +10519,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "7bf52137-3dc9-4016-8f4d-ed681c84ade9")
-		(property "Reference" "R194"
+		(property "Reference" "R188"
 			(at 77.216 123.825 0)
 			(effects
 				(font
@@ -10795,7 +10582,86 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "R194")
+					(reference "R188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RMCF0402FT100K")
+		(at 116.84 142.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ddd1551-aced-4580-ba50-d70bf06309c1")
+		(property "Reference" "R193"
+			(at 115.824 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 115.824 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 116.84 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/SEI-RMCF_RMCP.pdf"
+			(at 116.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100K OHM 1% 1/16W 0402"
+			(at 116.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00013"
+			(at 116.84 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "934c24c7-1570-4c05-8f68-d8978a4855e4")
+		)
+		(pin "2"
+			(uuid "24ed5c0b-e0a4-4f0b-a929-5bc200473400")
+		)
+		(instances
+			(project "BenchyMotherBoard-AM625"
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
+					(reference "R193")
 					(unit 1)
 				)
 			)
@@ -10810,7 +10676,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e64222f-27bc-4051-af05-39bdb43414a2")
-		(property "Reference" "#PWR0271"
+		(property "Reference" "#PWR0283"
 			(at 154.94 81.28 0)
 			(effects
 				(font
@@ -10860,7 +10726,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0271")
+					(reference "#PWR0283")
 					(unit 1)
 				)
 			)
@@ -10876,7 +10742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82d0f4cf-1012-482c-b929-7179ff160c65")
-		(property "Reference" "J6"
+		(property "Reference" "J12"
 			(at 292.1 34.544 0)
 			(effects
 				(font
@@ -10963,7 +10829,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "J6")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -10978,7 +10844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83ea46df-9abc-4fd9-9bbc-18e2ca4786bc")
-		(property "Reference" "#PWR0277"
+		(property "Reference" "#PWR0272"
 			(at 172.72 26.67 0)
 			(effects
 				(font
@@ -11028,7 +10894,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0277")
+					(reference "#PWR0272")
 					(unit 1)
 				)
 			)
@@ -11044,7 +10910,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91f07bea-3aa9-46f0-afd7-c2797900353e")
-		(property "Reference" "J7"
+		(property "Reference" "J10"
 			(at 139.7 34.544 0)
 			(effects
 				(font
@@ -11131,74 +10997,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:R")
-		(at 25.4 137.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "9db0b0bb-75d3-47a8-8e8e-ca2cdd99db4d")
-		(property "Reference" "R355"
-			(at 25.4 139.192 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "18K"
-			(at 25.4 140.716 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 30.734 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 29.21 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb1e709c-ac92-4481-9de7-33769945df79")
-		)
-		(pin "2"
-			(uuid "223b1eff-bd9e-491d-90fa-fe4a58903b1f")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "R355")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -11291,7 +11090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2fdabca-166b-4399-a5a9-e611a8bf91d8")
-		(property "Reference" "#PWR0282"
+		(property "Reference" "#PWR0279"
 			(at 102.87 44.45 0)
 			(effects
 				(font
@@ -11341,7 +11140,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0282")
+					(reference "#PWR0279")
 					(unit 1)
 				)
 			)
@@ -11356,7 +11155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3296995-85a9-44ac-a508-1809b787b59a")
-		(property "Reference" "C321"
+		(property "Reference" "C340"
 			(at 54.864 103.886 0)
 			(effects
 				(font
@@ -11419,7 +11218,7 @@
 		(instances
 			(project ""
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "C321")
+					(reference "C340")
 					(unit 1)
 				)
 			)
@@ -11434,7 +11233,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a54a2fd5-beb6-44c7-a59d-dc11d4effcb1")
-		(property "Reference" "#PWR0275"
+		(property "Reference" "#PWR0270"
 			(at 20.32 26.67 0)
 			(effects
 				(font
@@ -11484,7 +11283,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0275")
+					(reference "#PWR0270")
 					(unit 1)
 				)
 			)
@@ -11499,7 +11298,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a713c750-9161-4ffc-9aa0-ba09866e4cc4")
-		(property "Reference" "#PWR0283"
+		(property "Reference" "#PWR0275"
 			(at 125.73 39.37 0)
 			(effects
 				(font
@@ -11549,7 +11348,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0283")
+					(reference "#PWR0275")
 					(unit 1)
 				)
 			)
@@ -11564,7 +11363,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0352f23-9a52-494c-ae87-4e30df82d31b")
-		(property "Reference" "U17"
+		(property "Reference" "U44"
 			(at 260.35 19.304 0)
 			(effects
 				(font
@@ -11681,7 +11480,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "U17")
+					(reference "U44")
 					(unit 2)
 				)
 			)
@@ -11696,7 +11495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b329f7de-79ce-43c2-9da7-cfb6498cdd9f")
-		(property "Reference" "#PWR0311"
+		(property "Reference" "#PWR0288"
 			(at 276.86 88.9 0)
 			(effects
 				(font
@@ -11746,7 +11545,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0311")
+					(reference "#PWR0288")
 					(unit 1)
 				)
 			)
@@ -11761,7 +11560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4a4d3e7-a038-4b3f-96b7-3e33921981f6")
-		(property "Reference" "#PWR0260"
+		(property "Reference" "#PWR0302"
 			(at 151.13 151.13 0)
 			(effects
 				(font
@@ -11811,7 +11610,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0260")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -11827,7 +11626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b61ca479-936f-47a2-964a-7a523e7df6f8")
-		(property "Reference" "J8"
+		(property "Reference" "J13"
 			(at 266.7 103.886 0)
 			(effects
 				(font
@@ -11914,7 +11713,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "J8")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -11929,7 +11728,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9d07918-7e4d-4f6b-9f0f-3c0525aa40d0")
-		(property "Reference" "U47"
+		(property "Reference" "U45"
 			(at 212.09 90.17 0)
 			(effects
 				(font
@@ -12001,7 +11800,86 @@
 		(instances
 			(project ""
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "U47")
+					(reference "U45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RMCF0402FT100K")
+		(at 31.75 142.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc0b7d24-3f51-4332-a36e-1743e70824a5")
+		(property "Reference" "R192"
+			(at 30.734 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 30.734 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 31.75 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/SEI-RMCF_RMCP.pdf"
+			(at 31.75 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100K OHM 1% 1/16W 0402"
+			(at 31.75 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00013"
+			(at 31.75 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7cfcf55-ed33-423c-89ba-bc551b525381")
+		)
+		(pin "2"
+			(uuid "43415d49-fb90-42e9-8e3b-6f1dd4b6f86a")
+		)
+		(instances
+			(project ""
+				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
+					(reference "R192")
 					(unit 1)
 				)
 			)
@@ -12017,7 +11895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf17d5e4-7f55-4c8e-9459-16cb0a47f76b")
-		(property "Reference" "C339"
+		(property "Reference" "C338"
 			(at 191.262 100.076 0)
 			(effects
 				(font
@@ -12080,76 +11958,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "C339")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:R")
-		(at 31.75 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf6d1734-d277-45c8-9f00-0b46238a7878")
-		(property "Reference" "R353"
-			(at 32.766 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18K"
-			(at 32.766 145.796 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 31.75 139.446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6e819c6-c850-4617-b793-f9e5f4d494e8")
-		)
-		(pin "2"
-			(uuid "4c1d8e18-a8ff-4aba-a6cf-206f8ee134c3")
-		)
-		(instances
-			(project ""
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "R353")
+					(reference "C338")
 					(unit 1)
 				)
 			)
@@ -12164,7 +11973,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c001a4f4-0c0a-4572-92ae-ce67f653ac3e")
-		(property "Reference" "#PWR0266"
+		(property "Reference" "#PWR0297"
 			(at 35.56 125.73 0)
 			(effects
 				(font
@@ -12214,7 +12023,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0266")
+					(reference "#PWR0297")
 					(unit 1)
 				)
 			)
@@ -12229,7 +12038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c678dde6-913f-4933-9b2c-a21089760ee0")
-		(property "Reference" "#PWR0289"
+		(property "Reference" "#PWR0293"
 			(at 191.77 115.57 0)
 			(effects
 				(font
@@ -12279,7 +12088,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0289")
+					(reference "#PWR0293")
 					(unit 1)
 				)
 			)
@@ -12294,7 +12103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6eb1a61-6f39-4020-8344-34cff0049e3b")
-		(property "Reference" "U17"
+		(property "Reference" "U44"
 			(at 136.398 123.19 0)
 			(effects
 				(font
@@ -12412,7 +12221,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "U17")
+					(reference "U44")
 					(unit 3)
 				)
 			)
@@ -12505,7 +12314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c80cb763-9e5d-4e73-8b5f-01a6179e0630")
-		(property "Reference" "D11"
+		(property "Reference" "D6"
 			(at 189.23 70.612 0)
 			(effects
 				(font
@@ -12589,7 +12398,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "D11")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -12604,7 +12413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9b180e2-50b8-46a2-82ac-d24543e46a1f")
-		(property "Reference" "C322"
+		(property "Reference" "C341"
 			(at 61.214 103.886 0)
 			(effects
 				(font
@@ -12667,7 +12476,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "C322")
+					(reference "C341")
 					(unit 1)
 				)
 			)
@@ -12682,7 +12491,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "caa79f67-481b-4738-a48a-e8385a4a3778")
-		(property "Reference" "C323"
+		(property "Reference" "C342"
 			(at 139.954 103.886 0)
 			(effects
 				(font
@@ -12745,7 +12554,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "C323")
+					(reference "C342")
 					(unit 1)
 				)
 			)
@@ -12761,7 +12570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf6a00fa-9192-4d7e-8cbf-3691f1dc8d99")
-		(property "Reference" "R191"
+		(property "Reference" "R189"
 			(at 119.634 123.825 0)
 			(effects
 				(font
@@ -12824,7 +12633,7 @@
 		(instances
 			(project ""
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "R191")
+					(reference "R189")
 					(unit 1)
 				)
 			)
@@ -12839,7 +12648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2ac9369-5605-4b2c-b5f1-177fa2a62d5d")
-		(property "Reference" "U16"
+		(property "Reference" "U43"
 			(at 31.75 19.304 0)
 			(effects
 				(font
@@ -12956,7 +12765,7 @@
 		(instances
 			(project ""
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "U16")
+					(reference "U43")
 					(unit 1)
 				)
 			)
@@ -12971,7 +12780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d83e08d4-c6bc-4467-a1b7-f00ae6cae50a")
-		(property "Reference" "#PWR0309"
+		(property "Reference" "#PWR0286"
 			(at 124.46 88.9 0)
 			(effects
 				(font
@@ -13021,7 +12830,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0309")
+					(reference "#PWR0286")
 					(unit 1)
 				)
 			)
@@ -13115,7 +12924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbe74ec5-7d67-4c37-abae-923f62ee9099")
-		(property "Reference" "D10"
+		(property "Reference" "D5"
 			(at 113.03 70.612 0)
 			(effects
 				(font
@@ -13199,7 +13008,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "D10")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -13214,7 +13023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcc9b976-bbba-4947-bde6-838d91143223")
-		(property "Reference" "D13"
+		(property "Reference" "D9"
 			(at 219.71 140.462 0)
 			(effects
 				(font
@@ -13298,7 +13107,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "D13")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -13313,7 +13122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "def11ec2-0d73-4f17-a03c-555d6a32671a")
-		(property "Reference" "#PWR0265"
+		(property "Reference" "#PWR0298"
 			(at 120.65 125.73 0)
 			(effects
 				(font
@@ -13363,7 +13172,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0265")
+					(reference "#PWR0298")
 					(unit 1)
 				)
 			)
@@ -13378,7 +13187,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df9e27c1-7803-4924-af4c-e97aac7e738d")
-		(property "Reference" "#PWR0276"
+		(property "Reference" "#PWR0271"
 			(at 96.52 26.67 0)
 			(effects
 				(font
@@ -13428,7 +13237,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0276")
+					(reference "#PWR0271")
 					(unit 1)
 				)
 			)
@@ -13522,7 +13331,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e75f07ee-7005-4127-9c0d-c37dc323b36c")
-		(property "Reference" "U16"
+		(property "Reference" "U43"
 			(at 107.95 19.304 0)
 			(effects
 				(font
@@ -13639,7 +13448,7 @@
 		(instances
 			(project ""
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "U16")
+					(reference "U43")
 					(unit 2)
 				)
 			)
@@ -13654,7 +13463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e925e47a-1fa4-4e73-b6ef-cae7e3e4fc90")
-		(property "Reference" "#PWR0259"
+		(property "Reference" "#PWR0300"
 			(at 66.04 151.13 0)
 			(effects
 				(font
@@ -13704,7 +13513,7 @@
 		(instances
 			(project ""
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0259")
+					(reference "#PWR0300")
 					(unit 1)
 				)
 			)
@@ -13719,7 +13528,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e97e009c-cf5c-471b-9de5-e6c7b0b45a86")
-		(property "Reference" "C337"
+		(property "Reference" "C339"
 			(at 234.188 100.076 0)
 			(effects
 				(font
@@ -13782,7 +13591,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "C337")
+					(reference "C339")
 					(unit 1)
 				)
 			)
@@ -13797,7 +13606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea1d3a6b-9bb5-43d3-9892-f2fa5b7ecb06")
-		(property "Reference" "#PWR0310"
+		(property "Reference" "#PWR0287"
 			(at 200.66 88.9 0)
 			(effects
 				(font
@@ -13847,7 +13656,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0310")
+					(reference "#PWR0287")
 					(unit 1)
 				)
 			)
@@ -13862,7 +13671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea3ebb7c-d972-4266-b5e4-72e3c9e026fe")
-		(property "Reference" "C324"
+		(property "Reference" "C343"
 			(at 146.304 103.886 0)
 			(effects
 				(font
@@ -13925,72 +13734,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "C324")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 22.86 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea887bf6-d511-43f8-8575-3280ffc35777")
-		(property "Reference" "#PWR0573"
-			(at 26.67 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 18.288 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 22.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23a7f152-17d0-45fb-b054-232521465d26")
-		)
-		(instances
-			(project "BenchyMotherBoard-AM625"
-				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0573")
+					(reference "C343")
 					(unit 1)
 				)
 			)
@@ -14006,7 +13750,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec1b549c-1205-48a9-9af1-b0bcc45dfd76")
-		(property "Reference" "J4"
+		(property "Reference" "J9"
 			(at 63.5 34.544 0)
 			(effects
 				(font
@@ -14093,7 +13837,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "J4")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -14108,7 +13852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f096d23a-573e-465a-9fcc-fcac586d137a")
-		(property "Reference" "#PWR0268"
+		(property "Reference" "#PWR0303"
 			(at 261.62 151.13 0)
 			(effects
 				(font
@@ -14158,7 +13902,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0268")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -14173,7 +13917,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4875fc9-01b6-475a-9f05-84b7ea3c3db0")
-		(property "Reference" "#PWR0312"
+		(property "Reference" "#PWR0304"
 			(at 231.14 158.75 0)
 			(effects
 				(font
@@ -14223,7 +13967,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/c1790e90-79e5-460c-a846-182f9efe356f/33bb4415-93b8-49af-9a76-8bdf4402d17a"
-					(reference "#PWR0312")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)

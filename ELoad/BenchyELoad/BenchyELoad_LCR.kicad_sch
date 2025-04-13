@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "39186e53-ce55-4fa9-be19-8fac47439634")
+	(paper "A4")
+	(title_block
+		(title "Benchy ELoad - LCR Meter")
+		(rev "REV1")
+		(company "Daxxn Industries")
+	)
+	(lib_symbols)
+)

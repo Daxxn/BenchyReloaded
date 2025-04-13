@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -101,6 +107,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "error",
+        "text_on_edge_cuts": "error",
         "text_thickness": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -179,7 +186,18 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.09,
+        0.12,
+        0.15,
+        0.2,
+        0.22,
+        0.3,
+        0.4,
+        0.5,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -206,7 +224,24 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.35,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -538,6 +573,102 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "CAN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR-ADDR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 15,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR-BYTE0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 14,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR-BYTE1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 13,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR-CLK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 12,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR-DQS0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 11,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR-DQS1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 10,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DSS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "EMMC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 9,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "ETH-PHY",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "FLASH",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "HDMI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "LVDS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "RGMII1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "RGMII2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -759,28 +890,28 @@
         "DSS"
       ],
       "/DISPLAY/HDMI-TX0+": [
-        "HDMI-DP"
+        "HDMI"
       ],
       "/DISPLAY/HDMI-TX0-": [
-        "HDMI-DP"
+        "HDMI"
       ],
       "/DISPLAY/HDMI-TX1+": [
-        "HDMI-DP"
+        "HDMI"
       ],
       "/DISPLAY/HDMI-TX1-": [
-        "HDMI-DP"
+        "HDMI"
       ],
       "/DISPLAY/HDMI-TX2+": [
-        "HDMI-DP"
+        "HDMI"
       ],
       "/DISPLAY/HDMI-TX2-": [
-        "HDMI-DP"
+        "HDMI"
       ],
       "/DISPLAY/HDMI-TXC+": [
-        "HDMI-DP"
+        "HDMI"
       ],
       "/DISPLAY/HDMI-TXC-": [
-        "HDMI-DP"
+        "HDMI"
       ],
       "/DISPLAY/LVDS-CH0+": [
         "LVDS"
@@ -888,52 +1019,52 @@
         "EMMC"
       ],
       "/ETHERNET/ETH-PHY1-A+": [
-        "ETH-PHY-DP"
+        "ETH-PHY"
       ],
       "/ETHERNET/ETH-PHY1-A-": [
-        "ETH-PHY-DP"
+        "ETH-PHY"
       ],
       "/ETHERNET/ETH-PHY1-B+": [
-        "ETH-PHY-DP"
+        "ETH-PHY"
       ],
       "/ETHERNET/ETH-PHY1-B-": [
-        "ETH-PHY-DP"
+        "ETH-PHY"
       ],
       "/ETHERNET/ETH-PHY1-C+": [
-        "ETH-PHY-DP"
+        "ETH-PHY"
       ],
       "/ETHERNET/ETH-PHY1-C-": [
-        "ETH-PHY-DP"
+        "ETH-PHY"
       ],
       "/ETHERNET/ETH-PHY1-D+": [
-        "ETH-PHY-DP"
+        "ETH-PHY"
       ],
       "/ETHERNET/ETH-PHY1-D-": [
-        "ETH-PHY-DP"
+        "ETH-PHY"
       ],
       "/ETHERNET/ETH-PHY2-A+": [
-        "ETH-PHY-DP"
+        "ETH-PHY"
       ],
       "/ETHERNET/ETH-PHY2-A-": [
-        "ETH-PHY-DP"
+        "ETH-PHY"
       ],
       "/ETHERNET/ETH-PHY2-B+": [
-        "ETH-PHY-DP"
+        "ETH-PHY"
       ],
       "/ETHERNET/ETH-PHY2-B-": [
-        "ETH-PHY-DP"
+        "ETH-PHY"
       ],
       "/ETHERNET/ETH-PHY2-C+": [
-        "ETH-PHY-DP"
+        "ETH-PHY"
       ],
       "/ETHERNET/ETH-PHY2-C-": [
-        "ETH-PHY-DP"
+        "ETH-PHY"
       ],
       "/ETHERNET/ETH-PHY2-D+": [
-        "ETH-PHY-DP"
+        "ETH-PHY"
       ],
       "/ETHERNET/ETH-PHY2-D-": [
-        "ETH-PHY-DP"
+        "ETH-PHY"
       ],
       "/ETHERNET/RGMII1-GTX-CLK": [
         "RGMII1"
@@ -1026,10 +1157,10 @@
         "JTAG"
       ],
       "/SOC GPIO/CAN+": [
-        "CAN-DP"
+        "CAN"
       ],
       "/SOC GPIO/CAN-": [
-        "CAN-DP"
+        "CAN"
       ],
       "/SPI FLASH MEMORY/FLASH-CLK": [
         "FLASH"
@@ -1217,6 +1348,9 @@
       "GND": [
         "EMMC"
       ],
+      "VDD": [
+        "HDMI"
+      ],
       "unconnected-(U24-VDD-Pad23)": [
         "HDMI-DP"
       ]
@@ -1231,7 +1365,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../Docs/Models/BenchyV2/BenchyMotherBoard-AM625_TEST1.step",
       "svg": "",
       "vrml": ""
     },

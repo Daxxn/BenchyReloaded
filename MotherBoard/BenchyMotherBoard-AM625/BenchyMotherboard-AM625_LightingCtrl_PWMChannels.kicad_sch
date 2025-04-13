@@ -1720,7 +1720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "082e5083-673b-4e51-8342-4b7a2d1bcd7c")
-		(property "Reference" "#PWR0502"
+		(property "Reference" "#PWR0571"
 			(at 88.9 22.86 0)
 			(effects
 				(font
@@ -1770,7 +1770,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "#PWR0502")
+					(reference "#PWR0571")
 					(unit 1)
 				)
 			)
@@ -1785,7 +1785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b471ddd-691c-4b20-8238-cfaac5992881")
-		(property "Reference" "#PWR0512"
+		(property "Reference" "#PWR0584"
 			(at 133.35 64.77 0)
 			(effects
 				(font
@@ -1835,7 +1835,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "#PWR0512")
+					(reference "#PWR0584")
 					(unit 1)
 				)
 			)
@@ -1850,7 +1850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ee33d45-a1d7-4c6f-abc8-e4a64025c5b2")
-		(property "Reference" "#PWR0509"
+		(property "Reference" "#PWR0574"
 			(at 82.55 26.67 0)
 			(effects
 				(font
@@ -1900,7 +1900,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "#PWR0509")
+					(reference "#PWR0574")
 					(unit 1)
 				)
 			)
@@ -1915,7 +1915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "133691c1-1f27-4a9f-8846-1f102e61b4fd")
-		(property "Reference" "#PWR0495"
+		(property "Reference" "#PWR0576"
 			(at 38.1 43.18 0)
 			(effects
 				(font
@@ -1965,7 +1965,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "#PWR0495")
+					(reference "#PWR0576")
 					(unit 1)
 				)
 			)
@@ -1980,7 +1980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15e2a6fe-aeb0-4279-ad89-fa58928c22df")
-		(property "Reference" "Q18"
+		(property "Reference" "Q25"
 			(at 140.208 32.766 0)
 			(effects
 				(font
@@ -2046,7 +2046,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "Q18")
+					(reference "Q25")
 					(unit 1)
 				)
 			)
@@ -2061,7 +2061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b736f93-96a3-44fe-8280-e3648e9ff332")
-		(property "Reference" "#PWR0506"
+		(property "Reference" "#PWR0581"
 			(at 139.7 60.96 0)
 			(effects
 				(font
@@ -2111,7 +2111,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "#PWR0506")
+					(reference "#PWR0581")
 					(unit 1)
 				)
 			)
@@ -2126,7 +2126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "226157dc-5d45-447b-a454-e696bb4e32be")
-		(property "Reference" "Q19"
+		(property "Reference" "Q26"
 			(at 38.608 70.866 0)
 			(effects
 				(font
@@ -2192,7 +2192,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "Q19")
+					(reference "Q26")
 					(unit 1)
 				)
 			)
@@ -2207,7 +2207,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27de8985-d4f6-4da0-8e1f-b0330bd869ce")
-		(property "Reference" "R336"
+		(property "Reference" "R379"
 			(at 128.27 70.612 90)
 			(effects
 				(font
@@ -2268,7 +2268,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "R336")
+					(reference "R379")
 					(unit 1)
 				)
 			)
@@ -2283,7 +2283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2bcaf5c3-e352-43bf-94b0-c2021f6a3806")
-		(property "Reference" "Q17"
+		(property "Reference" "Q24"
 			(at 89.408 32.766 0)
 			(effects
 				(font
@@ -2349,7 +2349,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "Q17")
+					(reference "Q24")
 					(unit 1)
 				)
 			)
@@ -2364,7 +2364,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34a6c657-8890-4e18-978b-676b48159351")
-		(property "Reference" "#PWR0508"
+		(property "Reference" "#PWR0582"
 			(at 31.75 64.77 0)
 			(effects
 				(font
@@ -2414,7 +2414,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "#PWR0508")
+					(reference "#PWR0582")
 					(unit 1)
 				)
 			)
@@ -2429,7 +2429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36c14593-6049-4db7-a416-9fdf615281c2")
-		(property "Reference" "#PWR0500"
+		(property "Reference" "#PWR0587"
 			(at 139.7 81.28 0)
 			(effects
 				(font
@@ -2479,7 +2479,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "#PWR0500")
+					(reference "#PWR0587")
 					(unit 1)
 				)
 			)
@@ -2494,7 +2494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38081271-0743-495f-987a-a25ad20452f7")
-		(property "Reference" "J29"
+		(property "Reference" "J37"
 			(at 149.098 21.082 0)
 			(effects
 				(font
@@ -2557,7 +2557,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "J29")
+					(reference "J37")
 					(unit 1)
 				)
 			)
@@ -2573,7 +2573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43bae5d9-2d13-476a-84e0-8cfb65b719f7")
-		(property "Reference" "R333"
+		(property "Reference" "R374"
 			(at 30.734 62.865 0)
 			(effects
 				(font
@@ -2636,7 +2636,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "R333")
+					(reference "R374")
 					(unit 1)
 				)
 			)
@@ -2651,7 +2651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45c425ab-6f09-4f0c-96c5-71482feed824")
-		(property "Reference" "#PWR0504"
+		(property "Reference" "#PWR0579"
 			(at 38.1 60.96 0)
 			(effects
 				(font
@@ -2701,7 +2701,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "#PWR0504")
+					(reference "#PWR0579")
 					(unit 1)
 				)
 			)
@@ -2716,7 +2716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49d4a829-1865-4510-a56c-b835b2e2fcac")
-		(property "Reference" "J23"
+		(property "Reference" "J35"
 			(at 47.498 21.082 0)
 			(effects
 				(font
@@ -2779,7 +2779,7 @@
 		(instances
 			(project ""
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "J23")
+					(reference "J35")
 					(unit 1)
 				)
 			)
@@ -2794,7 +2794,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "562ef55c-23fa-4fdd-8cb1-ffaf4e166546")
-		(property "Reference" "#PWR0503"
+		(property "Reference" "#PWR0572"
 			(at 139.7 22.86 0)
 			(effects
 				(font
@@ -2844,7 +2844,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "#PWR0503")
+					(reference "#PWR0572")
 					(unit 1)
 				)
 			)
@@ -2860,7 +2860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ccbd2d9-86ce-4046-8c06-606c4f4d2b21")
-		(property "Reference" "R335"
+		(property "Reference" "R375"
 			(at 81.534 62.865 0)
 			(effects
 				(font
@@ -2923,7 +2923,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "R335")
+					(reference "R375")
 					(unit 1)
 				)
 			)
@@ -2938,7 +2938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f4e52c2-9fad-4b6e-b2c6-75897dd71c82")
-		(property "Reference" "Q21"
+		(property "Reference" "Q28"
 			(at 140.208 70.866 0)
 			(effects
 				(font
@@ -3004,7 +3004,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "Q21")
+					(reference "Q28")
 					(unit 1)
 				)
 			)
@@ -3020,7 +3020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6174721a-a745-4b27-915a-a692611fcda3")
-		(property "Reference" "R331"
+		(property "Reference" "R370"
 			(at 132.334 24.765 0)
 			(effects
 				(font
@@ -3083,7 +3083,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "R331")
+					(reference "R370")
 					(unit 1)
 				)
 			)
@@ -3098,7 +3098,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64fc018f-9106-4433-9b9e-fce52790ec47")
-		(property "Reference" "#PWR0510"
+		(property "Reference" "#PWR0583"
 			(at 82.55 64.77 0)
 			(effects
 				(font
@@ -3148,7 +3148,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "#PWR0510")
+					(reference "#PWR0583")
 					(unit 1)
 				)
 			)
@@ -3163,7 +3163,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69098af0-67da-4902-ab14-3dd818cc0211")
-		(property "Reference" "J32"
+		(property "Reference" "J40"
 			(at 149.098 59.182 0)
 			(effects
 				(font
@@ -3226,7 +3226,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "J32")
+					(reference "J40")
 					(unit 1)
 				)
 			)
@@ -3241,7 +3241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69da0502-2062-478a-b375-8fca3f2748d3")
-		(property "Reference" "J31"
+		(property "Reference" "J39"
 			(at 98.298 59.182 0)
 			(effects
 				(font
@@ -3304,7 +3304,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "J31")
+					(reference "J39")
 					(unit 1)
 				)
 			)
@@ -3319,7 +3319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a29b656-4682-4ac3-9cdf-948779063d54")
-		(property "Reference" "R326"
+		(property "Reference" "R371"
 			(at 26.67 32.512 90)
 			(effects
 				(font
@@ -3380,7 +3380,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "R326")
+					(reference "R371")
 					(unit 1)
 				)
 			)
@@ -3395,7 +3395,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d0832b4-e1e8-4966-950c-a12ddd4a84fc")
-		(property "Reference" "Q20"
+		(property "Reference" "Q27"
 			(at 89.408 70.866 0)
 			(effects
 				(font
@@ -3461,7 +3461,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "Q20")
+					(reference "Q27")
 					(unit 1)
 				)
 			)
@@ -3476,7 +3476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "815471c7-ad61-490c-a3ac-7d3531202ee3")
-		(property "Reference" "J30"
+		(property "Reference" "J38"
 			(at 47.498 59.182 0)
 			(effects
 				(font
@@ -3539,7 +3539,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "J30")
+					(reference "J38")
 					(unit 1)
 				)
 			)
@@ -3555,7 +3555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89f22ce7-01dd-410a-99ff-481cb3cce457")
-		(property "Reference" "R337"
+		(property "Reference" "R376"
 			(at 132.334 62.865 0)
 			(effects
 				(font
@@ -3618,7 +3618,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "R337")
+					(reference "R376")
 					(unit 1)
 				)
 			)
@@ -3633,7 +3633,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a47fe1f-5ef5-469b-9159-9ed34cac8660")
-		(property "Reference" "#PWR0511"
+		(property "Reference" "#PWR0575"
 			(at 133.35 26.67 0)
 			(effects
 				(font
@@ -3683,7 +3683,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "#PWR0511")
+					(reference "#PWR0575")
 					(unit 1)
 				)
 			)
@@ -3698,7 +3698,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92af96ae-b80f-4e6e-b5f5-91342721f8c4")
-		(property "Reference" "Q16"
+		(property "Reference" "Q23"
 			(at 38.608 32.766 0)
 			(effects
 				(font
@@ -3764,7 +3764,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "Q16")
+					(reference "Q23")
 					(unit 1)
 				)
 			)
@@ -3779,7 +3779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9975624f-cfb5-4765-8a88-481f49ab4bf5")
-		(property "Reference" "#PWR0505"
+		(property "Reference" "#PWR0580"
 			(at 88.9 60.96 0)
 			(effects
 				(font
@@ -3829,7 +3829,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "#PWR0505")
+					(reference "#PWR0580")
 					(unit 1)
 				)
 			)
@@ -3844,7 +3844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adfbb047-eb99-42cf-88ae-f013bd0d5ade")
-		(property "Reference" "R328"
+		(property "Reference" "R372"
 			(at 77.47 32.512 90)
 			(effects
 				(font
@@ -3905,7 +3905,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "R328")
+					(reference "R372")
 					(unit 1)
 				)
 			)
@@ -3920,7 +3920,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5c1e857-f27e-4254-a801-086f0cd38d3b")
-		(property "Reference" "#PWR0507"
+		(property "Reference" "#PWR0573"
 			(at 31.75 26.67 0)
 			(effects
 				(font
@@ -3970,7 +3970,7 @@
 		(instances
 			(project ""
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "#PWR0507")
+					(reference "#PWR0573")
 					(unit 1)
 				)
 			)
@@ -3985,7 +3985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7464632-19ee-4f76-b822-30f8efdec54e")
-		(property "Reference" "R330"
+		(property "Reference" "R373"
 			(at 128.27 32.512 90)
 			(effects
 				(font
@@ -4046,7 +4046,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "R330")
+					(reference "R373")
 					(unit 1)
 				)
 			)
@@ -4061,7 +4061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c75e264a-6793-4ea2-af0e-587c5c4647ad")
-		(property "Reference" "#PWR0498"
+		(property "Reference" "#PWR0585"
 			(at 38.1 81.28 0)
 			(effects
 				(font
@@ -4111,7 +4111,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "#PWR0498")
+					(reference "#PWR0585")
 					(unit 1)
 				)
 			)
@@ -4126,7 +4126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdffeb31-a4e9-4568-a733-22f2428063d4")
-		(property "Reference" "#PWR0501"
+		(property "Reference" "#PWR0570"
 			(at 38.1 22.86 0)
 			(effects
 				(font
@@ -4176,7 +4176,7 @@
 		(instances
 			(project ""
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "#PWR0501")
+					(reference "#PWR0570")
 					(unit 1)
 				)
 			)
@@ -4191,7 +4191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ceb548d2-8992-4494-8ca0-8ec8ae95489d")
-		(property "Reference" "#PWR0497"
+		(property "Reference" "#PWR0578"
 			(at 139.7 43.18 0)
 			(effects
 				(font
@@ -4241,7 +4241,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "#PWR0497")
+					(reference "#PWR0578")
 					(unit 1)
 				)
 			)
@@ -4257,7 +4257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d25f4a5b-4731-49ab-96cf-5cf5dc0e3c92")
-		(property "Reference" "R327"
+		(property "Reference" "R368"
 			(at 30.734 24.765 0)
 			(effects
 				(font
@@ -4320,7 +4320,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "R327")
+					(reference "R368")
 					(unit 1)
 				)
 			)
@@ -4335,7 +4335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7119fc7-5e14-4917-ba51-4e5b289e58d3")
-		(property "Reference" "R334"
+		(property "Reference" "R378"
 			(at 77.47 70.612 90)
 			(effects
 				(font
@@ -4396,7 +4396,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "R334")
+					(reference "R378")
 					(unit 1)
 				)
 			)
@@ -4411,7 +4411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7dd5da6-f460-450d-8174-7fff8de3e95f")
-		(property "Reference" "#PWR0496"
+		(property "Reference" "#PWR0577"
 			(at 88.9 43.18 0)
 			(effects
 				(font
@@ -4461,7 +4461,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "#PWR0496")
+					(reference "#PWR0577")
 					(unit 1)
 				)
 			)
@@ -4476,7 +4476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e199c33a-60be-448f-8c7d-2035b64538cb")
-		(property "Reference" "R332"
+		(property "Reference" "R377"
 			(at 26.67 70.612 90)
 			(effects
 				(font
@@ -4537,7 +4537,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "R332")
+					(reference "R377")
 					(unit 1)
 				)
 			)
@@ -4553,7 +4553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea696656-a814-498e-ae24-9344e4711845")
-		(property "Reference" "R329"
+		(property "Reference" "R369"
 			(at 81.534 24.765 0)
 			(effects
 				(font
@@ -4616,7 +4616,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "R329")
+					(reference "R369")
 					(unit 1)
 				)
 			)
@@ -4631,7 +4631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ece33576-920f-475e-9f86-cbd5954e09d4")
-		(property "Reference" "J28"
+		(property "Reference" "J36"
 			(at 98.298 21.082 0)
 			(effects
 				(font
@@ -4694,7 +4694,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "J28")
+					(reference "J36")
 					(unit 1)
 				)
 			)
@@ -4709,7 +4709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f656e49f-52ce-4fb4-9677-56527725a1d2")
-		(property "Reference" "#PWR0499"
+		(property "Reference" "#PWR0586"
 			(at 88.9 81.28 0)
 			(effects
 				(font
@@ -4759,7 +4759,7 @@
 		(instances
 			(project "BenchyMotherBoard-AM625"
 				(path "/7184a1e6-58da-49c8-8a6c-ea31385ec956/8494b7c1-cb3d-49c1-ba37-1630d97ce06f/1043e49a-55b6-489c-9ffc-811232fc675b"
-					(reference "#PWR0499")
+					(reference "#PWR0586")
 					(unit 1)
 				)
 			)
